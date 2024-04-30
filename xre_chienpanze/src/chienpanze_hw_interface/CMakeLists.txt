@@ -1,9 +1,8 @@
 cmake_minimum_required(VERSION 3.5)
 project(chienpanze_hw_interface)
 
-# Default to C++17
-if(NOT CMAKE_CXX_STANDARD)
-  set(CMAKE_CXX_STANDARD 17)
+if(CMAKE_CXX_COMPILER_ID MATCHES "(GNU|Clang)")
+  add_compile_options(-Wall -Wextra)
 endif()
 
 find_package(ament_cmake REQUIRED)
@@ -23,7 +22,7 @@ set(dependencies
 
 # Declare a C++ library
 add_library(${PROJECT_NAME} SHARED
-  include/pi3hat/pi3hat.cc           # Correct path inside the src folder
+  include/pi3hat/pi3hat.cc
 )
 
 ament_target_dependencies(${PROJECT_NAME} ${dependencies})

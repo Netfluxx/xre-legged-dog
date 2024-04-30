@@ -1,0 +1,15 @@
+/home/xplore/chienpanze/xre-legged-dog/install/chienpanze_bringup/share/ament_index/resource_index/package_run_dependencies/chienpanze_bringup
+/home/xplore/chienpanze/xre-legged-dog/install/chienpanze_bringup/share/ament_index/resource_index/parent_prefix_path/chienpanze_bringup
+/home/xplore/chienpanze/xre-legged-dog/install/chienpanze_bringup/share/chienpanze_bringup/environment/ament_prefix_path.sh
+/home/xplore/chienpanze/xre-legged-dog/install/chienpanze_bringup/share/chienpanze_bringup/environment/ament_prefix_path.dsv
+/home/xplore/chienpanze/xre-legged-dog/install/chienpanze_bringup/share/chienpanze_bringup/environment/path.sh
+/home/xplore/chienpanze/xre-legged-dog/install/chienpanze_bringup/share/chienpanze_bringup/environment/path.dsv
+/home/xplore/chienpanze/xre-legged-dog/install/chienpanze_bringup/share/chienpanze_bringup/local_setup.bash
+/home/xplore/chienpanze/xre-legged-dog/install/chienpanze_bringup/share/chienpanze_bringup/local_setup.sh
+/home/xplore/chienpanze/xre-legged-dog/install/chienpanze_bringup/share/chienpanze_bringup/local_setup.zsh
+/home/xplore/chienpanze/xre-legged-dog/install/chienpanze_bringup/share/chienpanze_bringup/local_setup.dsv
+/home/xplore/chienpanze/xre-legged-dog/install/chienpanze_bringup/share/chienpanze_bringup/package.dsv
+/home/xplore/chienpanze/xre-legged-dog/install/chienpanze_bringup/share/ament_index/resource_index/packages/chienpanze_bringup
+/home/xplore/chienpanze/xre-legged-dog/install/chienpanze_bringup/share/chienpanze_bringup/cmake/chienpanze_bringupConfig.cmake
+/home/xplore/chienpanze/xre-legged-dog/install/chienpanze_bringup/share/chienpanze_bringup/cmake/chienpanze_bringupConfig-version.cmake
+/home/xplore/chienpanze/xre-legged-dog/install/chienpanze_bringup/share/chienpanze_bringup/package.xml

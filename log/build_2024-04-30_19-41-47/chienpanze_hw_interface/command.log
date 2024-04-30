@@ -1,0 +1,2 @@
+Invoking command in '/home/xplore/chienpanze/xre-legged-dog/build/chienpanze_hw_interface': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/xplore/chienpanze/xre-legged-dog/build/chienpanze_hw_interface -- -j4 -l4
+Invoked command in '/home/xplore/chienpanze/xre-legged-dog/build/chienpanze_hw_interface' returned '2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/xplore/chienpanze/xre-legged-dog/build/chienpanze_hw_interface -- -j4 -l4

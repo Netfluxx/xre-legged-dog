@@ -237,7 +237,7 @@ namespace chienpanze_hw_interface{
             tx_frames[i].bus = hw_actuator_can_channels_[i];
 
             // Setting the command type and value
-            tx_frames[i].data[0] = 0x020;  // Position command type
+            tx_frames[i].data[0] = 0x020;  // Position command type --> a verifier
             int32_t position_command = static_cast<int32_t>(hw_command_positions_[i] * POSITION_SCALE);  // POSITION_SCALE converts to desired units
             std::memcpy(&tx_frames[i].data[1], &position_command, sizeof(position_command));
             tx_frames[i].size = 1 + sizeof(position_command);  // Command type byte + 4 bytes of position
