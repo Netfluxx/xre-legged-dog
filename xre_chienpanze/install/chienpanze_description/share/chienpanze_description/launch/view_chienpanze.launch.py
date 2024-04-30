@@ -1,0 +1,1 @@
+/home/arno/xre/xre_chienpanze/src/chienpanze_description/launch/view_chienpanze.launch.py

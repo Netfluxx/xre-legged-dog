@@ -1,0 +1,30 @@
+[0.025s] Invoking command in '/home/arno/xre/xre_chienpanze/build/chienpanze_hw_interface': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/arno/xre/xre_chienpanze/build/chienpanze_hw_interface -- -j8 -l8
+[0.052s] -- Found ament_cmake: 1.3.8 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.223s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.232s] -- Found rclcpp: 16.0.8 (/opt/ros/humble/share/rclcpp/cmake)
+[0.264s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.266s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.272s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.285s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.303s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.364s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.366s] -- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.485s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.653s] -- Found hardware_interface: 2.40.0 (/opt/ros/humble/share/hardware_interface/cmake)
+[1.376s] -- Configuring done
+[1.379s] [31mCMake Error at CMakeLists.txt:25 (add_library):
+[1.379s]   Cannot find source file:
+[1.379s] 
+[1.379s]     src/your_main_source_file.cpp
+[1.379s] 
+[1.379s]   Tried extensions .c .C .c++ .cc .cpp .cxx .cu .mpp .m .M .mm .ixx .cppm .h
+[1.379s]   .hh .h++ .hm .hpp .hxx .in .txx .f .F .for .f77 .f90 .f95 .f03 .hip .ispc
+[1.379s] 
+[1.380s] [0m
+[1.381s] [31mCMake Error at CMakeLists.txt:25 (add_library):
+[1.381s]   No SOURCES given to target: chienpanze_hw_interface
+[1.381s] 
+[1.381s] [0m
+[1.381s] [0mCMake Generate step failed.  Build files cannot be regenerated correctly.[0m
+[1.389s] gmake: *** [Makefile:226: cmake_check_build_system] Error 1
+[1.391s] Invoked command in '/home/arno/xre/xre_chienpanze/build/chienpanze_hw_interface' returned '2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/arno/xre/xre_chienpanze/build/chienpanze_hw_interface -- -j8 -l8

@@ -1,0 +1,23 @@
+[0.018s] Invoking command in '/home/arno/xre/xre_chienpanze/build/chienpanze_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/arno/xre/xre_chienpanze/build/chienpanze_description -- -j8 -l8
+[0.072s] Invoked command in '/home/arno/xre/xre_chienpanze/build/chienpanze_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/arno/xre/xre_chienpanze/build/chienpanze_description -- -j8 -l8
+[0.098s] Invoking command in '/home/arno/xre/xre_chienpanze/build/chienpanze_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/arno/xre/xre_chienpanze/build/chienpanze_description
+[0.108s] -- Install configuration: ""
+[0.109s] -- Execute custom install script
+[0.110s] -- Up-to-date symlink: /home/arno/xre/xre_chienpanze/install/chienpanze_description/share/chienpanze_description/launch/view_chienpanze.launch.py
+[0.110s] -- Up-to-date symlink: /home/arno/xre/xre_chienpanze/install/chienpanze_description/share/chienpanze_description/urdf/chienpanze.urdf.xacro
+[0.110s] -- Up-to-date symlink: /home/arno/xre/xre_chienpanze/install/chienpanze_description/share/ament_index/resource_index/package_run_dependencies/chienpanze_description
+[0.110s] -- Up-to-date symlink: /home/arno/xre/xre_chienpanze/install/chienpanze_description/share/ament_index/resource_index/parent_prefix_path/chienpanze_description
+[0.111s] -- Up-to-date symlink: /home/arno/xre/xre_chienpanze/install/chienpanze_description/share/chienpanze_description/environment/ament_prefix_path.sh
+[0.111s] -- Up-to-date symlink: /home/arno/xre/xre_chienpanze/install/chienpanze_description/share/chienpanze_description/environment/ament_prefix_path.dsv
+[0.111s] -- Up-to-date symlink: /home/arno/xre/xre_chienpanze/install/chienpanze_description/share/chienpanze_description/environment/path.sh
+[0.112s] -- Up-to-date symlink: /home/arno/xre/xre_chienpanze/install/chienpanze_description/share/chienpanze_description/environment/path.dsv
+[0.112s] -- Up-to-date symlink: /home/arno/xre/xre_chienpanze/install/chienpanze_description/share/chienpanze_description/local_setup.bash
+[0.112s] -- Up-to-date symlink: /home/arno/xre/xre_chienpanze/install/chienpanze_description/share/chienpanze_description/local_setup.sh
+[0.113s] -- Up-to-date symlink: /home/arno/xre/xre_chienpanze/install/chienpanze_description/share/chienpanze_description/local_setup.zsh
+[0.113s] -- Up-to-date symlink: /home/arno/xre/xre_chienpanze/install/chienpanze_description/share/chienpanze_description/local_setup.dsv
+[0.113s] -- Symlinking: /home/arno/xre/xre_chienpanze/install/chienpanze_description/share/chienpanze_description/package.dsv
+[0.125s] -- Up-to-date symlink: /home/arno/xre/xre_chienpanze/install/chienpanze_description/share/ament_index/resource_index/packages/chienpanze_description
+[0.126s] -- Up-to-date symlink: /home/arno/xre/xre_chienpanze/install/chienpanze_description/share/chienpanze_description/cmake/chienpanze_descriptionConfig.cmake
+[0.126s] -- Up-to-date symlink: /home/arno/xre/xre_chienpanze/install/chienpanze_description/share/chienpanze_description/cmake/chienpanze_descriptionConfig-version.cmake
+[0.126s] -- Up-to-date symlink: /home/arno/xre/xre_chienpanze/install/chienpanze_description/share/chienpanze_description/package.xml
+[0.151s] Invoked command in '/home/arno/xre/xre_chienpanze/build/chienpanze_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/arno/xre/xre_chienpanze/build/chienpanze_description

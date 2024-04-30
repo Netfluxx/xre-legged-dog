@@ -1,0 +1,21 @@
+[0.018s] Invoking command in '/home/arno/xre/xre_chienpanze/build/chienpanze_controllers': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/arno/xre/xre_chienpanze/build/chienpanze_controllers -- -j8 -l8
+[0.063s] Invoked command in '/home/arno/xre/xre_chienpanze/build/chienpanze_controllers' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/arno/xre/xre_chienpanze/build/chienpanze_controllers -- -j8 -l8
+[0.100s] Invoking command in '/home/arno/xre/xre_chienpanze/build/chienpanze_controllers': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/arno/xre/xre_chienpanze/build/chienpanze_controllers
+[0.110s] -- Install configuration: ""
+[0.111s] -- Execute custom install script
+[0.111s] -- Up-to-date symlink: /home/arno/xre/xre_chienpanze/install/chienpanze_controllers/share/ament_index/resource_index/package_run_dependencies/chienpanze_controllers
+[0.112s] -- Up-to-date symlink: /home/arno/xre/xre_chienpanze/install/chienpanze_controllers/share/ament_index/resource_index/parent_prefix_path/chienpanze_controllers
+[0.112s] -- Up-to-date symlink: /home/arno/xre/xre_chienpanze/install/chienpanze_controllers/share/chienpanze_controllers/environment/ament_prefix_path.sh
+[0.112s] -- Up-to-date symlink: /home/arno/xre/xre_chienpanze/install/chienpanze_controllers/share/chienpanze_controllers/environment/ament_prefix_path.dsv
+[0.113s] -- Up-to-date symlink: /home/arno/xre/xre_chienpanze/install/chienpanze_controllers/share/chienpanze_controllers/environment/path.sh
+[0.113s] -- Up-to-date symlink: /home/arno/xre/xre_chienpanze/install/chienpanze_controllers/share/chienpanze_controllers/environment/path.dsv
+[0.113s] -- Up-to-date symlink: /home/arno/xre/xre_chienpanze/install/chienpanze_controllers/share/chienpanze_controllers/local_setup.bash
+[0.114s] -- Up-to-date symlink: /home/arno/xre/xre_chienpanze/install/chienpanze_controllers/share/chienpanze_controllers/local_setup.sh
+[0.114s] -- Up-to-date symlink: /home/arno/xre/xre_chienpanze/install/chienpanze_controllers/share/chienpanze_controllers/local_setup.zsh
+[0.115s] -- Up-to-date symlink: /home/arno/xre/xre_chienpanze/install/chienpanze_controllers/share/chienpanze_controllers/local_setup.dsv
+[0.115s] -- Symlinking: /home/arno/xre/xre_chienpanze/install/chienpanze_controllers/share/chienpanze_controllers/package.dsv
+[0.131s] -- Up-to-date symlink: /home/arno/xre/xre_chienpanze/install/chienpanze_controllers/share/ament_index/resource_index/packages/chienpanze_controllers
+[0.133s] -- Up-to-date symlink: /home/arno/xre/xre_chienpanze/install/chienpanze_controllers/share/chienpanze_controllers/cmake/chienpanze_controllersConfig.cmake
+[0.133s] -- Up-to-date symlink: /home/arno/xre/xre_chienpanze/install/chienpanze_controllers/share/chienpanze_controllers/cmake/chienpanze_controllersConfig-version.cmake
+[0.134s] -- Up-to-date symlink: /home/arno/xre/xre_chienpanze/install/chienpanze_controllers/share/chienpanze_controllers/package.xml
+[0.149s] Invoked command in '/home/arno/xre/xre_chienpanze/build/chienpanze_controllers' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/arno/xre/xre_chienpanze/build/chienpanze_controllers

@@ -1,0 +1,1 @@
+/home/arno/xre/xre_chienpanze/build/chienpanze_description/ament_cmake_core/chienpanze_descriptionConfig-version.cmake

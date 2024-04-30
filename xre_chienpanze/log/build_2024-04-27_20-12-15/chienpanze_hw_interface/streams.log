@@ -1,0 +1,44 @@
+[0.019s] Invoking command in '/home/arno/xre/xre_chienpanze/build/chienpanze_hw_interface': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/arno/xre/xre_chienpanze/src/chienpanze_hw_interface -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/arno/xre/xre_chienpanze/install/chienpanze_hw_interface
+[0.098s] -- The C compiler identification is GNU 11.4.0
+[0.180s] -- The CXX compiler identification is GNU 11.4.0
+[0.189s] -- Detecting C compiler ABI info
+[0.273s] -- Detecting C compiler ABI info - done
+[0.286s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.286s] -- Detecting C compile features
+[0.287s] -- Detecting C compile features - done
+[0.292s] -- Detecting CXX compiler ABI info
+[0.394s] -- Detecting CXX compiler ABI info - done
+[0.415s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.415s] -- Detecting CXX compile features
+[0.416s] -- Detecting CXX compile features - done
+[0.421s] -- Found ament_cmake: 1.3.8 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.656s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.754s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.798s] -- Found ament_lint_auto: 0.12.10 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[0.923s] -- Added test 'lint_cmake' to check CMake code style
+[0.924s] -- Added test 'xmllint' to check XML markup files
+[0.926s] -- Configuring done
+[0.930s] -- Generating done
+[0.931s] -- Build files have been written to: /home/arno/xre/xre_chienpanze/build/chienpanze_hw_interface
+[0.937s] Invoked command in '/home/arno/xre/xre_chienpanze/build/chienpanze_hw_interface' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/arno/xre/xre_chienpanze/src/chienpanze_hw_interface -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/arno/xre/xre_chienpanze/install/chienpanze_hw_interface
+[0.939s] Invoking command in '/home/arno/xre/xre_chienpanze/build/chienpanze_hw_interface': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/arno/xre/xre_chienpanze/build/chienpanze_hw_interface -- -j8 -l8
+[0.991s] Invoked command in '/home/arno/xre/xre_chienpanze/build/chienpanze_hw_interface' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/arno/xre/xre_chienpanze/build/chienpanze_hw_interface -- -j8 -l8
+[1.019s] Invoking command in '/home/arno/xre/xre_chienpanze/build/chienpanze_hw_interface': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/arno/xre/xre_chienpanze/build/chienpanze_hw_interface
+[1.028s] -- Install configuration: ""
+[1.029s] -- Execute custom install script
+[1.029s] -- Symlinking: /home/arno/xre/xre_chienpanze/install/chienpanze_hw_interface/share/ament_index/resource_index/package_run_dependencies/chienpanze_hw_interface
+[1.041s] -- Symlinking: /home/arno/xre/xre_chienpanze/install/chienpanze_hw_interface/share/ament_index/resource_index/parent_prefix_path/chienpanze_hw_interface
+[1.054s] -- Symlinking: /home/arno/xre/xre_chienpanze/install/chienpanze_hw_interface/share/chienpanze_hw_interface/environment/ament_prefix_path.sh
+[1.069s] -- Symlinking: /home/arno/xre/xre_chienpanze/install/chienpanze_hw_interface/share/chienpanze_hw_interface/environment/ament_prefix_path.dsv
+[1.085s] -- Symlinking: /home/arno/xre/xre_chienpanze/install/chienpanze_hw_interface/share/chienpanze_hw_interface/environment/path.sh
+[1.098s] -- Symlinking: /home/arno/xre/xre_chienpanze/install/chienpanze_hw_interface/share/chienpanze_hw_interface/environment/path.dsv
+[1.112s] -- Symlinking: /home/arno/xre/xre_chienpanze/install/chienpanze_hw_interface/share/chienpanze_hw_interface/local_setup.bash
+[1.130s] -- Symlinking: /home/arno/xre/xre_chienpanze/install/chienpanze_hw_interface/share/chienpanze_hw_interface/local_setup.sh
+[1.145s] -- Symlinking: /home/arno/xre/xre_chienpanze/install/chienpanze_hw_interface/share/chienpanze_hw_interface/local_setup.zsh
+[1.158s] -- Symlinking: /home/arno/xre/xre_chienpanze/install/chienpanze_hw_interface/share/chienpanze_hw_interface/local_setup.dsv
+[1.172s] -- Symlinking: /home/arno/xre/xre_chienpanze/install/chienpanze_hw_interface/share/chienpanze_hw_interface/package.dsv
+[1.185s] -- Symlinking: /home/arno/xre/xre_chienpanze/install/chienpanze_hw_interface/share/ament_index/resource_index/packages/chienpanze_hw_interface
+[1.200s] -- Symlinking: /home/arno/xre/xre_chienpanze/install/chienpanze_hw_interface/share/chienpanze_hw_interface/cmake/chienpanze_hw_interfaceConfig.cmake
+[1.212s] -- Symlinking: /home/arno/xre/xre_chienpanze/install/chienpanze_hw_interface/share/chienpanze_hw_interface/cmake/chienpanze_hw_interfaceConfig-version.cmake
+[1.225s] -- Symlinking: /home/arno/xre/xre_chienpanze/install/chienpanze_hw_interface/share/chienpanze_hw_interface/package.xml
+[1.248s] Invoked command in '/home/arno/xre/xre_chienpanze/build/chienpanze_hw_interface' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/arno/xre/xre_chienpanze/build/chienpanze_hw_interface
