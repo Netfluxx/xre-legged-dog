@@ -107,10 +107,12 @@
         </collision>
     </link>
 
-    <ros2_control name="robot_6_dof" type="system">
+
+    <!-- ROS2-CONTROL -->
+    <ros2_control name="chienpanze" type="system">
       <hardware>
         <plugin> 
-          <!-- {Name_Space}/{Class_Name}-->
+          <!-- {Name_Space}/{Class_Name}   WHAT DO I WRITE HERE??-->
         </plugin>
       </hardware>
     
