@@ -11,7 +11,7 @@
 #include <vector>
 #include <string>
 
-class SimpleController : public controller_interface::ControllerInterface {
+class ChienpanzeController : public controller_interface::ControllerInterface {
     public:
         controller_interface::InterfaceConfiguration command_interface_configuration() const override;
         controller_interface::InterfaceConfiguration state_interface_configuration() const override;
@@ -34,7 +34,11 @@ class SimpleController : public controller_interface::ControllerInterface {
         std::vector<std::string> command_interface_types_;
         std::vector<std::string> state_interface_types_;
 
+        std::vector<std::reference_wrapper<hardware_interface::LoanedCommandInterface>>
+          joint_position_command_interface_;
+
         rclcpp::Time start_time_;
+        bool new_msg = false;
 }
 
 
