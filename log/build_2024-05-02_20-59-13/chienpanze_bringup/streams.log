@@ -1,0 +1,31 @@
+[0.188s] Invoking command in '/home/xplore/chienpanze/xre-legged-dog/build/chienpanze_bringup': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/xplore/chienpanze/xre-legged-dog/xre_chienpanze/src/chienpanze_bringup -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/xplore/chienpanze/xre-legged-dog/install/chienpanze_bringup
+[0.317s] -- Found ament_cmake: 1.3.8 (/opt/ros/humble/share/ament_cmake/cmake)
+[2.457s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[2.580s] -- Found ament_lint_auto: 0.12.10 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[3.632s] -- Added test 'lint_cmake' to check CMake code style
+[3.677s] -- Added test 'xmllint' to check XML markup files
+[3.701s] -- Configuring done
+[3.761s] -- Generating done
+[3.770s] -- Build files have been written to: /home/xplore/chienpanze/xre-legged-dog/build/chienpanze_bringup
+[3.801s] Invoked command in '/home/xplore/chienpanze/xre-legged-dog/build/chienpanze_bringup' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/xplore/chienpanze/xre-legged-dog/xre_chienpanze/src/chienpanze_bringup -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/xplore/chienpanze/xre-legged-dog/install/chienpanze_bringup
+[3.834s] Invoking command in '/home/xplore/chienpanze/xre-legged-dog/build/chienpanze_bringup': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/xplore/chienpanze/xre-legged-dog/build/chienpanze_bringup -- -j4 -l4
+[4.056s] Invoked command in '/home/xplore/chienpanze/xre-legged-dog/build/chienpanze_bringup' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/xplore/chienpanze/xre-legged-dog/build/chienpanze_bringup -- -j4 -l4
+[4.356s] Invoking command in '/home/xplore/chienpanze/xre-legged-dog/build/chienpanze_bringup': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/xplore/chienpanze/xre-legged-dog/build/chienpanze_bringup
+[4.402s] -- Install configuration: ""
+[4.406s] -- Execute custom install script
+[4.408s] -- Symlinking: /home/xplore/chienpanze/xre-legged-dog/install/chienpanze_bringup/share/ament_index/resource_index/package_run_dependencies/chienpanze_bringup
+[4.514s] -- Symlinking: /home/xplore/chienpanze/xre-legged-dog/install/chienpanze_bringup/share/ament_index/resource_index/parent_prefix_path/chienpanze_bringup
+[4.647s] -- Symlinking: /home/xplore/chienpanze/xre-legged-dog/install/chienpanze_bringup/share/chienpanze_bringup/environment/ament_prefix_path.sh
+[4.773s] -- Symlinking: /home/xplore/chienpanze/xre-legged-dog/install/chienpanze_bringup/share/chienpanze_bringup/environment/ament_prefix_path.dsv
+[4.901s] -- Symlinking: /home/xplore/chienpanze/xre-legged-dog/install/chienpanze_bringup/share/chienpanze_bringup/environment/path.sh
+[5.010s] -- Symlinking: /home/xplore/chienpanze/xre-legged-dog/install/chienpanze_bringup/share/chienpanze_bringup/environment/path.dsv
+[5.135s] -- Symlinking: /home/xplore/chienpanze/xre-legged-dog/install/chienpanze_bringup/share/chienpanze_bringup/local_setup.bash
+[5.244s] -- Symlinking: /home/xplore/chienpanze/xre-legged-dog/install/chienpanze_bringup/share/chienpanze_bringup/local_setup.sh
+[5.322s] -- Symlinking: /home/xplore/chienpanze/xre-legged-dog/install/chienpanze_bringup/share/chienpanze_bringup/local_setup.zsh
+[5.388s] -- Symlinking: /home/xplore/chienpanze/xre-legged-dog/install/chienpanze_bringup/share/chienpanze_bringup/local_setup.dsv
+[5.501s] -- Symlinking: /home/xplore/chienpanze/xre-legged-dog/install/chienpanze_bringup/share/chienpanze_bringup/package.dsv
+[5.604s] -- Symlinking: /home/xplore/chienpanze/xre-legged-dog/install/chienpanze_bringup/share/ament_index/resource_index/packages/chienpanze_bringup
+[5.688s] -- Symlinking: /home/xplore/chienpanze/xre-legged-dog/install/chienpanze_bringup/share/chienpanze_bringup/cmake/chienpanze_bringupConfig.cmake
+[5.747s] -- Symlinking: /home/xplore/chienpanze/xre-legged-dog/install/chienpanze_bringup/share/chienpanze_bringup/cmake/chienpanze_bringupConfig-version.cmake
+[5.860s] -- Symlinking: /home/xplore/chienpanze/xre-legged-dog/install/chienpanze_bringup/share/chienpanze_bringup/package.xml
+[6.007s] Invoked command in '/home/xplore/chienpanze/xre-legged-dog/build/chienpanze_bringup' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/xplore/chienpanze/xre-legged-dog/build/chienpanze_bringup

@@ -60,7 +60,7 @@ EQUALS = =
 CMAKE_SOURCE_DIR = /home/xplore/chienpanze/xre-legged-dog/xre_chienpanze/src/chienpanze_controllers
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/xplore/chienpanze/xre-legged-dog/build/chienpanze_controllers
+CMAKE_BINARY_DIR = /home/xplore/chienpanze/xre-legged-dog/build/chienpanze_controller_interface
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -142,9 +142,9 @@ install/strip/fast: preinstall/fast
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/xplore/chienpanze/xre-legged-dog/build/chienpanze_controllers/CMakeFiles /home/xplore/chienpanze/xre-legged-dog/build/chienpanze_controllers//CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/xplore/chienpanze/xre-legged-dog/build/chienpanze_controller_interface/CMakeFiles /home/xplore/chienpanze/xre-legged-dog/build/chienpanze_controller_interface//CMakeFiles/progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/xplore/chienpanze/xre-legged-dog/build/chienpanze_controllers/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/xplore/chienpanze/xre-legged-dog/build/chienpanze_controller_interface/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -185,17 +185,54 @@ uninstall/fast:
 .PHONY : uninstall/fast
 
 #=============================================================================
-# Target rules for targets named chienpanze_controllers_uninstall
+# Target rules for targets named chienpanze_controller_interface_uninstall
 
 # Build rule for target.
-chienpanze_controllers_uninstall: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 chienpanze_controllers_uninstall
-.PHONY : chienpanze_controllers_uninstall
+chienpanze_controller_interface_uninstall: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 chienpanze_controller_interface_uninstall
+.PHONY : chienpanze_controller_interface_uninstall
 
 # fast build rule for target.
-chienpanze_controllers_uninstall/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/chienpanze_controllers_uninstall.dir/build.make CMakeFiles/chienpanze_controllers_uninstall.dir/build
-.PHONY : chienpanze_controllers_uninstall/fast
+chienpanze_controller_interface_uninstall/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/chienpanze_controller_interface_uninstall.dir/build.make CMakeFiles/chienpanze_controller_interface_uninstall.dir/build
+.PHONY : chienpanze_controller_interface_uninstall/fast
+
+#=============================================================================
+# Target rules for targets named chienpanze_controller_interface
+
+# Build rule for target.
+chienpanze_controller_interface: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 chienpanze_controller_interface
+.PHONY : chienpanze_controller_interface
+
+# fast build rule for target.
+chienpanze_controller_interface/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/chienpanze_controller_interface.dir/build.make CMakeFiles/chienpanze_controller_interface.dir/build
+.PHONY : chienpanze_controller_interface/fast
+
+src/chienpanze_controller_interface.o: src/chienpanze_controller_interface.cpp.o
+.PHONY : src/chienpanze_controller_interface.o
+
+# target to build an object file
+src/chienpanze_controller_interface.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/chienpanze_controller_interface.dir/build.make CMakeFiles/chienpanze_controller_interface.dir/src/chienpanze_controller_interface.cpp.o
+.PHONY : src/chienpanze_controller_interface.cpp.o
+
+src/chienpanze_controller_interface.i: src/chienpanze_controller_interface.cpp.i
+.PHONY : src/chienpanze_controller_interface.i
+
+# target to preprocess a source file
+src/chienpanze_controller_interface.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/chienpanze_controller_interface.dir/build.make CMakeFiles/chienpanze_controller_interface.dir/src/chienpanze_controller_interface.cpp.i
+.PHONY : src/chienpanze_controller_interface.cpp.i
+
+src/chienpanze_controller_interface.s: src/chienpanze_controller_interface.cpp.s
+.PHONY : src/chienpanze_controller_interface.s
+
+# target to generate assembly for a file
+src/chienpanze_controller_interface.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/chienpanze_controller_interface.dir/build.make CMakeFiles/chienpanze_controller_interface.dir/src/chienpanze_controller_interface.cpp.s
+.PHONY : src/chienpanze_controller_interface.cpp.s
 
 # Help Target
 help:
@@ -210,8 +247,12 @@ help:
 	@echo "... list_install_components"
 	@echo "... rebuild_cache"
 	@echo "... test"
-	@echo "... chienpanze_controllers_uninstall"
+	@echo "... chienpanze_controller_interface_uninstall"
 	@echo "... uninstall"
+	@echo "... chienpanze_controller_interface"
+	@echo "... src/chienpanze_controller_interface.o"
+	@echo "... src/chienpanze_controller_interface.i"
+	@echo "... src/chienpanze_controller_interface.s"
 .PHONY : help
 
 

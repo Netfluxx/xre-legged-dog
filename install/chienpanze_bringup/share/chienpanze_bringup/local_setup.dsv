@@ -1,2 +1,1 @@
-source;share/chienpanze_bringup/environment/ament_prefix_path.sh
-source;share/chienpanze_bringup/environment/path.sh
+/home/xplore/chienpanze/xre-legged-dog/build/chienpanze_bringup/ament_cmake_environment_hooks/local_setup.dsv

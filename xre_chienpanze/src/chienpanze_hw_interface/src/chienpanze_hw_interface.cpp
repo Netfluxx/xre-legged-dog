@@ -198,7 +198,7 @@ namespace chienpanze_hw_interface{
     const rclcpp_lifecycle::State & /*previous_state*/){
         
     // determine message to send
-
+        return hardware_interface::CallbackReturn::SUCCESS;
     }
 
     hardware_interface::return_type ChienpanzeHardwareInterface::read(

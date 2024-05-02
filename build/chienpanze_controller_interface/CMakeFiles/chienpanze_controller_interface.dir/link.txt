@@ -1,0 +1,2 @@
+/usr/bin/ar qc libchienpanze_controller_interface.a CMakeFiles/chienpanze_controller_interface.dir/src/chienpanze_controller_interface.cpp.o
+/usr/bin/ranlib libchienpanze_controller_interface.a

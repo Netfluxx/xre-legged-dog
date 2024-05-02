@@ -1,0 +1,298 @@
+[0.677s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build', '--symlink-install']
+[0.678s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=True, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=4, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0xffffb802d150>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0xffffb83b9060>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0xffffb83b9060>>)
+[2.131s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[2.131s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[2.132s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[2.132s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[2.132s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[2.132s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[2.132s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/xplore/chienpanze/xre-legged-dog'
+[2.136s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[2.137s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[2.137s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[2.137s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[2.137s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[2.138s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[2.138s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[2.138s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[2.138s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[2.198s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[2.198s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[2.198s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[2.199s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[2.199s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[2.199s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[2.200s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[2.200s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[2.201s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[2.202s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[2.202s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[2.203s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[2.203s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[2.203s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[2.204s] Level 1:colcon.colcon_core.package_identification:_identify(xre_chienpanze) by extensions ['ignore', 'ignore_ament_install']
+[2.204s] Level 1:colcon.colcon_core.package_identification:_identify(xre_chienpanze) by extension 'ignore'
+[2.204s] Level 1:colcon.colcon_core.package_identification:_identify(xre_chienpanze) by extension 'ignore_ament_install'
+[2.205s] Level 1:colcon.colcon_core.package_identification:_identify(xre_chienpanze) by extensions ['colcon_pkg']
+[2.205s] Level 1:colcon.colcon_core.package_identification:_identify(xre_chienpanze) by extension 'colcon_pkg'
+[2.205s] Level 1:colcon.colcon_core.package_identification:_identify(xre_chienpanze) by extensions ['colcon_meta']
+[2.205s] Level 1:colcon.colcon_core.package_identification:_identify(xre_chienpanze) by extension 'colcon_meta'
+[2.206s] Level 1:colcon.colcon_core.package_identification:_identify(xre_chienpanze) by extensions ['ros']
+[2.206s] Level 1:colcon.colcon_core.package_identification:_identify(xre_chienpanze) by extension 'ros'
+[2.207s] Level 1:colcon.colcon_core.package_identification:_identify(xre_chienpanze) by extensions ['cmake', 'python']
+[2.207s] Level 1:colcon.colcon_core.package_identification:_identify(xre_chienpanze) by extension 'cmake'
+[2.207s] Level 1:colcon.colcon_core.package_identification:_identify(xre_chienpanze) by extension 'python'
+[2.207s] Level 1:colcon.colcon_core.package_identification:_identify(xre_chienpanze) by extensions ['python_setup_py']
+[2.208s] Level 1:colcon.colcon_core.package_identification:_identify(xre_chienpanze) by extension 'python_setup_py'
+[2.209s] Level 1:colcon.colcon_core.package_identification:_identify(xre_chienpanze/build) by extensions ['ignore', 'ignore_ament_install']
+[2.209s] Level 1:colcon.colcon_core.package_identification:_identify(xre_chienpanze/build) by extension 'ignore'
+[2.210s] Level 1:colcon.colcon_core.package_identification:_identify(xre_chienpanze/build) ignored
+[2.211s] Level 1:colcon.colcon_core.package_identification:_identify(xre_chienpanze/install) by extensions ['ignore', 'ignore_ament_install']
+[2.211s] Level 1:colcon.colcon_core.package_identification:_identify(xre_chienpanze/install) by extension 'ignore'
+[2.212s] Level 1:colcon.colcon_core.package_identification:_identify(xre_chienpanze/install) ignored
+[2.213s] Level 1:colcon.colcon_core.package_identification:_identify(xre_chienpanze/log) by extensions ['ignore', 'ignore_ament_install']
+[2.214s] Level 1:colcon.colcon_core.package_identification:_identify(xre_chienpanze/log) by extension 'ignore'
+[2.214s] Level 1:colcon.colcon_core.package_identification:_identify(xre_chienpanze/log) ignored
+[2.215s] Level 1:colcon.colcon_core.package_identification:_identify(xre_chienpanze/src) by extensions ['ignore', 'ignore_ament_install']
+[2.215s] Level 1:colcon.colcon_core.package_identification:_identify(xre_chienpanze/src) by extension 'ignore'
+[2.216s] Level 1:colcon.colcon_core.package_identification:_identify(xre_chienpanze/src) by extension 'ignore_ament_install'
+[2.216s] Level 1:colcon.colcon_core.package_identification:_identify(xre_chienpanze/src) by extensions ['colcon_pkg']
+[2.216s] Level 1:colcon.colcon_core.package_identification:_identify(xre_chienpanze/src) by extension 'colcon_pkg'
+[2.216s] Level 1:colcon.colcon_core.package_identification:_identify(xre_chienpanze/src) by extensions ['colcon_meta']
+[2.217s] Level 1:colcon.colcon_core.package_identification:_identify(xre_chienpanze/src) by extension 'colcon_meta'
+[2.217s] Level 1:colcon.colcon_core.package_identification:_identify(xre_chienpanze/src) by extensions ['ros']
+[2.217s] Level 1:colcon.colcon_core.package_identification:_identify(xre_chienpanze/src) by extension 'ros'
+[2.218s] Level 1:colcon.colcon_core.package_identification:_identify(xre_chienpanze/src) by extensions ['cmake', 'python']
+[2.218s] Level 1:colcon.colcon_core.package_identification:_identify(xre_chienpanze/src) by extension 'cmake'
+[2.218s] Level 1:colcon.colcon_core.package_identification:_identify(xre_chienpanze/src) by extension 'python'
+[2.218s] Level 1:colcon.colcon_core.package_identification:_identify(xre_chienpanze/src) by extensions ['python_setup_py']
+[2.218s] Level 1:colcon.colcon_core.package_identification:_identify(xre_chienpanze/src) by extension 'python_setup_py'
+[2.219s] Level 1:colcon.colcon_core.package_identification:_identify(xre_chienpanze/src/chienpanze_bringup) by extensions ['ignore', 'ignore_ament_install']
+[2.219s] Level 1:colcon.colcon_core.package_identification:_identify(xre_chienpanze/src/chienpanze_bringup) by extension 'ignore'
+[2.220s] Level 1:colcon.colcon_core.package_identification:_identify(xre_chienpanze/src/chienpanze_bringup) by extension 'ignore_ament_install'
+[2.220s] Level 1:colcon.colcon_core.package_identification:_identify(xre_chienpanze/src/chienpanze_bringup) by extensions ['colcon_pkg']
+[2.220s] Level 1:colcon.colcon_core.package_identification:_identify(xre_chienpanze/src/chienpanze_bringup) by extension 'colcon_pkg'
+[2.220s] Level 1:colcon.colcon_core.package_identification:_identify(xre_chienpanze/src/chienpanze_bringup) by extensions ['colcon_meta']
+[2.220s] Level 1:colcon.colcon_core.package_identification:_identify(xre_chienpanze/src/chienpanze_bringup) by extension 'colcon_meta'
+[2.221s] Level 1:colcon.colcon_core.package_identification:_identify(xre_chienpanze/src/chienpanze_bringup) by extensions ['ros']
+[2.221s] Level 1:colcon.colcon_core.package_identification:_identify(xre_chienpanze/src/chienpanze_bringup) by extension 'ros'
+[2.233s] DEBUG:colcon.colcon_core.package_identification:Package 'xre_chienpanze/src/chienpanze_bringup' with type 'ros.ament_cmake' and name 'chienpanze_bringup'
+[2.234s] Level 1:colcon.colcon_core.package_identification:_identify(xre_chienpanze/src/chienpanze_controllers) by extensions ['ignore', 'ignore_ament_install']
+[2.234s] Level 1:colcon.colcon_core.package_identification:_identify(xre_chienpanze/src/chienpanze_controllers) by extension 'ignore'
+[2.234s] Level 1:colcon.colcon_core.package_identification:_identify(xre_chienpanze/src/chienpanze_controllers) by extension 'ignore_ament_install'
+[2.235s] Level 1:colcon.colcon_core.package_identification:_identify(xre_chienpanze/src/chienpanze_controllers) by extensions ['colcon_pkg']
+[2.235s] Level 1:colcon.colcon_core.package_identification:_identify(xre_chienpanze/src/chienpanze_controllers) by extension 'colcon_pkg'
+[2.235s] Level 1:colcon.colcon_core.package_identification:_identify(xre_chienpanze/src/chienpanze_controllers) by extensions ['colcon_meta']
+[2.235s] Level 1:colcon.colcon_core.package_identification:_identify(xre_chienpanze/src/chienpanze_controllers) by extension 'colcon_meta'
+[2.235s] Level 1:colcon.colcon_core.package_identification:_identify(xre_chienpanze/src/chienpanze_controllers) by extensions ['ros']
+[2.236s] Level 1:colcon.colcon_core.package_identification:_identify(xre_chienpanze/src/chienpanze_controllers) by extension 'ros'
+[2.238s] DEBUG:colcon.colcon_core.package_identification:Package 'xre_chienpanze/src/chienpanze_controllers' with type 'ros.ament_cmake' and name 'chienpanze_controllers'
+[2.239s] Level 1:colcon.colcon_core.package_identification:_identify(xre_chienpanze/src/chienpanze_description) by extensions ['ignore', 'ignore_ament_install']
+[2.240s] Level 1:colcon.colcon_core.package_identification:_identify(xre_chienpanze/src/chienpanze_description) by extension 'ignore'
+[2.240s] Level 1:colcon.colcon_core.package_identification:_identify(xre_chienpanze/src/chienpanze_description) by extension 'ignore_ament_install'
+[2.240s] Level 1:colcon.colcon_core.package_identification:_identify(xre_chienpanze/src/chienpanze_description) by extensions ['colcon_pkg']
+[2.241s] Level 1:colcon.colcon_core.package_identification:_identify(xre_chienpanze/src/chienpanze_description) by extension 'colcon_pkg'
+[2.241s] Level 1:colcon.colcon_core.package_identification:_identify(xre_chienpanze/src/chienpanze_description) by extensions ['colcon_meta']
+[2.241s] Level 1:colcon.colcon_core.package_identification:_identify(xre_chienpanze/src/chienpanze_description) by extension 'colcon_meta'
+[2.242s] Level 1:colcon.colcon_core.package_identification:_identify(xre_chienpanze/src/chienpanze_description) by extensions ['ros']
+[2.242s] Level 1:colcon.colcon_core.package_identification:_identify(xre_chienpanze/src/chienpanze_description) by extension 'ros'
+[2.246s] DEBUG:colcon.colcon_core.package_identification:Package 'xre_chienpanze/src/chienpanze_description' with type 'ros.ament_cmake' and name 'chienpanze_description'
+[2.247s] Level 1:colcon.colcon_core.package_identification:_identify(xre_chienpanze/src/chienpanze_hw_interface) by extensions ['ignore', 'ignore_ament_install']
+[2.247s] Level 1:colcon.colcon_core.package_identification:_identify(xre_chienpanze/src/chienpanze_hw_interface) by extension 'ignore'
+[2.248s] Level 1:colcon.colcon_core.package_identification:_identify(xre_chienpanze/src/chienpanze_hw_interface) by extension 'ignore_ament_install'
+[2.248s] Level 1:colcon.colcon_core.package_identification:_identify(xre_chienpanze/src/chienpanze_hw_interface) by extensions ['colcon_pkg']
+[2.248s] Level 1:colcon.colcon_core.package_identification:_identify(xre_chienpanze/src/chienpanze_hw_interface) by extension 'colcon_pkg'
+[2.249s] Level 1:colcon.colcon_core.package_identification:_identify(xre_chienpanze/src/chienpanze_hw_interface) by extensions ['colcon_meta']
+[2.249s] Level 1:colcon.colcon_core.package_identification:_identify(xre_chienpanze/src/chienpanze_hw_interface) by extension 'colcon_meta'
+[2.249s] Level 1:colcon.colcon_core.package_identification:_identify(xre_chienpanze/src/chienpanze_hw_interface) by extensions ['ros']
+[2.249s] Level 1:colcon.colcon_core.package_identification:_identify(xre_chienpanze/src/chienpanze_hw_interface) by extension 'ros'
+[2.251s] DEBUG:colcon.colcon_core.package_identification:Package 'xre_chienpanze/src/chienpanze_hw_interface' with type 'ros.ament_cmake' and name 'chienpanze_hw_interface'
+[2.252s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[2.252s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[2.252s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[2.252s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[2.252s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[2.411s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[2.411s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[2.425s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 4 installed packages in /home/xplore/chienpanze/xre-legged-dog/install
+[2.437s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 311 installed packages in /opt/ros/humble
+[2.446s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[2.738s] Level 5:colcon.colcon_core.verb:set package 'chienpanze_bringup' build argument 'cmake_args' from command line to 'None'
+[2.739s] Level 5:colcon.colcon_core.verb:set package 'chienpanze_bringup' build argument 'cmake_target' from command line to 'None'
+[2.739s] Level 5:colcon.colcon_core.verb:set package 'chienpanze_bringup' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[2.739s] Level 5:colcon.colcon_core.verb:set package 'chienpanze_bringup' build argument 'cmake_clean_cache' from command line to 'False'
+[2.739s] Level 5:colcon.colcon_core.verb:set package 'chienpanze_bringup' build argument 'cmake_clean_first' from command line to 'False'
+[2.739s] Level 5:colcon.colcon_core.verb:set package 'chienpanze_bringup' build argument 'cmake_force_configure' from command line to 'False'
+[2.739s] Level 5:colcon.colcon_core.verb:set package 'chienpanze_bringup' build argument 'ament_cmake_args' from command line to 'None'
+[2.740s] Level 5:colcon.colcon_core.verb:set package 'chienpanze_bringup' build argument 'catkin_cmake_args' from command line to 'None'
+[2.740s] Level 5:colcon.colcon_core.verb:set package 'chienpanze_bringup' build argument 'catkin_skip_building_tests' from command line to 'False'
+[2.740s] DEBUG:colcon.colcon_core.verb:Building package 'chienpanze_bringup' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/xplore/chienpanze/xre-legged-dog/build/chienpanze_bringup', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/xplore/chienpanze/xre-legged-dog/install/chienpanze_bringup', 'merge_install': False, 'path': '/home/xplore/chienpanze/xre-legged-dog/xre_chienpanze/src/chienpanze_bringup', 'symlink_install': True, 'test_result_base': None}
+[2.742s] Level 5:colcon.colcon_core.verb:set package 'chienpanze_controllers' build argument 'cmake_args' from command line to 'None'
+[2.742s] Level 5:colcon.colcon_core.verb:set package 'chienpanze_controllers' build argument 'cmake_target' from command line to 'None'
+[2.742s] Level 5:colcon.colcon_core.verb:set package 'chienpanze_controllers' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[2.743s] Level 5:colcon.colcon_core.verb:set package 'chienpanze_controllers' build argument 'cmake_clean_cache' from command line to 'False'
+[2.743s] Level 5:colcon.colcon_core.verb:set package 'chienpanze_controllers' build argument 'cmake_clean_first' from command line to 'False'
+[2.743s] Level 5:colcon.colcon_core.verb:set package 'chienpanze_controllers' build argument 'cmake_force_configure' from command line to 'False'
+[2.743s] Level 5:colcon.colcon_core.verb:set package 'chienpanze_controllers' build argument 'ament_cmake_args' from command line to 'None'
+[2.743s] Level 5:colcon.colcon_core.verb:set package 'chienpanze_controllers' build argument 'catkin_cmake_args' from command line to 'None'
+[2.743s] Level 5:colcon.colcon_core.verb:set package 'chienpanze_controllers' build argument 'catkin_skip_building_tests' from command line to 'False'
+[2.743s] DEBUG:colcon.colcon_core.verb:Building package 'chienpanze_controllers' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/xplore/chienpanze/xre-legged-dog/build/chienpanze_controllers', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/xplore/chienpanze/xre-legged-dog/install/chienpanze_controllers', 'merge_install': False, 'path': '/home/xplore/chienpanze/xre-legged-dog/xre_chienpanze/src/chienpanze_controllers', 'symlink_install': True, 'test_result_base': None}
+[2.745s] Level 5:colcon.colcon_core.verb:set package 'chienpanze_description' build argument 'cmake_args' from command line to 'None'
+[2.745s] Level 5:colcon.colcon_core.verb:set package 'chienpanze_description' build argument 'cmake_target' from command line to 'None'
+[2.746s] Level 5:colcon.colcon_core.verb:set package 'chienpanze_description' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[2.746s] Level 5:colcon.colcon_core.verb:set package 'chienpanze_description' build argument 'cmake_clean_cache' from command line to 'False'
+[2.746s] Level 5:colcon.colcon_core.verb:set package 'chienpanze_description' build argument 'cmake_clean_first' from command line to 'False'
+[2.746s] Level 5:colcon.colcon_core.verb:set package 'chienpanze_description' build argument 'cmake_force_configure' from command line to 'False'
+[2.746s] Level 5:colcon.colcon_core.verb:set package 'chienpanze_description' build argument 'ament_cmake_args' from command line to 'None'
+[2.746s] Level 5:colcon.colcon_core.verb:set package 'chienpanze_description' build argument 'catkin_cmake_args' from command line to 'None'
+[2.747s] Level 5:colcon.colcon_core.verb:set package 'chienpanze_description' build argument 'catkin_skip_building_tests' from command line to 'False'
+[2.747s] DEBUG:colcon.colcon_core.verb:Building package 'chienpanze_description' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/xplore/chienpanze/xre-legged-dog/build/chienpanze_description', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/xplore/chienpanze/xre-legged-dog/install/chienpanze_description', 'merge_install': False, 'path': '/home/xplore/chienpanze/xre-legged-dog/xre_chienpanze/src/chienpanze_description', 'symlink_install': True, 'test_result_base': None}
+[2.749s] Level 5:colcon.colcon_core.verb:set package 'chienpanze_hw_interface' build argument 'cmake_args' from command line to 'None'
+[2.749s] Level 5:colcon.colcon_core.verb:set package 'chienpanze_hw_interface' build argument 'cmake_target' from command line to 'None'
+[2.749s] Level 5:colcon.colcon_core.verb:set package 'chienpanze_hw_interface' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[2.749s] Level 5:colcon.colcon_core.verb:set package 'chienpanze_hw_interface' build argument 'cmake_clean_cache' from command line to 'False'
+[2.749s] Level 5:colcon.colcon_core.verb:set package 'chienpanze_hw_interface' build argument 'cmake_clean_first' from command line to 'False'
+[2.749s] Level 5:colcon.colcon_core.verb:set package 'chienpanze_hw_interface' build argument 'cmake_force_configure' from command line to 'False'
+[2.750s] Level 5:colcon.colcon_core.verb:set package 'chienpanze_hw_interface' build argument 'ament_cmake_args' from command line to 'None'
+[2.750s] Level 5:colcon.colcon_core.verb:set package 'chienpanze_hw_interface' build argument 'catkin_cmake_args' from command line to 'None'
+[2.750s] Level 5:colcon.colcon_core.verb:set package 'chienpanze_hw_interface' build argument 'catkin_skip_building_tests' from command line to 'False'
+[2.750s] DEBUG:colcon.colcon_core.verb:Building package 'chienpanze_hw_interface' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/xplore/chienpanze/xre-legged-dog/build/chienpanze_hw_interface', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/xplore/chienpanze/xre-legged-dog/install/chienpanze_hw_interface', 'merge_install': False, 'path': '/home/xplore/chienpanze/xre-legged-dog/xre_chienpanze/src/chienpanze_hw_interface', 'symlink_install': True, 'test_result_base': None}
+[2.751s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[2.758s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[2.759s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/xplore/chienpanze/xre-legged-dog/xre_chienpanze/src/chienpanze_bringup' with build type 'ament_cmake'
+[2.760s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/xplore/chienpanze/xre-legged-dog/xre_chienpanze/src/chienpanze_bringup'
+[2.773s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[2.775s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.775s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.804s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/xplore/chienpanze/xre-legged-dog/xre_chienpanze/src/chienpanze_controllers' with build type 'ament_cmake'
+[2.805s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/xplore/chienpanze/xre-legged-dog/xre_chienpanze/src/chienpanze_controllers'
+[2.807s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.808s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.852s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/xplore/chienpanze/xre-legged-dog/xre_chienpanze/src/chienpanze_description' with build type 'ament_cmake'
+[2.853s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/xplore/chienpanze/xre-legged-dog/xre_chienpanze/src/chienpanze_description'
+[2.855s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.855s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.888s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/xplore/chienpanze/xre-legged-dog/xre_chienpanze/src/chienpanze_hw_interface' with build type 'ament_cmake'
+[2.890s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/xplore/chienpanze/xre-legged-dog/xre_chienpanze/src/chienpanze_hw_interface'
+[2.893s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.894s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.949s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/xplore/chienpanze/xre-legged-dog/build/chienpanze_bringup': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/xplore/chienpanze/xre-legged-dog/xre_chienpanze/src/chienpanze_bringup -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/xplore/chienpanze/xre-legged-dog/install/chienpanze_bringup
+[2.988s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/xplore/chienpanze/xre-legged-dog/build/chienpanze_controllers': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/xplore/chienpanze/xre-legged-dog/xre_chienpanze/src/chienpanze_controllers -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/xplore/chienpanze/xre-legged-dog/install/chienpanze_controllers
+[3.051s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/xplore/chienpanze/xre-legged-dog/build/chienpanze_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/xplore/chienpanze/xre-legged-dog/xre_chienpanze/src/chienpanze_description -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/xplore/chienpanze/xre-legged-dog/install/chienpanze_description
+[3.174s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/xplore/chienpanze/xre-legged-dog/build/chienpanze_hw_interface': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/xplore/chienpanze/xre-legged-dog/xre_chienpanze/src/chienpanze_hw_interface -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/xplore/chienpanze/xre-legged-dog/install/chienpanze_hw_interface
+[6.563s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/xplore/chienpanze/xre-legged-dog/build/chienpanze_bringup' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/xplore/chienpanze/xre-legged-dog/xre_chienpanze/src/chienpanze_bringup -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/xplore/chienpanze/xre-legged-dog/install/chienpanze_bringup
+[6.596s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/xplore/chienpanze/xre-legged-dog/build/chienpanze_bringup': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/xplore/chienpanze/xre-legged-dog/build/chienpanze_bringup -- -j4 -l4
+[6.818s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/xplore/chienpanze/xre-legged-dog/build/chienpanze_bringup' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/xplore/chienpanze/xre-legged-dog/build/chienpanze_bringup -- -j4 -l4
+[7.117s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/xplore/chienpanze/xre-legged-dog/build/chienpanze_bringup': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/xplore/chienpanze/xre-legged-dog/build/chienpanze_bringup
+[8.763s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(chienpanze_bringup)
+[8.768s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/xplore/chienpanze/xre-legged-dog/build/chienpanze_bringup' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/xplore/chienpanze/xre-legged-dog/build/chienpanze_bringup
+[8.803s] Level 1:colcon.colcon_core.environment:checking '/home/xplore/chienpanze/xre-legged-dog/install/chienpanze_bringup' for CMake module files
+[8.813s] Level 1:colcon.colcon_core.environment:checking '/home/xplore/chienpanze/xre-legged-dog/install/chienpanze_bringup' for CMake config files
+[8.820s] Level 1:colcon.colcon_core.shell:create_environment_hook('chienpanze_bringup', 'cmake_prefix_path')
+[8.822s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/xplore/chienpanze/xre-legged-dog/install/chienpanze_bringup/share/chienpanze_bringup/hook/cmake_prefix_path.ps1'
+[8.826s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/xplore/chienpanze/xre-legged-dog/install/chienpanze_bringup/share/chienpanze_bringup/hook/cmake_prefix_path.dsv'
+[8.829s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/xplore/chienpanze/xre-legged-dog/install/chienpanze_bringup/share/chienpanze_bringup/hook/cmake_prefix_path.sh'
+[8.835s] Level 1:colcon.colcon_core.environment:checking '/home/xplore/chienpanze/xre-legged-dog/install/chienpanze_bringup/bin'
+[8.836s] Level 1:colcon.colcon_core.environment:checking '/home/xplore/chienpanze/xre-legged-dog/install/chienpanze_bringup/lib/pkgconfig/chienpanze_bringup.pc'
+[8.837s] Level 1:colcon.colcon_core.environment:checking '/home/xplore/chienpanze/xre-legged-dog/install/chienpanze_bringup/lib/python3.10/site-packages'
+[8.839s] Level 1:colcon.colcon_core.environment:checking '/home/xplore/chienpanze/xre-legged-dog/install/chienpanze_bringup/bin'
+[8.841s] INFO:colcon.colcon_core.shell:Creating package script '/home/xplore/chienpanze/xre-legged-dog/install/chienpanze_bringup/share/chienpanze_bringup/package.ps1'
+[8.847s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/xplore/chienpanze/xre-legged-dog/install/chienpanze_bringup/share/chienpanze_bringup/package.dsv'
+[8.851s] INFO:colcon.colcon_core.shell:Creating package script '/home/xplore/chienpanze/xre-legged-dog/install/chienpanze_bringup/share/chienpanze_bringup/package.sh'
+[8.856s] INFO:colcon.colcon_core.shell:Creating package script '/home/xplore/chienpanze/xre-legged-dog/install/chienpanze_bringup/share/chienpanze_bringup/package.bash'
+[8.861s] INFO:colcon.colcon_core.shell:Creating package script '/home/xplore/chienpanze/xre-legged-dog/install/chienpanze_bringup/share/chienpanze_bringup/package.zsh'
+[8.866s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/xplore/chienpanze/xre-legged-dog/install/chienpanze_bringup/share/colcon-core/packages/chienpanze_bringup)
+[9.024s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(chienpanze_bringup)
+[9.025s] Level 1:colcon.colcon_core.environment:checking '/home/xplore/chienpanze/xre-legged-dog/install/chienpanze_bringup' for CMake module files
+[9.030s] Level 1:colcon.colcon_core.environment:checking '/home/xplore/chienpanze/xre-legged-dog/install/chienpanze_bringup' for CMake config files
+[9.033s] Level 1:colcon.colcon_core.shell:create_environment_hook('chienpanze_bringup', 'cmake_prefix_path')
+[9.035s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/xplore/chienpanze/xre-legged-dog/install/chienpanze_bringup/share/chienpanze_bringup/hook/cmake_prefix_path.ps1'
+[9.038s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/xplore/chienpanze/xre-legged-dog/install/chienpanze_bringup/share/chienpanze_bringup/hook/cmake_prefix_path.dsv'
+[9.041s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/xplore/chienpanze/xre-legged-dog/install/chienpanze_bringup/share/chienpanze_bringup/hook/cmake_prefix_path.sh'
+[9.046s] Level 1:colcon.colcon_core.environment:checking '/home/xplore/chienpanze/xre-legged-dog/install/chienpanze_bringup/bin'
+[9.046s] Level 1:colcon.colcon_core.environment:checking '/home/xplore/chienpanze/xre-legged-dog/install/chienpanze_bringup/lib/pkgconfig/chienpanze_bringup.pc'
+[9.048s] Level 1:colcon.colcon_core.environment:checking '/home/xplore/chienpanze/xre-legged-dog/install/chienpanze_bringup/lib/python3.10/site-packages'
+[9.049s] Level 1:colcon.colcon_core.environment:checking '/home/xplore/chienpanze/xre-legged-dog/install/chienpanze_bringup/bin'
+[9.051s] INFO:colcon.colcon_core.shell:Creating package script '/home/xplore/chienpanze/xre-legged-dog/install/chienpanze_bringup/share/chienpanze_bringup/package.ps1'
+[9.055s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/xplore/chienpanze/xre-legged-dog/install/chienpanze_bringup/share/chienpanze_bringup/package.dsv'
+[9.058s] INFO:colcon.colcon_core.shell:Creating package script '/home/xplore/chienpanze/xre-legged-dog/install/chienpanze_bringup/share/chienpanze_bringup/package.sh'
+[9.061s] INFO:colcon.colcon_core.shell:Creating package script '/home/xplore/chienpanze/xre-legged-dog/install/chienpanze_bringup/share/chienpanze_bringup/package.bash'
+[9.064s] INFO:colcon.colcon_core.shell:Creating package script '/home/xplore/chienpanze/xre-legged-dog/install/chienpanze_bringup/share/chienpanze_bringup/package.zsh'
+[9.068s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/xplore/chienpanze/xre-legged-dog/install/chienpanze_bringup/share/colcon-core/packages/chienpanze_bringup)
+[11.664s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/xplore/chienpanze/xre-legged-dog/build/chienpanze_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/xplore/chienpanze/xre-legged-dog/xre_chienpanze/src/chienpanze_description -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/xplore/chienpanze/xre-legged-dog/install/chienpanze_description
+[11.670s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/xplore/chienpanze/xre-legged-dog/build/chienpanze_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/xplore/chienpanze/xre-legged-dog/build/chienpanze_description -- -j4 -l4
+[12.027s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/xplore/chienpanze/xre-legged-dog/build/chienpanze_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/xplore/chienpanze/xre-legged-dog/build/chienpanze_description -- -j4 -l4
+[12.216s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/xplore/chienpanze/xre-legged-dog/build/chienpanze_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/xplore/chienpanze/xre-legged-dog/build/chienpanze_description
+[13.722s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(chienpanze_description)
+[13.725s] Level 1:colcon.colcon_core.environment:checking '/home/xplore/chienpanze/xre-legged-dog/install/chienpanze_description' for CMake module files
+[13.732s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/xplore/chienpanze/xre-legged-dog/build/chienpanze_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/xplore/chienpanze/xre-legged-dog/build/chienpanze_description
+[13.735s] Level 1:colcon.colcon_core.environment:checking '/home/xplore/chienpanze/xre-legged-dog/install/chienpanze_description' for CMake config files
+[13.749s] Level 1:colcon.colcon_core.shell:create_environment_hook('chienpanze_description', 'cmake_prefix_path')
+[13.753s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/xplore/chienpanze/xre-legged-dog/install/chienpanze_description/share/chienpanze_description/hook/cmake_prefix_path.ps1'
+[13.761s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/xplore/chienpanze/xre-legged-dog/install/chienpanze_description/share/chienpanze_description/hook/cmake_prefix_path.dsv'
+[13.769s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/xplore/chienpanze/xre-legged-dog/install/chienpanze_description/share/chienpanze_description/hook/cmake_prefix_path.sh'
+[13.780s] Level 1:colcon.colcon_core.environment:checking '/home/xplore/chienpanze/xre-legged-dog/install/chienpanze_description/bin'
+[13.781s] Level 1:colcon.colcon_core.environment:checking '/home/xplore/chienpanze/xre-legged-dog/install/chienpanze_description/lib/pkgconfig/chienpanze_description.pc'
+[13.784s] Level 1:colcon.colcon_core.environment:checking '/home/xplore/chienpanze/xre-legged-dog/install/chienpanze_description/lib/python3.10/site-packages'
+[13.788s] Level 1:colcon.colcon_core.environment:checking '/home/xplore/chienpanze/xre-legged-dog/install/chienpanze_description/bin'
+[13.793s] INFO:colcon.colcon_core.shell:Creating package script '/home/xplore/chienpanze/xre-legged-dog/install/chienpanze_description/share/chienpanze_description/package.ps1'
+[13.800s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/xplore/chienpanze/xre-legged-dog/install/chienpanze_description/share/chienpanze_description/package.dsv'
+[13.808s] INFO:colcon.colcon_core.shell:Creating package script '/home/xplore/chienpanze/xre-legged-dog/install/chienpanze_description/share/chienpanze_description/package.sh'
+[13.817s] INFO:colcon.colcon_core.shell:Creating package script '/home/xplore/chienpanze/xre-legged-dog/install/chienpanze_description/share/chienpanze_description/package.bash'
+[13.823s] INFO:colcon.colcon_core.shell:Creating package script '/home/xplore/chienpanze/xre-legged-dog/install/chienpanze_description/share/chienpanze_description/package.zsh'
+[13.828s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/xplore/chienpanze/xre-legged-dog/install/chienpanze_description/share/colcon-core/packages/chienpanze_description)
+[14.206s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(chienpanze_description)
+[14.208s] Level 1:colcon.colcon_core.environment:checking '/home/xplore/chienpanze/xre-legged-dog/install/chienpanze_description' for CMake module files
+[14.212s] Level 1:colcon.colcon_core.environment:checking '/home/xplore/chienpanze/xre-legged-dog/install/chienpanze_description' for CMake config files
+[14.218s] Level 1:colcon.colcon_core.shell:create_environment_hook('chienpanze_description', 'cmake_prefix_path')
+[14.220s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/xplore/chienpanze/xre-legged-dog/install/chienpanze_description/share/chienpanze_description/hook/cmake_prefix_path.ps1'
+[14.224s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/xplore/chienpanze/xre-legged-dog/install/chienpanze_description/share/chienpanze_description/hook/cmake_prefix_path.dsv'
+[14.227s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/xplore/chienpanze/xre-legged-dog/install/chienpanze_description/share/chienpanze_description/hook/cmake_prefix_path.sh'
+[14.233s] Level 1:colcon.colcon_core.environment:checking '/home/xplore/chienpanze/xre-legged-dog/install/chienpanze_description/bin'
+[14.233s] Level 1:colcon.colcon_core.environment:checking '/home/xplore/chienpanze/xre-legged-dog/install/chienpanze_description/lib/pkgconfig/chienpanze_description.pc'
+[14.235s] Level 1:colcon.colcon_core.environment:checking '/home/xplore/chienpanze/xre-legged-dog/install/chienpanze_description/lib/python3.10/site-packages'
+[14.237s] Level 1:colcon.colcon_core.environment:checking '/home/xplore/chienpanze/xre-legged-dog/install/chienpanze_description/bin'
+[14.239s] INFO:colcon.colcon_core.shell:Creating package script '/home/xplore/chienpanze/xre-legged-dog/install/chienpanze_description/share/chienpanze_description/package.ps1'
+[14.245s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/xplore/chienpanze/xre-legged-dog/install/chienpanze_description/share/chienpanze_description/package.dsv'
+[14.250s] INFO:colcon.colcon_core.shell:Creating package script '/home/xplore/chienpanze/xre-legged-dog/install/chienpanze_description/share/chienpanze_description/package.sh'
+[14.255s] INFO:colcon.colcon_core.shell:Creating package script '/home/xplore/chienpanze/xre-legged-dog/install/chienpanze_description/share/chienpanze_description/package.bash'
+[14.260s] INFO:colcon.colcon_core.shell:Creating package script '/home/xplore/chienpanze/xre-legged-dog/install/chienpanze_description/share/chienpanze_description/package.zsh'
+[14.263s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/xplore/chienpanze/xre-legged-dog/install/chienpanze_description/share/colcon-core/packages/chienpanze_description)
+[15.486s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/xplore/chienpanze/xre-legged-dog/build/chienpanze_hw_interface' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/xplore/chienpanze/xre-legged-dog/xre_chienpanze/src/chienpanze_hw_interface -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/xplore/chienpanze/xre-legged-dog/install/chienpanze_hw_interface
+[15.502s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/xplore/chienpanze/xre-legged-dog/build/chienpanze_hw_interface': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/xplore/chienpanze/xre-legged-dog/build/chienpanze_hw_interface -- -j4 -l4
+[16.021s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/xplore/chienpanze/xre-legged-dog/build/chienpanze_controllers' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/xplore/chienpanze/xre-legged-dog/xre_chienpanze/src/chienpanze_controllers -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/xplore/chienpanze/xre-legged-dog/install/chienpanze_controllers
+[16.100s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(chienpanze_controllers)
+[16.102s] Level 1:colcon.colcon_core.environment:checking '/home/xplore/chienpanze/xre-legged-dog/install/chienpanze_controllers' for CMake module files
+[16.106s] Level 1:colcon.colcon_core.environment:checking '/home/xplore/chienpanze/xre-legged-dog/install/chienpanze_controllers' for CMake config files
+[16.109s] Level 1:colcon.colcon_core.shell:create_environment_hook('chienpanze_controllers', 'cmake_prefix_path')
+[16.110s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/xplore/chienpanze/xre-legged-dog/install/chienpanze_controllers/share/chienpanze_controllers/hook/cmake_prefix_path.ps1'
+[16.113s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/xplore/chienpanze/xre-legged-dog/install/chienpanze_controllers/share/chienpanze_controllers/hook/cmake_prefix_path.dsv'
+[16.116s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/xplore/chienpanze/xre-legged-dog/install/chienpanze_controllers/share/chienpanze_controllers/hook/cmake_prefix_path.sh'
+[16.119s] Level 1:colcon.colcon_core.environment:checking '/home/xplore/chienpanze/xre-legged-dog/install/chienpanze_controllers/bin'
+[16.120s] Level 1:colcon.colcon_core.environment:checking '/home/xplore/chienpanze/xre-legged-dog/install/chienpanze_controllers/lib/pkgconfig/chienpanze_controllers.pc'
+[16.121s] Level 1:colcon.colcon_core.environment:checking '/home/xplore/chienpanze/xre-legged-dog/install/chienpanze_controllers/lib/python3.10/site-packages'
+[16.123s] Level 1:colcon.colcon_core.environment:checking '/home/xplore/chienpanze/xre-legged-dog/install/chienpanze_controllers/bin'
+[16.125s] INFO:colcon.colcon_core.shell:Creating package script '/home/xplore/chienpanze/xre-legged-dog/install/chienpanze_controllers/share/chienpanze_controllers/package.ps1'
+[16.128s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/xplore/chienpanze/xre-legged-dog/install/chienpanze_controllers/share/chienpanze_controllers/package.dsv'
+[16.131s] INFO:colcon.colcon_core.shell:Creating package script '/home/xplore/chienpanze/xre-legged-dog/install/chienpanze_controllers/share/chienpanze_controllers/package.sh'
+[16.134s] INFO:colcon.colcon_core.shell:Creating package script '/home/xplore/chienpanze/xre-legged-dog/install/chienpanze_controllers/share/chienpanze_controllers/package.bash'
+[16.138s] INFO:colcon.colcon_core.shell:Creating package script '/home/xplore/chienpanze/xre-legged-dog/install/chienpanze_controllers/share/chienpanze_controllers/package.zsh'
+[16.140s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/xplore/chienpanze/xre-legged-dog/install/chienpanze_controllers/share/colcon-core/packages/chienpanze_controllers)
+[18.332s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[18.336s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[18.337s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '1'
+[18.337s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[18.372s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[18.373s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[18.373s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[18.506s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[18.508s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/xplore/chienpanze/xre-legged-dog/install/local_setup.ps1'
+[18.514s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/xplore/chienpanze/xre-legged-dog/install/_local_setup_util_ps1.py'
+[18.520s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/xplore/chienpanze/xre-legged-dog/install/setup.ps1'
+[18.528s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/xplore/chienpanze/xre-legged-dog/install/local_setup.sh'
+[18.532s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/xplore/chienpanze/xre-legged-dog/install/_local_setup_util_sh.py'
+[18.538s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/xplore/chienpanze/xre-legged-dog/install/setup.sh'
+[18.555s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/xplore/chienpanze/xre-legged-dog/install/local_setup.bash'
+[18.558s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/xplore/chienpanze/xre-legged-dog/install/setup.bash'
+[18.566s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/xplore/chienpanze/xre-legged-dog/install/local_setup.zsh'
+[18.569s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/xplore/chienpanze/xre-legged-dog/install/setup.zsh'

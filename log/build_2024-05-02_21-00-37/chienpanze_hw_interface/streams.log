@@ -1,0 +1,28 @@
+[0.198s] Invoking command in '/home/xplore/chienpanze/xre-legged-dog/build/chienpanze_hw_interface': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/xplore/chienpanze/xre-legged-dog/build/chienpanze_hw_interface -- -j4 -l4
+[0.750s] [100%] Built target chienpanze_hw_interface
+[0.901s] Invoked command in '/home/xplore/chienpanze/xre-legged-dog/build/chienpanze_hw_interface' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/xplore/chienpanze/xre-legged-dog/build/chienpanze_hw_interface -- -j4 -l4
+[1.266s] Invoking command in '/home/xplore/chienpanze/xre-legged-dog/build/chienpanze_hw_interface': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/xplore/chienpanze/xre-legged-dog/build/chienpanze_hw_interface
+[1.343s] -- Install configuration: ""
+[1.351s] -- Execute custom install script
+[1.358s] -- Symlinking: /home/xplore/chienpanze/xre-legged-dog/install/chienpanze_hw_interface/share/chienpanze_hw_interface//chienpanze_hw_interface.xml
+[1.427s] -- Symlinking: /home/xplore/chienpanze/xre-legged-dog/install/chienpanze_hw_interface/include/chienpanze_hw_interface/chienpanze_hw_interface.hpp
+[1.524s] -- Symlinking: /home/xplore/chienpanze/xre-legged-dog/install/chienpanze_hw_interface/include/pi3hat/pi3hat.cc
+[1.577s] -- Symlinking: /home/xplore/chienpanze/xre-legged-dog/install/chienpanze_hw_interface/include/pi3hat/pi3hat.h
+[1.636s] -- Symlinking: /home/xplore/chienpanze/xre-legged-dog/install/chienpanze_hw_interface/lib/libchienpanze_hw_interface.so
+[1.705s] -- Symlinking: /home/xplore/chienpanze/xre-legged-dog/install/chienpanze_hw_interface/share/ament_index/resource_index/package_run_dependencies/chienpanze_hw_interface
+[1.766s] -- Symlinking: /home/xplore/chienpanze/xre-legged-dog/install/chienpanze_hw_interface/share/ament_index/resource_index/parent_prefix_path/chienpanze_hw_interface
+[1.852s] -- Symlinking: /home/xplore/chienpanze/xre-legged-dog/install/chienpanze_hw_interface/share/chienpanze_hw_interface/environment/ament_prefix_path.sh
+[1.930s] -- Symlinking: /home/xplore/chienpanze/xre-legged-dog/install/chienpanze_hw_interface/share/chienpanze_hw_interface/environment/ament_prefix_path.dsv
+[2.007s] -- Symlinking: /home/xplore/chienpanze/xre-legged-dog/install/chienpanze_hw_interface/share/chienpanze_hw_interface/environment/path.sh
+[2.054s] -- Symlinking: /home/xplore/chienpanze/xre-legged-dog/install/chienpanze_hw_interface/share/chienpanze_hw_interface/environment/path.dsv
+[2.106s] -- Symlinking: /home/xplore/chienpanze/xre-legged-dog/install/chienpanze_hw_interface/share/chienpanze_hw_interface/local_setup.bash
+[2.149s] -- Symlinking: /home/xplore/chienpanze/xre-legged-dog/install/chienpanze_hw_interface/share/chienpanze_hw_interface/local_setup.sh
+[2.201s] -- Symlinking: /home/xplore/chienpanze/xre-legged-dog/install/chienpanze_hw_interface/share/chienpanze_hw_interface/local_setup.zsh
+[2.260s] -- Symlinking: /home/xplore/chienpanze/xre-legged-dog/install/chienpanze_hw_interface/share/chienpanze_hw_interface/local_setup.dsv
+[2.345s] -- Symlinking: /home/xplore/chienpanze/xre-legged-dog/install/chienpanze_hw_interface/share/chienpanze_hw_interface/package.dsv
+[2.421s] -- Symlinking: /home/xplore/chienpanze/xre-legged-dog/install/chienpanze_hw_interface/share/ament_index/resource_index/packages/chienpanze_hw_interface
+[2.475s] -- Symlinking: /home/xplore/chienpanze/xre-legged-dog/install/chienpanze_hw_interface/share/ament_index/resource_index/hardware_interface__pluginlib__plugin/chienpanze_hw_interface
+[2.523s] -- Symlinking: /home/xplore/chienpanze/xre-legged-dog/install/chienpanze_hw_interface/share/chienpanze_hw_interface/cmake/chienpanze_hw_interfaceConfig.cmake
+[2.570s] -- Symlinking: /home/xplore/chienpanze/xre-legged-dog/install/chienpanze_hw_interface/share/chienpanze_hw_interface/cmake/chienpanze_hw_interfaceConfig-version.cmake
+[2.622s] -- Symlinking: /home/xplore/chienpanze/xre-legged-dog/install/chienpanze_hw_interface/share/chienpanze_hw_interface/package.xml
+[2.694s] Invoked command in '/home/xplore/chienpanze/xre-legged-dog/build/chienpanze_hw_interface' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/xplore/chienpanze/xre-legged-dog/build/chienpanze_hw_interface

@@ -1,0 +1,24 @@
+[100%] Built target chienpanze_hw_interface
+-- Install configuration: ""
+-- Execute custom install script
+-- Symlinking: /home/xplore/chienpanze/xre-legged-dog/install/chienpanze_hw_interface/share/chienpanze_hw_interface//chienpanze_hw_interface.xml
+-- Symlinking: /home/xplore/chienpanze/xre-legged-dog/install/chienpanze_hw_interface/include/chienpanze_hw_interface/chienpanze_hw_interface.hpp
+-- Symlinking: /home/xplore/chienpanze/xre-legged-dog/install/chienpanze_hw_interface/include/pi3hat/pi3hat.cc
+-- Symlinking: /home/xplore/chienpanze/xre-legged-dog/install/chienpanze_hw_interface/include/pi3hat/pi3hat.h
+-- Symlinking: /home/xplore/chienpanze/xre-legged-dog/install/chienpanze_hw_interface/lib/libchienpanze_hw_interface.so
+-- Symlinking: /home/xplore/chienpanze/xre-legged-dog/install/chienpanze_hw_interface/share/ament_index/resource_index/package_run_dependencies/chienpanze_hw_interface
+-- Symlinking: /home/xplore/chienpanze/xre-legged-dog/install/chienpanze_hw_interface/share/ament_index/resource_index/parent_prefix_path/chienpanze_hw_interface
+-- Symlinking: /home/xplore/chienpanze/xre-legged-dog/install/chienpanze_hw_interface/share/chienpanze_hw_interface/environment/ament_prefix_path.sh
+-- Symlinking: /home/xplore/chienpanze/xre-legged-dog/install/chienpanze_hw_interface/share/chienpanze_hw_interface/environment/ament_prefix_path.dsv
+-- Symlinking: /home/xplore/chienpanze/xre-legged-dog/install/chienpanze_hw_interface/share/chienpanze_hw_interface/environment/path.sh
+-- Symlinking: /home/xplore/chienpanze/xre-legged-dog/install/chienpanze_hw_interface/share/chienpanze_hw_interface/environment/path.dsv
+-- Symlinking: /home/xplore/chienpanze/xre-legged-dog/install/chienpanze_hw_interface/share/chienpanze_hw_interface/local_setup.bash
+-- Symlinking: /home/xplore/chienpanze/xre-legged-dog/install/chienpanze_hw_interface/share/chienpanze_hw_interface/local_setup.sh
+-- Symlinking: /home/xplore/chienpanze/xre-legged-dog/install/chienpanze_hw_interface/share/chienpanze_hw_interface/local_setup.zsh
+-- Symlinking: /home/xplore/chienpanze/xre-legged-dog/install/chienpanze_hw_interface/share/chienpanze_hw_interface/local_setup.dsv
+-- Symlinking: /home/xplore/chienpanze/xre-legged-dog/install/chienpanze_hw_interface/share/chienpanze_hw_interface/package.dsv
+-- Symlinking: /home/xplore/chienpanze/xre-legged-dog/install/chienpanze_hw_interface/share/ament_index/resource_index/packages/chienpanze_hw_interface
+-- Symlinking: /home/xplore/chienpanze/xre-legged-dog/install/chienpanze_hw_interface/share/ament_index/resource_index/hardware_interface__pluginlib__plugin/chienpanze_hw_interface
+-- Symlinking: /home/xplore/chienpanze/xre-legged-dog/install/chienpanze_hw_interface/share/chienpanze_hw_interface/cmake/chienpanze_hw_interfaceConfig.cmake
+-- Symlinking: /home/xplore/chienpanze/xre-legged-dog/install/chienpanze_hw_interface/share/chienpanze_hw_interface/cmake/chienpanze_hw_interfaceConfig-version.cmake
+-- Symlinking: /home/xplore/chienpanze/xre-legged-dog/install/chienpanze_hw_interface/share/chienpanze_hw_interface/package.xml
