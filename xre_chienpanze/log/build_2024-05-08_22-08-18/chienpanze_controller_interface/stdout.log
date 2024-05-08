@@ -1,0 +1,4 @@
+[35m[1mConsolidate compiler generated dependencies of target chienpanze_controller_interface[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/chienpanze_controller_interface.dir/src/chienpanze_controller_interface.cpp.o[0m
+[100%] [32m[1mLinking CXX shared library libchienpanze_controller_interface.so[0m
+[100%] Built target chienpanze_controller_interface

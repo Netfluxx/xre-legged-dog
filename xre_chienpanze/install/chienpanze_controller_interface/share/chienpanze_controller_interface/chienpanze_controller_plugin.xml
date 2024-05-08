@@ -1,0 +1,5 @@
+<library path="lib/libchienpanze_controllers">
+  <class name="chienpanze_controller/ChienpanzeController" type="chienpanze_controller::ChienpanzeController" base_class_type="controller_interface::ControllerInterface">
+    <description>This is a custom controller for the chienpanze robot.</description>
+  </class>
+</library>

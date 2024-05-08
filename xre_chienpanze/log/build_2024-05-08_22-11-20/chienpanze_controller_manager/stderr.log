@@ -1,0 +1,4 @@
+[31mCMake Error at CMakeLists.txt:14:
+  Parse error.  Expected a command name, got left paren with text "(".
+
+[0m

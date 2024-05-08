@@ -51,8 +51,7 @@ install(DIRECTORY include/
 
 # Install launch files and other resources
 install(DIRECTORY
-  launch
-  config
+
   DESTINATION share/${PROJECT_NAME}
 )
 
