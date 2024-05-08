@@ -1,1 +1,134 @@
-/home/arno/xre/xre_chienpanze/src/chienpanze_description/urdf/chienpanze.urdf.xacro
+<?xml version="1.0"?>
+<robot xmlns:xacro="http://ros.org/wiki/xacro" name="chienpanze">
+
+    <xacro:property name="MAX_SPEED"    value="5.5"  />
+    <xacro:property name="MIN_SPEED"    value="0.0"  />
+
+    <xacro:property name="WHEEL_RADIUS" value="0.04" />
+    <xacro:property name="WHEEL_WIDTH"  value="0.05"  />
+    <xacro:property name="WHEELBASE"    value="0.5"  />
+    <xacro:property name="WHEEL_MASS"   value="0.3"  />
+
+    <xacro:property name="HEIGHT"       value="0.05" />
+    <xacro:property name="LENGTH"       value="0.3"  />
+    <xacro:property name="WIDTH"        value="0.15" />
+    <xacro:property name="MASS"         value="3"    />
+
+    <xacro:property name="LEG_WIDTH"    value="0.03" />
+    <xacro:property name="LEG_HEIGHT"   value="0.3"  />
+    <xacro:property name="LEG_LENGTH"   value="0.05" />    
+    <xacro:property name="LEG_MASS"     value="0.1"  />
+
+    <material name="black">
+        <color rgba="0 0 0 1" />
+    </material>
+    <material name="white">
+        <color rgba="1 1 1 1" />
+    </material>
+    <material name="blue">
+        <color rgba="0.2 0.2 1 1" />
+    </material>
+
+
+    <!-- the base link located in the middle of the line between the center of both back wheels -->
+    <link name="base_link">
+        <visual>
+            <geometry>
+                <cylinder length="0.003" radius="0.003"/>
+            </geometry>
+            <origin xyz="0 0 0" rpy="0 0 0"/>
+            <material name="white" />
+        </visual>
+    </link>
+
+                    <!-- ####################### JOINTS ########################## -->
+
+
+    <joint name="chassis_joint" type="fixed">
+        <origin xyz="0 0 0" rpy="0 0 0" />
+        <parent link="base_link" />
+        <child link="chassis" />
+    </joint>
+
+                                        <!-- WHEEL JOINTS -->
+
+   
+    <!-- <joint name="knee_joint" type="continuous">
+        <origin xyz="${LENGTH - LEG_LENGTH} ${-((WIDTH/2) + LEG_WIDTH + (WHEEL_WIDTH/2))} ${WHEEL_RADIUS}" rpy="${pi/2} 0 0" />
+        <parent link="base_link" />
+        <child link="front_right_wheel_link" />
+        <axis xyz="0 0 -1"/>
+    </joint> -->
+
+                                <!-- LEG JOINTS = FIXED -->
+
+
+    <joint name="upper_leg_joint" type="continuous">
+        <origin xyz="${LENGTH - LEG_LENGTH} ${-((WIDTH/2)+(LEG_WIDTH/2))} ${LEG_HEIGHT/2 + WHEEL_RADIUS}"
+            rpy="0 0 0" />
+        <parent link="base_link" />
+        <child link="upper_leg_link" />
+    </joint>
+
+                    <!-- ####################### LINKS ########################## -->
+
+
+    <link name="chassis">
+        <visual>
+            <geometry>
+                <box size="${LENGTH} ${WIDTH} ${HEIGHT}" />
+            </geometry>
+            <origin xyz="${LENGTH/2 - LEG_LENGTH/2} 0 ${LEG_HEIGHT - HEIGHT/2 + WHEEL_RADIUS}" rpy="0 0 0"/>
+            <material name="black" />
+        </visual>
+        <collision>
+            <geometry>
+                <box size="${LENGTH} ${WIDTH} ${HEIGHT}" />
+            </geometry>
+            <origin xyz="${LENGTH/2 - LEG_LENGTH/2} 0 ${LEG_HEIGHT - HEIGHT/2 + WHEEL_RADIUS}" rpy="0 0 0"/>
+        </collision>
+    </link>
+
+                                        <!-- LEG LINKS -->
+
+
+
+    <link name="upper_leg_link">
+        <visual>
+            <geometry>
+                <box size="${LEG_LENGTH} ${LEG_WIDTH} ${LEG_HEIGHT}" />
+            </geometry>
+            <material name="black" />
+        </visual>
+        <collision>
+            <geometry>
+                <box size="${LEG_LENGTH} ${LEG_WIDTH} ${LEG_HEIGHT}" />
+            </geometry>
+        </collision>
+    </link>
+
+
+    <!-- ROS2-CONTROL -->
+    <ros2_control name="chienpanze" type="system">
+      <hardware>
+        <plugin> 
+          <!-- {Name_Space}/{Class_Name}   WHAT DO I WRITE HERE??-->
+        </plugin>
+      </hardware>
+    
+      <joint name="upper_leg_joint">
+        <command_interface name="position">
+          <param name="min">{-2*pi}</param>
+          <param name="max">{2*pi}</param>
+        </command_interface>
+
+        <state_interface name="position">
+          <param name="initial_value">0.0</param>
+        </state_interface>
+
+      </joint>
+
+    </ros2_control>
+
+
+</robot>

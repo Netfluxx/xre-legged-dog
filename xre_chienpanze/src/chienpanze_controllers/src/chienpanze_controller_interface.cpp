@@ -1,10 +1,18 @@
 #include <controller_interface/controller_interface.hpp>
 #include <rclcpp_lifecycle/lifecycle_node.hpp>
 #include <rclcpp/rclcpp.hpp>
+#include "hardware_interface/types/lifecycle_state_names.hpp"
 
-#include "rclcpp/qos.hpp"
 
 #include "chienpanze_controller_interface/chienpanze_controller_interface.hpp"
+
+#include "controller_interface/controller_interface_base.hpp"
+
+#include "rclcpp/qos.hpp"
+#include "rclcpp/time.hpp"
+#include "rclcpp_lifecycle/node_interfaces/lifecycle_node_interface.hpp"
+#include "rclcpp_lifecycle/state.hpp"
+#include "lifecycle_msgs/msg/state.hpp"
 
 #include <algorithm>
 #include <vector>
@@ -36,14 +44,15 @@ controller_interface::CallbackReturn on_configure(const rclcpp_lifecycle::State 
   return CallbackReturn::SUCCESS;
 }
 
-controller_interface::InterfaceConfiguration command_interface_configuration(){
+controller_interface::InterfaceConfiguration ChienpanzeController::command_interface_configuration() const{
   //called after on_configure()
   //returns a list opf InterfaceCOnfiguration objets to indicate which 
   //command interfaces the controller needs to operate
   //each command interface is uniquely indentified by its name and its interface type.
   //if a requested interface is not offered by a loaded hardware interface, then the controller wil fail.
     // add required command interface to `conf` by specifying their names and interface types.
-    controller_interface::InterfaceConfiguration conf = {controller_interface::InterfaceConfiguration::INDIVIDUAL, {}};
+    controller_interface::InterfaceConfiguration conf;
+    conf.type = controller_interface::interface_configuration_type::INDIVIDUAL;
 
     conf.names.reserve(joint_names_.size() * command_interface_types_.size());
     // Assuming you need position and velocity commands
@@ -60,13 +69,14 @@ controller_interface::InterfaceConfiguration command_interface_configuration(){
     return conf;
 }
 
-controller_interface::InterfaceConfiguration state_interface_configuration() {
+controller_interface::InterfaceConfiguration ChienpanzeController::state_interface_configuration() const{
     //called after the command interface configuration
     //returns a list of InterfaceConfiguration objects representing th required state interfaces to operate
     // add required state interface to `conf` by specifying their names and interface types.
     // ..
 
-    controller_interface::InterfaceConfiguration conf = {config_type::INDIVIDUAL, {}};
+	controller_interface::InterfaceConfiguration conf;
+	conf.type = controller_interface::interface_configuration_type::INDIVIDUAL;
     conf.names.reserve(joint_names_.size() * state_interface_types_.size());
     for(const auto& joint_name : joint_names_){
         for(const auto& interface_type : state_interface_types_){
@@ -76,7 +86,7 @@ controller_interface::InterfaceConfiguration state_interface_configuration() {
     return conf;
 }
 
-controller_interface::CallbackReturn on_activate(const rclcpp_lifecycle::State &previous_state){
+controller_interface::CallbackReturn ChienpanzeController::on_activate(const rclcpp_lifecycle::State &previous_state){
 //perform specific safety checks
   // Handle controller restarts and dynamic parameter updating
   // ...
@@ -100,7 +110,7 @@ controller_interface::CallbackReturn on_activate(const rclcpp_lifecycle::State &
 
 
 
-controller_interface::return_type update(const rclcpp::Time &time, const rclcpp::Duration &period){
+controller_interface::return_type ChienpanzeController::update(const rclcpp::Time &time, const rclcpp::Duration &period){
     //part of the realtime main control loop
     // Read controller inputs values from state interfaces
     // Calculate controller output values and write them to command interfaces
@@ -112,30 +122,35 @@ controller_interface::return_type update(const rclcpp::Time &time, const rclcpp:
     return controller_interface::return_type::OK;
 }
 
-controller_interface::CallbackReturn on_deactivate(const rclcpp_lifecycle::State &previous_state){
+controller_interface::CallbackReturn ChienpanzeController::on_deactivate(const rclcpp_lifecycle::State &previous_state){
     // The controller should be properly shutdown during this state transition
     //it is importatnt to release the claimed command interface in this method, so other controllers can use
     //them if needed --> done with the release_interfaces function
     // ...
     release_interfaces();
-
+	//command interfaces
+	joint_position_command_interface_.clear();
+	joint_velocity_command_interface_.clear();
+	//state interfaces
+	joint_position_state_interface_.clear();
+	joint_velocity_state_interface_.clear();
     return CallbackReturn::SUCCESS;
 }
 
-controller_interface::CallbackReturn on_cleanup(const rclcpp_lifecycle::State &previous_state){
+controller_interface::CallbackReturn ChienpanzeController::on_cleanup(const rclcpp_lifecycle::State &previous_state){
   // Callback function for cleanup transition
   //free up allocated memory
   // ...
   return CallbackReturn::SUCCESS;
 }
 
-controller_interface::CallbackReturn on_shutdown(const rclcpp_lifecycle::State &previous_state){
+controller_interface::CallbackReturn ChienpanzeController::on_shutdown(const rclcpp_lifecycle::State &previous_state){
   // Callback function for shutdown transition
   // ...
   return CallbackReturn::SUCCESS;
 }
 
-controller_interface::CallbackReturn on_error(const rclcpp_lifecycle::State &previous_state){
+controller_interface::CallbackReturn ChienpanzeController::on_error(const rclcpp_lifecycle::State &previous_state){
   // called when the managed node fails a state transition. Should never happen.
   // ...
   return CallbackReturn::SUCCESS;

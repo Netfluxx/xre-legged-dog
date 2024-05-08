@@ -1,0 +1,482 @@
+[0.000000] (-) TimerEvent: {}
+[0.005262] (chienpanze_bringup) JobQueued: {'identifier': 'chienpanze_bringup', 'dependencies': OrderedDict()}
+[0.005542] (chienpanze_controller_interface) JobQueued: {'identifier': 'chienpanze_controller_interface', 'dependencies': OrderedDict()}
+[0.005835] (chienpanze_description) JobQueued: {'identifier': 'chienpanze_description', 'dependencies': OrderedDict()}
+[0.006367] (chienpanze_hw_interface) JobQueued: {'identifier': 'chienpanze_hw_interface', 'dependencies': OrderedDict()}
+[0.006679] (chienpanze_bringup) JobStarted: {'identifier': 'chienpanze_bringup'}
+[0.077543] (chienpanze_controller_interface) JobStarted: {'identifier': 'chienpanze_controller_interface'}
+[0.099708] (-) TimerEvent: {}
+[0.134249] (chienpanze_description) JobStarted: {'identifier': 'chienpanze_description'}
+[0.178897] (chienpanze_hw_interface) JobStarted: {'identifier': 'chienpanze_hw_interface'}
+[0.199981] (-) TimerEvent: {}
+[0.237805] (chienpanze_bringup) JobProgress: {'identifier': 'chienpanze_bringup', 'progress': 'cmake'}
+[0.254741] (chienpanze_bringup) JobProgress: {'identifier': 'chienpanze_bringup', 'progress': 'build'}
+[0.255450] (chienpanze_bringup) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/xplore/chienpanze/xre-legged-dog/xre_chienpanze/build/chienpanze_bringup', '--', '-j4', '-l4'], 'cwd': '/home/xplore/chienpanze/xre-legged-dog/xre_chienpanze/build/chienpanze_bringup', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'xplore'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/xplore/chienpanze/xre-legged-dog/install/chienpanze_hw_interface/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/xplore'), ('OLDPWD', '/home/xplore/chienpanze/xre-legged-dog'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1426'), ('SYSTEMD_EXEC_PID', '1656'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator23558193cd9818af7fe4d2c2f5bd9d00f'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '2205'), ('COLCON_PREFIX_PATH', '/home/xplore/chienpanze/xre-legged-dog/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'xplore'), ('JOURNAL_STREAM', '8:27005'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'xplore'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/home/xplore/.local/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/xplore:@/tmp/.ICE-unix/1631,unix/xplore:/tmp/.ICE-unix/1631'), ('INVOCATION_ID', '296a8d6b3b924de89ed68427e45497f3'), ('XDG_MENU_PREFIX', 'gnome-'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'C.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/xplore/chienpanze/xre-legged-dog/install/chienpanze_hw_interface:/home/xplore/chienpanze/xre-legged-dog/install/chienpanze_description:/home/xplore/chienpanze/xre-legged-dog/install/chienpanze_bringup:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('TERMINATOR_UUID', 'urn:uuid:1ea7da6b-81c4-4e0a-b9ae-e3ebc009e057'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/xplore/chienpanze/xre-legged-dog/xre_chienpanze/build/chienpanze_bringup'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/xplore/chienpanze/xre-legged-dog/install/chienpanze_hw_interface:/home/xplore/chienpanze/xre-legged-dog/install/chienpanze_description:/home/xplore/chienpanze/xre-legged-dog/install/chienpanze_controllers:/home/xplore/chienpanze/xre-legged-dog/install/chienpanze_bringup:/opt/ros/humble')]), 'shell': False}
+[0.296598] (chienpanze_controller_interface) JobProgress: {'identifier': 'chienpanze_controller_interface', 'progress': 'cmake'}
+[0.301284] (-) TimerEvent: {}
+[0.328367] (chienpanze_controller_interface) JobProgress: {'identifier': 'chienpanze_controller_interface', 'progress': 'build'}
+[0.328674] (chienpanze_controller_interface) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/xplore/chienpanze/xre-legged-dog/xre_chienpanze/build/chienpanze_controller_interface', '--', '-j4', '-l4'], 'cwd': '/home/xplore/chienpanze/xre-legged-dog/xre_chienpanze/build/chienpanze_controller_interface', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'xplore'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/xplore/chienpanze/xre-legged-dog/install/chienpanze_hw_interface/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/xplore'), ('OLDPWD', '/home/xplore/chienpanze/xre-legged-dog'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1426'), ('SYSTEMD_EXEC_PID', '1656'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator23558193cd9818af7fe4d2c2f5bd9d00f'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '2205'), ('COLCON_PREFIX_PATH', '/home/xplore/chienpanze/xre-legged-dog/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'xplore'), ('JOURNAL_STREAM', '8:27005'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'xplore'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/home/xplore/.local/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/xplore:@/tmp/.ICE-unix/1631,unix/xplore:/tmp/.ICE-unix/1631'), ('INVOCATION_ID', '296a8d6b3b924de89ed68427e45497f3'), ('XDG_MENU_PREFIX', 'gnome-'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'C.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/xplore/chienpanze/xre-legged-dog/install/chienpanze_hw_interface:/home/xplore/chienpanze/xre-legged-dog/install/chienpanze_description:/home/xplore/chienpanze/xre-legged-dog/install/chienpanze_bringup:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('TERMINATOR_UUID', 'urn:uuid:1ea7da6b-81c4-4e0a-b9ae-e3ebc009e057'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/xplore/chienpanze/xre-legged-dog/xre_chienpanze/build/chienpanze_controller_interface'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/xplore/chienpanze/xre-legged-dog/install/chienpanze_hw_interface:/home/xplore/chienpanze/xre-legged-dog/install/chienpanze_description:/home/xplore/chienpanze/xre-legged-dog/install/chienpanze_controllers:/home/xplore/chienpanze/xre-legged-dog/install/chienpanze_bringup:/opt/ros/humble')]), 'shell': False}
+[0.360328] (chienpanze_description) JobProgress: {'identifier': 'chienpanze_description', 'progress': 'cmake'}
+[0.392114] (chienpanze_description) JobProgress: {'identifier': 'chienpanze_description', 'progress': 'build'}
+[0.394939] (chienpanze_description) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/xplore/chienpanze/xre-legged-dog/xre_chienpanze/build/chienpanze_description', '--', '-j4', '-l4'], 'cwd': '/home/xplore/chienpanze/xre-legged-dog/xre_chienpanze/build/chienpanze_description', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'xplore'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/xplore/chienpanze/xre-legged-dog/install/chienpanze_hw_interface/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/xplore'), ('OLDPWD', '/home/xplore/chienpanze/xre-legged-dog'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1426'), ('SYSTEMD_EXEC_PID', '1656'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator23558193cd9818af7fe4d2c2f5bd9d00f'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '2205'), ('COLCON_PREFIX_PATH', '/home/xplore/chienpanze/xre-legged-dog/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'xplore'), ('JOURNAL_STREAM', '8:27005'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'xplore'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/home/xplore/.local/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/xplore:@/tmp/.ICE-unix/1631,unix/xplore:/tmp/.ICE-unix/1631'), ('INVOCATION_ID', '296a8d6b3b924de89ed68427e45497f3'), ('XDG_MENU_PREFIX', 'gnome-'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'C.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/xplore/chienpanze/xre-legged-dog/install/chienpanze_hw_interface:/home/xplore/chienpanze/xre-legged-dog/install/chienpanze_description:/home/xplore/chienpanze/xre-legged-dog/install/chienpanze_bringup:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('TERMINATOR_UUID', 'urn:uuid:1ea7da6b-81c4-4e0a-b9ae-e3ebc009e057'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/xplore/chienpanze/xre-legged-dog/xre_chienpanze/build/chienpanze_description'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/xplore/chienpanze/xre-legged-dog/install/chienpanze_hw_interface:/home/xplore/chienpanze/xre-legged-dog/install/chienpanze_description:/home/xplore/chienpanze/xre-legged-dog/install/chienpanze_controllers:/home/xplore/chienpanze/xre-legged-dog/install/chienpanze_bringup:/opt/ros/humble')]), 'shell': False}
+[0.410399] (-) TimerEvent: {}
+[0.474313] (chienpanze_hw_interface) JobProgress: {'identifier': 'chienpanze_hw_interface', 'progress': 'cmake'}
+[0.479859] (chienpanze_hw_interface) JobProgress: {'identifier': 'chienpanze_hw_interface', 'progress': 'build'}
+[0.493440] (chienpanze_hw_interface) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/xplore/chienpanze/xre-legged-dog/xre_chienpanze/build/chienpanze_hw_interface', '--', '-j4', '-l4'], 'cwd': '/home/xplore/chienpanze/xre-legged-dog/xre_chienpanze/build/chienpanze_hw_interface', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'xplore'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/xplore/chienpanze/xre-legged-dog/install/chienpanze_hw_interface/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/xplore'), ('OLDPWD', '/home/xplore/chienpanze/xre-legged-dog'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1426'), ('SYSTEMD_EXEC_PID', '1656'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator23558193cd9818af7fe4d2c2f5bd9d00f'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '2205'), ('COLCON_PREFIX_PATH', '/home/xplore/chienpanze/xre-legged-dog/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'xplore'), ('JOURNAL_STREAM', '8:27005'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'xplore'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/home/xplore/.local/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/xplore:@/tmp/.ICE-unix/1631,unix/xplore:/tmp/.ICE-unix/1631'), ('INVOCATION_ID', '296a8d6b3b924de89ed68427e45497f3'), ('XDG_MENU_PREFIX', 'gnome-'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'C.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/xplore/chienpanze/xre-legged-dog/install/chienpanze_hw_interface:/home/xplore/chienpanze/xre-legged-dog/install/chienpanze_description:/home/xplore/chienpanze/xre-legged-dog/install/chienpanze_bringup:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('TERMINATOR_UUID', 'urn:uuid:1ea7da6b-81c4-4e0a-b9ae-e3ebc009e057'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/xplore/chienpanze/xre-legged-dog/xre_chienpanze/build/chienpanze_hw_interface'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/xplore/chienpanze/xre-legged-dog/install/chienpanze_hw_interface:/home/xplore/chienpanze/xre-legged-dog/install/chienpanze_description:/home/xplore/chienpanze/xre-legged-dog/install/chienpanze_controllers:/home/xplore/chienpanze/xre-legged-dog/install/chienpanze_bringup:/opt/ros/humble')]), 'shell': False}
+[0.513016] (-) TimerEvent: {}
+[0.620486] (-) TimerEvent: {}
+[0.726679] (-) TimerEvent: {}
+[0.785292] (chienpanze_controller_interface) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target chienpanze_controller_interface\x1b[0m\n'}
+[0.826843] (-) TimerEvent: {}
+[0.834353] (chienpanze_bringup) CommandEnded: {'returncode': 0}
+[0.906336] (chienpanze_description) CommandEnded: {'returncode': 0}
+[0.934416] (-) TimerEvent: {}
+[0.985541] (chienpanze_controller_interface) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/chienpanze_controller_interface.dir/src/chienpanze_controller_interface.cpp.o\x1b[0m\n'}
+[1.034729] (-) TimerEvent: {}
+[1.118631] (chienpanze_hw_interface) StdoutLine: {'line': b'[100%] Built target chienpanze_hw_interface\n'}
+[1.136467] (-) TimerEvent: {}
+[1.218310] (chienpanze_bringup) JobProgress: {'identifier': 'chienpanze_bringup', 'progress': 'install'}
+[1.239704] (-) TimerEvent: {}
+[1.326794] (chienpanze_bringup) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/xplore/chienpanze/xre-legged-dog/xre_chienpanze/build/chienpanze_bringup'], 'cwd': '/home/xplore/chienpanze/xre-legged-dog/xre_chienpanze/build/chienpanze_bringup', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'xplore'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/xplore/chienpanze/xre-legged-dog/install/chienpanze_hw_interface/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/xplore'), ('OLDPWD', '/home/xplore/chienpanze/xre-legged-dog'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1426'), ('SYSTEMD_EXEC_PID', '1656'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator23558193cd9818af7fe4d2c2f5bd9d00f'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '2205'), ('COLCON_PREFIX_PATH', '/home/xplore/chienpanze/xre-legged-dog/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'xplore'), ('JOURNAL_STREAM', '8:27005'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'xplore'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/home/xplore/.local/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/xplore:@/tmp/.ICE-unix/1631,unix/xplore:/tmp/.ICE-unix/1631'), ('INVOCATION_ID', '296a8d6b3b924de89ed68427e45497f3'), ('XDG_MENU_PREFIX', 'gnome-'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'C.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/xplore/chienpanze/xre-legged-dog/install/chienpanze_hw_interface:/home/xplore/chienpanze/xre-legged-dog/install/chienpanze_description:/home/xplore/chienpanze/xre-legged-dog/install/chienpanze_bringup:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('TERMINATOR_UUID', 'urn:uuid:1ea7da6b-81c4-4e0a-b9ae-e3ebc009e057'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/xplore/chienpanze/xre-legged-dog/xre_chienpanze/build/chienpanze_bringup'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/xplore/chienpanze/xre-legged-dog/install/chienpanze_hw_interface:/home/xplore/chienpanze/xre-legged-dog/install/chienpanze_description:/home/xplore/chienpanze/xre-legged-dog/install/chienpanze_controllers:/home/xplore/chienpanze/xre-legged-dog/install/chienpanze_bringup:/opt/ros/humble')]), 'shell': False}
+[1.352435] (chienpanze_description) JobProgress: {'identifier': 'chienpanze_description', 'progress': 'install'}
+[1.352703] (-) TimerEvent: {}
+[1.353525] (chienpanze_description) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/xplore/chienpanze/xre-legged-dog/xre_chienpanze/build/chienpanze_description'], 'cwd': '/home/xplore/chienpanze/xre-legged-dog/xre_chienpanze/build/chienpanze_description', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'xplore'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/xplore/chienpanze/xre-legged-dog/install/chienpanze_hw_interface/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/xplore'), ('OLDPWD', '/home/xplore/chienpanze/xre-legged-dog'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1426'), ('SYSTEMD_EXEC_PID', '1656'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator23558193cd9818af7fe4d2c2f5bd9d00f'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '2205'), ('COLCON_PREFIX_PATH', '/home/xplore/chienpanze/xre-legged-dog/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'xplore'), ('JOURNAL_STREAM', '8:27005'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'xplore'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/home/xplore/.local/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/xplore:@/tmp/.ICE-unix/1631,unix/xplore:/tmp/.ICE-unix/1631'), ('INVOCATION_ID', '296a8d6b3b924de89ed68427e45497f3'), ('XDG_MENU_PREFIX', 'gnome-'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'C.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/xplore/chienpanze/xre-legged-dog/install/chienpanze_hw_interface:/home/xplore/chienpanze/xre-legged-dog/install/chienpanze_description:/home/xplore/chienpanze/xre-legged-dog/install/chienpanze_bringup:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('TERMINATOR_UUID', 'urn:uuid:1ea7da6b-81c4-4e0a-b9ae-e3ebc009e057'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/xplore/chienpanze/xre-legged-dog/xre_chienpanze/build/chienpanze_description'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/xplore/chienpanze/xre-legged-dog/install/chienpanze_hw_interface:/home/xplore/chienpanze/xre-legged-dog/install/chienpanze_description:/home/xplore/chienpanze/xre-legged-dog/install/chienpanze_controllers:/home/xplore/chienpanze/xre-legged-dog/install/chienpanze_bringup:/opt/ros/humble')]), 'shell': False}
+[1.427686] (chienpanze_hw_interface) CommandEnded: {'returncode': 0}
+[1.442748] (chienpanze_bringup) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[1.452725] (-) TimerEvent: {}
+[1.461457] (chienpanze_bringup) StdoutLine: {'line': b'-- Up-to-date: /home/xplore/chienpanze/xre-legged-dog/xre_chienpanze/install/chienpanze_bringup/share/ament_index/resource_index/package_run_dependencies/chienpanze_bringup\n'}
+[1.469710] (chienpanze_bringup) StdoutLine: {'line': b'-- Up-to-date: /home/xplore/chienpanze/xre-legged-dog/xre_chienpanze/install/chienpanze_bringup/share/ament_index/resource_index/parent_prefix_path/chienpanze_bringup\n'}
+[1.472356] (chienpanze_bringup) StdoutLine: {'line': b'-- Up-to-date: /home/xplore/chienpanze/xre-legged-dog/xre_chienpanze/install/chienpanze_bringup/share/chienpanze_bringup/environment/ament_prefix_path.dsv\n'}
+[1.482797] (chienpanze_bringup) StdoutLine: {'line': b'-- Up-to-date: /home/xplore/chienpanze/xre-legged-dog/xre_chienpanze/install/chienpanze_bringup/share/chienpanze_bringup/environment/path.dsv\n'}
+[1.496594] (chienpanze_bringup) StdoutLine: {'line': b'-- Up-to-date: /home/xplore/chienpanze/xre-legged-dog/xre_chienpanze/install/chienpanze_bringup/share/chienpanze_bringup/local_setup.bash\n'}
+[1.497762] (chienpanze_bringup) StdoutLine: {'line': b'-- Up-to-date: /home/xplore/chienpanze/xre-legged-dog/xre_chienpanze/install/chienpanze_bringup/share/chienpanze_bringup/local_setup.sh\n'}
+[1.498677] (chienpanze_bringup) StdoutLine: {'line': b'-- Up-to-date: /home/xplore/chienpanze/xre-legged-dog/xre_chienpanze/install/chienpanze_bringup/share/chienpanze_bringup/local_setup.zsh\n'}
+[1.517204] (chienpanze_bringup) StdoutLine: {'line': b'-- Up-to-date: /home/xplore/chienpanze/xre-legged-dog/xre_chienpanze/install/chienpanze_bringup/share/chienpanze_bringup/local_setup.dsv\n'}
+[1.519769] (chienpanze_bringup) StdoutLine: {'line': b'-- Installing: /home/xplore/chienpanze/xre-legged-dog/xre_chienpanze/install/chienpanze_bringup/share/chienpanze_bringup/package.dsv\n'}
+[1.520973] (chienpanze_bringup) StdoutLine: {'line': b'-- Up-to-date: /home/xplore/chienpanze/xre-legged-dog/xre_chienpanze/install/chienpanze_bringup/share/ament_index/resource_index/packages/chienpanze_bringup\n'}
+[1.544823] (chienpanze_bringup) StdoutLine: {'line': b'-- Up-to-date: /home/xplore/chienpanze/xre-legged-dog/xre_chienpanze/install/chienpanze_bringup/share/chienpanze_bringup/cmake/chienpanze_bringupConfig.cmake\n'}
+[1.545757] (chienpanze_bringup) StdoutLine: {'line': b'-- Up-to-date: /home/xplore/chienpanze/xre-legged-dog/xre_chienpanze/install/chienpanze_bringup/share/chienpanze_bringup/cmake/chienpanze_bringupConfig-version.cmake\n'}
+[1.546278] (chienpanze_bringup) StdoutLine: {'line': b'-- Up-to-date: /home/xplore/chienpanze/xre-legged-dog/xre_chienpanze/install/chienpanze_bringup/share/chienpanze_bringup/package.xml\n'}
+[1.546682] (chienpanze_description) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[1.550537] (chienpanze_description) StdoutLine: {'line': b'-- Up-to-date: /home/xplore/chienpanze/xre-legged-dog/xre_chienpanze/install/chienpanze_description/share/chienpanze_description/launch\n'}
+[1.551373] (chienpanze_description) StdoutLine: {'line': b'-- Up-to-date: /home/xplore/chienpanze/xre-legged-dog/xre_chienpanze/install/chienpanze_description/share/chienpanze_description/launch/view_chienpanze.launch.py\n'}
+[1.551889] (chienpanze_description) StdoutLine: {'line': b'-- Up-to-date: /home/xplore/chienpanze/xre-legged-dog/xre_chienpanze/install/chienpanze_description/share/chienpanze_description/urdf\n'}
+[1.566577] (-) TimerEvent: {}
+[1.575675] (chienpanze_description) StdoutLine: {'line': b'-- Up-to-date: /home/xplore/chienpanze/xre-legged-dog/xre_chienpanze/install/chienpanze_description/share/chienpanze_description/urdf/chienpanze.urdf.xacro\n'}
+[1.576560] (chienpanze_description) StdoutLine: {'line': b'-- Up-to-date: /home/xplore/chienpanze/xre-legged-dog/xre_chienpanze/install/chienpanze_description/share/ament_index/resource_index/package_run_dependencies/chienpanze_description\n'}
+[1.577207] (chienpanze_description) StdoutLine: {'line': b'-- Up-to-date: /home/xplore/chienpanze/xre-legged-dog/xre_chienpanze/install/chienpanze_description/share/ament_index/resource_index/parent_prefix_path/chienpanze_description\n'}
+[1.581876] (chienpanze_description) StdoutLine: {'line': b'-- Up-to-date: /home/xplore/chienpanze/xre-legged-dog/xre_chienpanze/install/chienpanze_description/share/chienpanze_description/environment/ament_prefix_path.dsv\n'}
+[1.582824] (chienpanze_description) StdoutLine: {'line': b'-- Up-to-date: /home/xplore/chienpanze/xre-legged-dog/xre_chienpanze/install/chienpanze_description/share/chienpanze_description/environment/path.dsv\n'}
+[1.583765] (chienpanze_description) StdoutLine: {'line': b'-- Up-to-date: /home/xplore/chienpanze/xre-legged-dog/xre_chienpanze/install/chienpanze_description/share/chienpanze_description/local_setup.bash\n'}
+[1.584673] (chienpanze_description) StdoutLine: {'line': b'-- Up-to-date: /home/xplore/chienpanze/xre-legged-dog/xre_chienpanze/install/chienpanze_description/share/chienpanze_description/local_setup.sh\n'}
+[1.585931] (chienpanze_description) StdoutLine: {'line': b'-- Up-to-date: /home/xplore/chienpanze/xre-legged-dog/xre_chienpanze/install/chienpanze_description/share/chienpanze_description/local_setup.zsh\n'}
+[1.586943] (chienpanze_description) StdoutLine: {'line': b'-- Up-to-date: /home/xplore/chienpanze/xre-legged-dog/xre_chienpanze/install/chienpanze_description/share/chienpanze_description/local_setup.dsv\n'}
+[1.587905] (chienpanze_description) StdoutLine: {'line': b'-- Installing: /home/xplore/chienpanze/xre-legged-dog/xre_chienpanze/install/chienpanze_description/share/chienpanze_description/package.dsv\n'}
+[1.589507] (chienpanze_description) StdoutLine: {'line': b'-- Up-to-date: /home/xplore/chienpanze/xre-legged-dog/xre_chienpanze/install/chienpanze_description/share/ament_index/resource_index/packages/chienpanze_description\n'}
+[1.590787] (chienpanze_description) StdoutLine: {'line': b'-- Up-to-date: /home/xplore/chienpanze/xre-legged-dog/xre_chienpanze/install/chienpanze_description/share/chienpanze_description/cmake/chienpanze_descriptionConfig.cmake\n'}
+[1.593858] (chienpanze_description) StdoutLine: {'line': b'-- Up-to-date: /home/xplore/chienpanze/xre-legged-dog/xre_chienpanze/install/chienpanze_description/share/chienpanze_description/cmake/chienpanze_descriptionConfig-version.cmake\n'}
+[1.609309] (chienpanze_description) StdoutLine: {'line': b'-- Up-to-date: /home/xplore/chienpanze/xre-legged-dog/xre_chienpanze/install/chienpanze_description/share/chienpanze_description/package.xml\n'}
+[1.612973] (chienpanze_bringup) CommandEnded: {'returncode': 0}
+[1.672245] (-) TimerEvent: {}
+[1.763230] (chienpanze_hw_interface) JobProgress: {'identifier': 'chienpanze_hw_interface', 'progress': 'install'}
+[1.773700] (chienpanze_hw_interface) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/xplore/chienpanze/xre-legged-dog/xre_chienpanze/build/chienpanze_hw_interface'], 'cwd': '/home/xplore/chienpanze/xre-legged-dog/xre_chienpanze/build/chienpanze_hw_interface', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'xplore'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/xplore/chienpanze/xre-legged-dog/install/chienpanze_hw_interface/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/xplore'), ('OLDPWD', '/home/xplore/chienpanze/xre-legged-dog'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1426'), ('SYSTEMD_EXEC_PID', '1656'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator23558193cd9818af7fe4d2c2f5bd9d00f'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '2205'), ('COLCON_PREFIX_PATH', '/home/xplore/chienpanze/xre-legged-dog/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'xplore'), ('JOURNAL_STREAM', '8:27005'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'xplore'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/home/xplore/.local/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/xplore:@/tmp/.ICE-unix/1631,unix/xplore:/tmp/.ICE-unix/1631'), ('INVOCATION_ID', '296a8d6b3b924de89ed68427e45497f3'), ('XDG_MENU_PREFIX', 'gnome-'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'C.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/xplore/chienpanze/xre-legged-dog/install/chienpanze_hw_interface:/home/xplore/chienpanze/xre-legged-dog/install/chienpanze_description:/home/xplore/chienpanze/xre-legged-dog/install/chienpanze_bringup:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('TERMINATOR_UUID', 'urn:uuid:1ea7da6b-81c4-4e0a-b9ae-e3ebc009e057'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/xplore/chienpanze/xre-legged-dog/xre_chienpanze/build/chienpanze_hw_interface'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/xplore/chienpanze/xre-legged-dog/install/chienpanze_hw_interface:/home/xplore/chienpanze/xre-legged-dog/install/chienpanze_description:/home/xplore/chienpanze/xre-legged-dog/install/chienpanze_controllers:/home/xplore/chienpanze/xre-legged-dog/install/chienpanze_bringup:/opt/ros/humble')]), 'shell': False}
+[1.783757] (-) TimerEvent: {}
+[1.820267] (chienpanze_description) CommandEnded: {'returncode': 0}
+[1.845618] (chienpanze_hw_interface) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[1.846567] (chienpanze_hw_interface) StdoutLine: {'line': b'-- Up-to-date: /home/xplore/chienpanze/xre-legged-dog/xre_chienpanze/install/chienpanze_hw_interface/share/chienpanze_hw_interface/chienpanze_hw_interface.xml\n'}
+[1.847495] (chienpanze_hw_interface) StdoutLine: {'line': b'-- Up-to-date: /home/xplore/chienpanze/xre-legged-dog/xre_chienpanze/install/chienpanze_hw_interface/include\n'}
+[1.852464] (chienpanze_hw_interface) StdoutLine: {'line': b'-- Up-to-date: /home/xplore/chienpanze/xre-legged-dog/xre_chienpanze/install/chienpanze_hw_interface/include/chienpanze_hw_interface\n'}
+[1.872297] (chienpanze_hw_interface) StdoutLine: {'line': b'-- Up-to-date: /home/xplore/chienpanze/xre-legged-dog/xre_chienpanze/install/chienpanze_hw_interface/include/chienpanze_hw_interface/chienpanze_hw_interface.hpp\n'}
+[1.873334] (chienpanze_hw_interface) StdoutLine: {'line': b'-- Up-to-date: /home/xplore/chienpanze/xre-legged-dog/xre_chienpanze/install/chienpanze_hw_interface/include/pi3hat\n'}
+[1.879808] (chienpanze_hw_interface) StdoutLine: {'line': b'-- Up-to-date: /home/xplore/chienpanze/xre-legged-dog/xre_chienpanze/install/chienpanze_hw_interface/include/pi3hat/pi3hat.cc\n'}
+[1.880586] (chienpanze_hw_interface) StdoutLine: {'line': b'-- Up-to-date: /home/xplore/chienpanze/xre-legged-dog/xre_chienpanze/install/chienpanze_hw_interface/include/pi3hat/pi3hat.h\n'}
+[1.881243] (chienpanze_hw_interface) StdoutLine: {'line': b'-- Up-to-date: /home/xplore/chienpanze/xre-legged-dog/xre_chienpanze/install/chienpanze_hw_interface/lib/libchienpanze_hw_interface.so\n'}
+[1.881899] (chienpanze_hw_interface) StdoutLine: {'line': b'-- Up-to-date: /home/xplore/chienpanze/xre-legged-dog/xre_chienpanze/install/chienpanze_hw_interface/share/ament_index/resource_index/package_run_dependencies/chienpanze_hw_interface\n'}
+[1.885547] (-) TimerEvent: {}
+[1.893440] (chienpanze_hw_interface) StdoutLine: {'line': b'-- Up-to-date: /home/xplore/chienpanze/xre-legged-dog/xre_chienpanze/install/chienpanze_hw_interface/share/ament_index/resource_index/parent_prefix_path/chienpanze_hw_interface\n'}
+[1.895980] (chienpanze_hw_interface) StdoutLine: {'line': b'-- Up-to-date: /home/xplore/chienpanze/xre-legged-dog/xre_chienpanze/install/chienpanze_hw_interface/share/chienpanze_hw_interface/environment/ament_prefix_path.dsv\n'}
+[1.909851] (chienpanze_hw_interface) StdoutLine: {'line': b'-- Up-to-date: /home/xplore/chienpanze/xre-legged-dog/xre_chienpanze/install/chienpanze_hw_interface/share/chienpanze_hw_interface/environment/path.dsv\n'}
+[1.913219] (chienpanze_hw_interface) StdoutLine: {'line': b'-- Up-to-date: /home/xplore/chienpanze/xre-legged-dog/xre_chienpanze/install/chienpanze_hw_interface/share/chienpanze_hw_interface/local_setup.bash\n'}
+[1.914120] (chienpanze_hw_interface) StdoutLine: {'line': b'-- Up-to-date: /home/xplore/chienpanze/xre-legged-dog/xre_chienpanze/install/chienpanze_hw_interface/share/chienpanze_hw_interface/local_setup.sh\n'}
+[1.914980] (chienpanze_hw_interface) StdoutLine: {'line': b'-- Up-to-date: /home/xplore/chienpanze/xre-legged-dog/xre_chienpanze/install/chienpanze_hw_interface/share/chienpanze_hw_interface/local_setup.zsh\n'}
+[1.920573] (chienpanze_hw_interface) StdoutLine: {'line': b'-- Up-to-date: /home/xplore/chienpanze/xre-legged-dog/xre_chienpanze/install/chienpanze_hw_interface/share/chienpanze_hw_interface/local_setup.dsv\n'}
+[1.922671] (chienpanze_hw_interface) StdoutLine: {'line': b'-- Installing: /home/xplore/chienpanze/xre-legged-dog/xre_chienpanze/install/chienpanze_hw_interface/share/chienpanze_hw_interface/package.dsv\n'}
+[1.926854] (chienpanze_hw_interface) StdoutLine: {'line': b'-- Up-to-date: /home/xplore/chienpanze/xre-legged-dog/xre_chienpanze/install/chienpanze_hw_interface/share/ament_index/resource_index/packages/chienpanze_hw_interface\n'}
+[1.927664] (chienpanze_hw_interface) StdoutLine: {'line': b'-- Up-to-date: /home/xplore/chienpanze/xre-legged-dog/xre_chienpanze/install/chienpanze_hw_interface/share/ament_index/resource_index/hardware_interface__pluginlib__plugin/chienpanze_hw_interface\n'}
+[1.935009] (chienpanze_hw_interface) StdoutLine: {'line': b'-- Up-to-date: /home/xplore/chienpanze/xre-legged-dog/xre_chienpanze/install/chienpanze_hw_interface/share/chienpanze_hw_interface/cmake/chienpanze_hw_interfaceConfig.cmake\n'}
+[1.935849] (chienpanze_hw_interface) StdoutLine: {'line': b'-- Up-to-date: /home/xplore/chienpanze/xre-legged-dog/xre_chienpanze/install/chienpanze_hw_interface/share/chienpanze_hw_interface/cmake/chienpanze_hw_interfaceConfig-version.cmake\n'}
+[1.936513] (chienpanze_hw_interface) StdoutLine: {'line': b'-- Up-to-date: /home/xplore/chienpanze/xre-legged-dog/xre_chienpanze/install/chienpanze_hw_interface/share/chienpanze_hw_interface/package.xml\n'}
+[1.979271] (chienpanze_hw_interface) CommandEnded: {'returncode': 0}
+[1.985978] (-) TimerEvent: {}
+[2.091269] (-) TimerEvent: {}
+[2.192370] (chienpanze_bringup) JobEnded: {'identifier': 'chienpanze_bringup', 'rc': 0}
+[2.195695] (-) TimerEvent: {}
+[2.297268] (-) TimerEvent: {}
+[2.398615] (chienpanze_description) JobEnded: {'identifier': 'chienpanze_description', 'rc': 0}
+[2.404761] (-) TimerEvent: {}
+[2.509928] (-) TimerEvent: {}
+[2.524373] (chienpanze_hw_interface) JobEnded: {'identifier': 'chienpanze_hw_interface', 'rc': 0}
+[2.610352] (-) TimerEvent: {}
+[2.711278] (-) TimerEvent: {}
+[2.812289] (-) TimerEvent: {}
+[2.913366] (-) TimerEvent: {}
+[3.014654] (-) TimerEvent: {}
+[3.117028] (-) TimerEvent: {}
+[3.218643] (-) TimerEvent: {}
+[3.321233] (-) TimerEvent: {}
+[3.422383] (-) TimerEvent: {}
+[3.523289] (-) TimerEvent: {}
+[3.624256] (-) TimerEvent: {}
+[3.725293] (-) TimerEvent: {}
+[3.826372] (-) TimerEvent: {}
+[3.928685] (-) TimerEvent: {}
+[4.031625] (-) TimerEvent: {}
+[4.132768] (-) TimerEvent: {}
+[4.234740] (-) TimerEvent: {}
+[4.335627] (-) TimerEvent: {}
+[4.436597] (-) TimerEvent: {}
+[4.537949] (-) TimerEvent: {}
+[4.640795] (-) TimerEvent: {}
+[4.742133] (-) TimerEvent: {}
+[4.845293] (-) TimerEvent: {}
+[4.947252] (-) TimerEvent: {}
+[5.050235] (-) TimerEvent: {}
+[5.151276] (-) TimerEvent: {}
+[5.252724] (-) TimerEvent: {}
+[5.354664] (-) TimerEvent: {}
+[5.455750] (-) TimerEvent: {}
+[5.556922] (-) TimerEvent: {}
+[5.658221] (-) TimerEvent: {}
+[5.759190] (-) TimerEvent: {}
+[5.861922] (-) TimerEvent: {}
+[5.963165] (-) TimerEvent: {}
+[6.064620] (-) TimerEvent: {}
+[6.166179] (-) TimerEvent: {}
+[6.269331] (-) TimerEvent: {}
+[6.371690] (-) TimerEvent: {}
+[6.475115] (-) TimerEvent: {}
+[6.576235] (-) TimerEvent: {}
+[6.677578] (-) TimerEvent: {}
+[6.780653] (-) TimerEvent: {}
+[6.884447] (-) TimerEvent: {}
+[6.990867] (-) TimerEvent: {}
+[7.092030] (-) TimerEvent: {}
+[7.193088] (-) TimerEvent: {}
+[7.294243] (-) TimerEvent: {}
+[7.395666] (-) TimerEvent: {}
+[7.496857] (-) TimerEvent: {}
+[7.597911] (-) TimerEvent: {}
+[7.699112] (-) TimerEvent: {}
+[7.800211] (-) TimerEvent: {}
+[7.901305] (-) TimerEvent: {}
+[8.002545] (-) TimerEvent: {}
+[8.103479] (-) TimerEvent: {}
+[8.206205] (-) TimerEvent: {}
+[8.307268] (-) TimerEvent: {}
+[8.409218] (-) TimerEvent: {}
+[8.511268] (-) TimerEvent: {}
+[8.612918] (-) TimerEvent: {}
+[8.716743] (-) TimerEvent: {}
+[8.817876] (-) TimerEvent: {}
+[8.919005] (-) TimerEvent: {}
+[9.020306] (-) TimerEvent: {}
+[9.121384] (-) TimerEvent: {}
+[9.222604] (-) TimerEvent: {}
+[9.323856] (-) TimerEvent: {}
+[9.424961] (-) TimerEvent: {}
+[9.526666] (-) TimerEvent: {}
+[9.628798] (-) TimerEvent: {}
+[9.730071] (-) TimerEvent: {}
+[9.831129] (-) TimerEvent: {}
+[9.932140] (-) TimerEvent: {}
+[10.033357] (-) TimerEvent: {}
+[10.134408] (-) TimerEvent: {}
+[10.236226] (-) TimerEvent: {}
+[10.339383] (-) TimerEvent: {}
+[10.440809] (-) TimerEvent: {}
+[10.542409] (-) TimerEvent: {}
+[10.654698] (-) TimerEvent: {}
+[10.757448] (-) TimerEvent: {}
+[10.860832] (-) TimerEvent: {}
+[10.961831] (-) TimerEvent: {}
+[11.063641] (-) TimerEvent: {}
+[11.164700] (-) TimerEvent: {}
+[11.265638] (-) TimerEvent: {}
+[11.367777] (-) TimerEvent: {}
+[11.469474] (-) TimerEvent: {}
+[11.570640] (-) TimerEvent: {}
+[11.671656] (-) TimerEvent: {}
+[11.774519] (-) TimerEvent: {}
+[11.875655] (-) TimerEvent: {}
+[11.976607] (-) TimerEvent: {}
+[12.077858] (-) TimerEvent: {}
+[12.178859] (-) TimerEvent: {}
+[12.279987] (-) TimerEvent: {}
+[12.381644] (-) TimerEvent: {}
+[12.482978] (-) TimerEvent: {}
+[12.584108] (-) TimerEvent: {}
+[12.685705] (-) TimerEvent: {}
+[12.786967] (-) TimerEvent: {}
+[12.888371] (-) TimerEvent: {}
+[12.989488] (-) TimerEvent: {}
+[13.090475] (-) TimerEvent: {}
+[13.192225] (-) TimerEvent: {}
+[13.295238] (-) TimerEvent: {}
+[13.397028] (-) TimerEvent: {}
+[13.498151] (-) TimerEvent: {}
+[13.599198] (-) TimerEvent: {}
+[13.700473] (-) TimerEvent: {}
+[13.801457] (-) TimerEvent: {}
+[13.902422] (-) TimerEvent: {}
+[14.003371] (-) TimerEvent: {}
+[14.104737] (-) TimerEvent: {}
+[14.205776] (-) TimerEvent: {}
+[14.306825] (-) TimerEvent: {}
+[14.408346] (-) TimerEvent: {}
+[14.510569] (-) TimerEvent: {}
+[14.611521] (-) TimerEvent: {}
+[14.712490] (-) TimerEvent: {}
+[14.813777] (-) TimerEvent: {}
+[14.914827] (-) TimerEvent: {}
+[15.015929] (-) TimerEvent: {}
+[15.117215] (-) TimerEvent: {}
+[15.218295] (-) TimerEvent: {}
+[15.319622] (-) TimerEvent: {}
+[15.422090] (-) TimerEvent: {}
+[15.523730] (-) TimerEvent: {}
+[15.626191] (-) TimerEvent: {}
+[15.727128] (-) TimerEvent: {}
+[15.828204] (-) TimerEvent: {}
+[15.929551] (-) TimerEvent: {}
+[16.031131] (-) TimerEvent: {}
+[16.133005] (-) TimerEvent: {}
+[16.234004] (-) TimerEvent: {}
+[16.335127] (-) TimerEvent: {}
+[16.436179] (-) TimerEvent: {}
+[16.537262] (-) TimerEvent: {}
+[16.639234] (-) TimerEvent: {}
+[16.740244] (-) TimerEvent: {}
+[16.841272] (-) TimerEvent: {}
+[16.942435] (-) TimerEvent: {}
+[17.043537] (-) TimerEvent: {}
+[17.146251] (-) TimerEvent: {}
+[17.248281] (-) TimerEvent: {}
+[17.349291] (-) TimerEvent: {}
+[17.450437] (-) TimerEvent: {}
+[17.551651] (-) TimerEvent: {}
+[17.653948] (-) TimerEvent: {}
+[17.755584] (-) TimerEvent: {}
+[17.856962] (-) TimerEvent: {}
+[17.958007] (-) TimerEvent: {}
+[18.058971] (-) TimerEvent: {}
+[18.160178] (-) TimerEvent: {}
+[18.261288] (-) TimerEvent: {}
+[18.362266] (-) TimerEvent: {}
+[18.463228] (-) TimerEvent: {}
+[18.564455] (-) TimerEvent: {}
+[18.665526] (-) TimerEvent: {}
+[18.766608] (-) TimerEvent: {}
+[18.867868] (-) TimerEvent: {}
+[18.969189] (-) TimerEvent: {}
+[19.070727] (-) TimerEvent: {}
+[19.172284] (-) TimerEvent: {}
+[19.273294] (-) TimerEvent: {}
+[19.374550] (-) TimerEvent: {}
+[19.475739] (-) TimerEvent: {}
+[19.577406] (-) TimerEvent: {}
+[19.678448] (-) TimerEvent: {}
+[19.779590] (-) TimerEvent: {}
+[19.884762] (-) TimerEvent: {}
+[19.986078] (-) TimerEvent: {}
+[20.087253] (-) TimerEvent: {}
+[20.188411] (-) TimerEvent: {}
+[20.289863] (-) TimerEvent: {}
+[20.391087] (-) TimerEvent: {}
+[20.492333] (-) TimerEvent: {}
+[20.593338] (-) TimerEvent: {}
+[20.694503] (-) TimerEvent: {}
+[20.795637] (-) TimerEvent: {}
+[20.896867] (-) TimerEvent: {}
+[20.997945] (-) TimerEvent: {}
+[21.099365] (-) TimerEvent: {}
+[21.200515] (-) TimerEvent: {}
+[21.301600] (-) TimerEvent: {}
+[21.402661] (-) TimerEvent: {}
+[21.503691] (-) TimerEvent: {}
+[21.604638] (-) TimerEvent: {}
+[21.705888] (-) TimerEvent: {}
+[21.806910] (-) TimerEvent: {}
+[21.907926] (-) TimerEvent: {}
+[22.009641] (-) TimerEvent: {}
+[22.110734] (-) TimerEvent: {}
+[22.212202] (-) TimerEvent: {}
+[22.314313] (-) TimerEvent: {}
+[22.415794] (-) TimerEvent: {}
+[22.518605] (-) TimerEvent: {}
+[22.619729] (-) TimerEvent: {}
+[22.675458] (chienpanze_controller_interface) StderrLine: {'line': b'\x1b[01m\x1b[K/home/xplore/chienpanze/xre-legged-dog/xre_chienpanze/src/chienpanze_controllers/src/chienpanze_controller_interface.cpp:\x1b[m\x1b[K In function \xe2\x80\x98\x1b[01m\x1b[Kcontroller_interface::CallbackReturn on_configure(const rclcpp_lifecycle::State&)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[22.676413] (chienpanze_controller_interface) StderrLine: {'line': b'\x1b[01m\x1b[K/home/xplore/chienpanze/xre-legged-dog/xre_chienpanze/src/chienpanze_controllers/src/chienpanze_controller_interface.cpp:27:82:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Kprevious_state\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter\x07-Wunused-parameter\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[22.677813] (chienpanze_controller_interface) StderrLine: {'line': b'   27 | controller_interface::CallbackReturn on_configure(\x1b[01;35m\x1b[Kconst rclcpp_lifecycle::State &previous_state\x1b[m\x1b[K){\n'}
+[22.681321] (chienpanze_controller_interface) StderrLine: {'line': b'      |                                                   \x1b[01;35m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[22.682443] (chienpanze_controller_interface) StderrLine: {'line': b'\x1b[01m\x1b[K/home/xplore/chienpanze/xre-legged-dog/xre_chienpanze/src/chienpanze_controllers/src/chienpanze_controller_interface.cpp:\x1b[m\x1b[K In function \xe2\x80\x98\x1b[01m\x1b[Kcontroller_interface::InterfaceConfiguration command_interface_configuration()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[22.683481] (chienpanze_controller_interface) StderrLine: {'line': b'\x1b[01m\x1b[K/home/xplore/chienpanze/xre-legged-dog/xre_chienpanze/src/chienpanze_controllers/src/chienpanze_controller_interface.cpp:47:71:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KFIXED\x1b[m\x1b[K\xe2\x80\x99 is not a member of \xe2\x80\x98\x1b[01m\x1b[Kcontroller_interface::interface_configuration_type\x1b[m\x1b[K\xe2\x80\x99\n'}
+[22.684783] (chienpanze_controller_interface) StderrLine: {'line': b'   47 |     config.type = controller_interface::interface_configuration_type::\x1b[01;31m\x1b[KFIXED\x1b[m\x1b[K;\n'}
+[22.690253] (chienpanze_controller_interface) StderrLine: {'line': b'      |                                                                       \x1b[01;31m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[22.704799] (chienpanze_controller_interface) StderrLine: {'line': b'\x1b[01m\x1b[K/home/xplore/chienpanze/xre-legged-dog/xre_chienpanze/src/chienpanze_controllers/src/chienpanze_controller_interface.cpp:49:5:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kconf\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope; did you mean \xe2\x80\x98\x1b[01m\x1b[Kcosf\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[22.705790] (chienpanze_controller_interface) StderrLine: {'line': b'   49 |     \x1b[01;31m\x1b[Kconf\x1b[m\x1b[K.names.reserve(joint_names_.size() * command_interface_types_.size());\n'}
+[22.706555] (chienpanze_controller_interface) StderrLine: {'line': b'      |     \x1b[01;31m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[22.707241] (chienpanze_controller_interface) StderrLine: {'line': b'      |     \x1b[32m\x1b[Kcosf\x1b[m\x1b[K\n'}
+[22.720431] (-) TimerEvent: {}
+[22.741747] (chienpanze_controller_interface) StderrLine: {'line': b'\x1b[01m\x1b[K/home/xplore/chienpanze/xre-legged-dog/xre_chienpanze/src/chienpanze_controllers/src/chienpanze_controller_interface.cpp:49:24:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kjoint_names_\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[22.742694] (chienpanze_controller_interface) StderrLine: {'line': b'   49 |     conf.names.reserve(\x1b[01;31m\x1b[Kjoint_names_\x1b[m\x1b[K.size() * command_interface_types_.size());\n'}
+[22.743598] (chienpanze_controller_interface) StderrLine: {'line': b'      |                        \x1b[01;31m\x1b[K^~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[22.797199] (chienpanze_controller_interface) StderrLine: {'line': b'\x1b[01m\x1b[K/home/xplore/chienpanze/xre-legged-dog/xre_chienpanze/src/chienpanze_controllers/src/chienpanze_controller_interface.cpp:49:46:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kcommand_interface_types_\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[22.800580] (chienpanze_controller_interface) StderrLine: {'line': b'   49 |     conf.names.reserve(joint_names_.size() * \x1b[01;31m\x1b[Kcommand_interface_types_\x1b[m\x1b[K.size());\n'}
+[22.801967] (chienpanze_controller_interface) StderrLine: {'line': b'      |                                              \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[22.803547] (chienpanze_controller_interface) StderrLine: {'line': b'\x1b[01m\x1b[K/home/xplore/chienpanze/xre-legged-dog/xre_chienpanze/src/chienpanze_controllers/src/chienpanze_controller_interface.cpp:\x1b[m\x1b[K In function \xe2\x80\x98\x1b[01m\x1b[Kcontroller_interface::InterfaceConfiguration state_interface_configuration()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[22.807547] (chienpanze_controller_interface) StderrLine: {'line': b'\x1b[01m\x1b[K/home/xplore/chienpanze/xre-legged-dog/xre_chienpanze/src/chienpanze_controllers/src/chienpanze_controller_interface.cpp:71:75:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KFIXED\x1b[m\x1b[K\xe2\x80\x99 is not a member of \xe2\x80\x98\x1b[01m\x1b[Kcontroller_interface::interface_configuration_type\x1b[m\x1b[K\xe2\x80\x99\n'}
+[22.808682] (chienpanze_controller_interface) StderrLine: {'line': b'   71 |         config.type = controller_interface::interface_configuration_type::\x1b[01;31m\x1b[KFIXED\x1b[m\x1b[K;\n'}
+[22.809414] (chienpanze_controller_interface) StderrLine: {'line': b'      |                                                                           \x1b[01;31m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[22.819203] (chienpanze_controller_interface) StderrLine: {'line': b'\x1b[01m\x1b[K/home/xplore/chienpanze/xre-legged-dog/xre_chienpanze/src/chienpanze_controllers/src/chienpanze_controller_interface.cpp:72:5:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kconf\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope; did you mean \xe2\x80\x98\x1b[01m\x1b[Kcosf\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[22.820363] (-) TimerEvent: {}
+[22.821158] (chienpanze_controller_interface) StderrLine: {'line': b'   72 |     \x1b[01;31m\x1b[Kconf\x1b[m\x1b[K.names.reserve(joint_names_.size() * state_interface_types_.size());\n'}
+[22.822282] (chienpanze_controller_interface) StderrLine: {'line': b'      |     \x1b[01;31m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[22.823187] (chienpanze_controller_interface) StderrLine: {'line': b'      |     \x1b[32m\x1b[Kcosf\x1b[m\x1b[K\n'}
+[22.844274] (chienpanze_controller_interface) StderrLine: {'line': b'\x1b[01m\x1b[K/home/xplore/chienpanze/xre-legged-dog/xre_chienpanze/src/chienpanze_controllers/src/chienpanze_controller_interface.cpp:72:24:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kjoint_names_\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[22.846481] (chienpanze_controller_interface) StderrLine: {'line': b'   72 |     conf.names.reserve(\x1b[01;31m\x1b[Kjoint_names_\x1b[m\x1b[K.size() * state_interface_types_.size());\n'}
+[22.848631] (chienpanze_controller_interface) StderrLine: {'line': b'      |                        \x1b[01;31m\x1b[K^~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[22.882262] (chienpanze_controller_interface) StderrLine: {'line': b'\x1b[01m\x1b[K/home/xplore/chienpanze/xre-legged-dog/xre_chienpanze/src/chienpanze_controllers/src/chienpanze_controller_interface.cpp:72:46:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kstate_interface_types_\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[22.883568] (chienpanze_controller_interface) StderrLine: {'line': b'   72 |     conf.names.reserve(joint_names_.size() * \x1b[01;31m\x1b[Kstate_interface_types_\x1b[m\x1b[K.size());\n'}
+[22.884631] (chienpanze_controller_interface) StderrLine: {'line': b'      |                                              \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[22.920999] (-) TimerEvent: {}
+[22.934941] (chienpanze_controller_interface) StderrLine: {'line': b'\x1b[01m\x1b[K/home/xplore/chienpanze/xre-legged-dog/xre_chienpanze/src/chienpanze_controllers/src/chienpanze_controller_interface.cpp:\x1b[m\x1b[K In function \xe2\x80\x98\x1b[01m\x1b[Kcontroller_interface::CallbackReturn on_activate(const rclcpp_lifecycle::State&)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[22.935953] (chienpanze_controller_interface) StderrLine: {'line': b'\x1b[01m\x1b[K/home/xplore/chienpanze/xre-legged-dog/xre_chienpanze/src/chienpanze_controllers/src/chienpanze_controller_interface.cpp:87:5:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kjoint_position_command_interface_\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[22.937004] (chienpanze_controller_interface) StderrLine: {'line': b'   87 |     \x1b[01;31m\x1b[Kjoint_position_command_interface_\x1b[m\x1b[K.clear();\n'}
+[22.938204] (chienpanze_controller_interface) StderrLine: {'line': b'      |     \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[22.987239] (chienpanze_controller_interface) StderrLine: {'line': b'\x1b[01m\x1b[K/home/xplore/chienpanze/xre-legged-dog/xre_chienpanze/src/chienpanze_controllers/src/chienpanze_controller_interface.cpp:88:5:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kjoint_velocity_command_interface_\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[22.988498] (chienpanze_controller_interface) StderrLine: {'line': b'   88 |     \x1b[01;31m\x1b[Kjoint_velocity_command_interface_\x1b[m\x1b[K.clear();\n'}
+[22.989156] (chienpanze_controller_interface) StderrLine: {'line': b'      |     \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[23.021175] (-) TimerEvent: {}
+[23.030293] (chienpanze_controller_interface) StderrLine: {'line': b'\x1b[01m\x1b[K/home/xplore/chienpanze/xre-legged-dog/xre_chienpanze/src/chienpanze_controllers/src/chienpanze_controller_interface.cpp:89:5:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kjoint_position_state_interface_\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[23.032365] (chienpanze_controller_interface) StderrLine: {'line': b'   89 |     \x1b[01;31m\x1b[Kjoint_position_state_interface_\x1b[m\x1b[K.clear();\n'}
+[23.033287] (chienpanze_controller_interface) StderrLine: {'line': b'      |     \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[23.078188] (chienpanze_controller_interface) StderrLine: {'line': b'\x1b[01m\x1b[K/home/xplore/chienpanze/xre-legged-dog/xre_chienpanze/src/chienpanze_controllers/src/chienpanze_controller_interface.cpp:90:5:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kjoint_velocity_state_interface_\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[23.079251] (chienpanze_controller_interface) StderrLine: {'line': b'   90 |     \x1b[01;31m\x1b[Kjoint_velocity_state_interface_\x1b[m\x1b[K.clear();\n'}
+[23.081797] (chienpanze_controller_interface) StderrLine: {'line': b'      |     \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[23.114230] (chienpanze_controller_interface) StderrLine: {'line': b'\x1b[01m\x1b[K/home/xplore/chienpanze/xre-legged-dog/xre_chienpanze/src/chienpanze_controllers/src/chienpanze_controller_interface.cpp:92:29:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kcommand_interfaces_\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[23.115713] (chienpanze_controller_interface) StderrLine: {'line': b'   92 |     for (auto & interface : \x1b[01;31m\x1b[Kcommand_interfaces_\x1b[m\x1b[K){\n'}
+[23.116842] (chienpanze_controller_interface) StderrLine: {'line': b'      |                             \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[23.121678] (-) TimerEvent: {}
+[23.156696] (chienpanze_controller_interface) StderrLine: {'line': b'\x1b[01m\x1b[K/home/xplore/chienpanze/xre-legged-dog/xre_chienpanze/src/chienpanze_controllers/src/chienpanze_controller_interface.cpp:93:9:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kcommand_interface_map_\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[23.157753] (chienpanze_controller_interface) StderrLine: {'line': b'   93 |         \x1b[01;31m\x1b[Kcommand_interface_map_\x1b[m\x1b[K[interface.get_interface_name()]->push_back(interface);\n'}
+[23.158711] (chienpanze_controller_interface) StderrLine: {'line': b'      |         \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[23.194533] (chienpanze_controller_interface) StderrLine: {'line': b'\x1b[01m\x1b[K/home/xplore/chienpanze/xre-legged-dog/xre_chienpanze/src/chienpanze_controllers/src/chienpanze_controller_interface.cpp:97:29:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kstate_interfaces_\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope; did you mean \xe2\x80\x98\x1b[01m\x1b[Krcl_interfaces\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[23.195631] (chienpanze_controller_interface) StderrLine: {'line': b'   97 |     for (auto & interface : \x1b[01;31m\x1b[Kstate_interfaces_\x1b[m\x1b[K){\n'}
+[23.196446] (chienpanze_controller_interface) StderrLine: {'line': b'      |                             \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[23.197264] (chienpanze_controller_interface) StderrLine: {'line': b'      |                             \x1b[32m\x1b[Krcl_interfaces\x1b[m\x1b[K\n'}
+[23.221975] (-) TimerEvent: {}
+[23.232715] (chienpanze_controller_interface) StderrLine: {'line': b'\x1b[01m\x1b[K/home/xplore/chienpanze/xre-legged-dog/xre_chienpanze/src/chienpanze_controllers/src/chienpanze_controller_interface.cpp:98:9:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kstate_interface_map_\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[23.233894] (chienpanze_controller_interface) StderrLine: {'line': b'   98 |         \x1b[01;31m\x1b[Kstate_interface_map_\x1b[m\x1b[K[interface.get_interface_name()]->push_back(interface);\n'}
+[23.235406] (chienpanze_controller_interface) StderrLine: {'line': b'      |         \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[23.238161] (chienpanze_controller_interface) StderrLine: {'line': b'\x1b[01m\x1b[K/home/xplore/chienpanze/xre-legged-dog/xre_chienpanze/src/chienpanze_controllers/src/chienpanze_controller_interface.cpp:81:81:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Kprevious_state\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter\x07-Wunused-parameter\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[23.238994] (chienpanze_controller_interface) StderrLine: {'line': b'   81 | controller_interface::CallbackReturn on_activate(\x1b[01;35m\x1b[Kconst rclcpp_lifecycle::State &previous_state\x1b[m\x1b[K){\n'}
+[23.239789] (chienpanze_controller_interface) StderrLine: {'line': b'      |                                                  \x1b[01;35m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[23.240636] (chienpanze_controller_interface) StderrLine: {'line': b'\x1b[01m\x1b[K/home/xplore/chienpanze/xre-legged-dog/xre_chienpanze/src/chienpanze_controllers/src/chienpanze_controller_interface.cpp:\x1b[m\x1b[K In function \xe2\x80\x98\x1b[01m\x1b[Kcontroller_interface::return_type update(const rclcpp::Time&, const rclcpp::Duration&)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[23.241992] (chienpanze_controller_interface) StderrLine: {'line': b'\x1b[01m\x1b[K/home/xplore/chienpanze/xre-legged-dog/xre_chienpanze/src/chienpanze_controllers/src/chienpanze_controller_interface.cpp:105:62:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Ktime\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter\x07-Wunused-parameter\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[23.252945] (chienpanze_controller_interface) StderrLine: {'line': b'  105 | controller_interface::return_type update(\x1b[01;35m\x1b[Kconst rclcpp::Time &time\x1b[m\x1b[K, const rclcpp::Duration &period){\n'}
+[23.253415] (chienpanze_controller_interface) StderrLine: {'line': b'      |                                          \x1b[01;35m\x1b[K~~~~~~~~~~~~~~~~~~~~^~~~\x1b[m\x1b[K\n'}
+[23.253760] (chienpanze_controller_interface) StderrLine: {'line': b'\x1b[01m\x1b[K/home/xplore/chienpanze/xre-legged-dog/xre_chienpanze/src/chienpanze_controllers/src/chienpanze_controller_interface.cpp:105:92:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Kperiod\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter\x07-Wunused-parameter\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[23.254130] (chienpanze_controller_interface) StderrLine: {'line': b'  105 | controller_interface::return_type update(const rclcpp::Time &time, \x1b[01;35m\x1b[Kconst rclcpp::Duration &period\x1b[m\x1b[K){\n'}
+[23.254505] (chienpanze_controller_interface) StderrLine: {'line': b'      |                                                                    \x1b[01;35m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~\x1b[m\x1b[K\n'}
+[23.265109] (chienpanze_controller_interface) StderrLine: {'line': b'\x1b[01m\x1b[K/home/xplore/chienpanze/xre-legged-dog/xre_chienpanze/src/chienpanze_controllers/src/chienpanze_controller_interface.cpp:\x1b[m\x1b[K In function \xe2\x80\x98\x1b[01m\x1b[Kcontroller_interface::CallbackReturn on_deactivate(const rclcpp_lifecycle::State&)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[23.265873] (chienpanze_controller_interface) StderrLine: {'line': b'\x1b[01m\x1b[K/home/xplore/chienpanze/xre-legged-dog/xre_chienpanze/src/chienpanze_controllers/src/chienpanze_controller_interface.cpp:122:5:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Krelease_interfaces\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope; did you mean \xe2\x80\x98\x1b[01m\x1b[Krcl_interfaces\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[23.266515] (chienpanze_controller_interface) StderrLine: {'line': b'  122 |     \x1b[01;31m\x1b[Krelease_interfaces\x1b[m\x1b[K();\n'}
+[23.267224] (chienpanze_controller_interface) StderrLine: {'line': b'      |     \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[23.267800] (chienpanze_controller_interface) StderrLine: {'line': b'      |     \x1b[32m\x1b[Krcl_interfaces\x1b[m\x1b[K\n'}
+[23.268881] (chienpanze_controller_interface) StderrLine: {'line': b'\x1b[01m\x1b[K/home/xplore/chienpanze/xre-legged-dog/xre_chienpanze/src/chienpanze_controllers/src/chienpanze_controller_interface.cpp:117:83:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Kprevious_state\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter\x07-Wunused-parameter\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[23.269710] (chienpanze_controller_interface) StderrLine: {'line': b'  117 | controller_interface::CallbackReturn on_deactivate(\x1b[01;35m\x1b[Kconst rclcpp_lifecycle::State &previous_state\x1b[m\x1b[K){\n'}
+[23.270404] (chienpanze_controller_interface) StderrLine: {'line': b'      |                                                    \x1b[01;35m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[23.271782] (chienpanze_controller_interface) StderrLine: {'line': b'\x1b[01m\x1b[K/home/xplore/chienpanze/xre-legged-dog/xre_chienpanze/src/chienpanze_controllers/src/chienpanze_controller_interface.cpp:\x1b[m\x1b[K In function \xe2\x80\x98\x1b[01m\x1b[Kcontroller_interface::CallbackReturn on_cleanup(const rclcpp_lifecycle::State&)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[23.272592] (chienpanze_controller_interface) StderrLine: {'line': b'\x1b[01m\x1b[K/home/xplore/chienpanze/xre-legged-dog/xre_chienpanze/src/chienpanze_controllers/src/chienpanze_controller_interface.cpp:127:80:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Kprevious_state\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter\x07-Wunused-parameter\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[23.273311] (chienpanze_controller_interface) StderrLine: {'line': b'  127 | controller_interface::CallbackReturn on_cleanup(\x1b[01;35m\x1b[Kconst rclcpp_lifecycle::State &previous_state\x1b[m\x1b[K){\n'}
+[23.273847] (chienpanze_controller_interface) StderrLine: {'line': b'      |                                                 \x1b[01;35m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[23.278835] (chienpanze_controller_interface) StderrLine: {'line': b'\x1b[01m\x1b[K/home/xplore/chienpanze/xre-legged-dog/xre_chienpanze/src/chienpanze_controllers/src/chienpanze_controller_interface.cpp:\x1b[m\x1b[K In function \xe2\x80\x98\x1b[01m\x1b[Kcontroller_interface::CallbackReturn on_shutdown(const rclcpp_lifecycle::State&)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[23.279616] (chienpanze_controller_interface) StderrLine: {'line': b'\x1b[01m\x1b[K/home/xplore/chienpanze/xre-legged-dog/xre_chienpanze/src/chienpanze_controllers/src/chienpanze_controller_interface.cpp:134:81:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Kprevious_state\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter\x07-Wunused-parameter\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[23.280517] (chienpanze_controller_interface) StderrLine: {'line': b'  134 | controller_interface::CallbackReturn on_shutdown(\x1b[01;35m\x1b[Kconst rclcpp_lifecycle::State &previous_state\x1b[m\x1b[K){\n'}
+[23.282339] (chienpanze_controller_interface) StderrLine: {'line': b'      |                                                  \x1b[01;35m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[23.284188] (chienpanze_controller_interface) StderrLine: {'line': b'\x1b[01m\x1b[K/home/xplore/chienpanze/xre-legged-dog/xre_chienpanze/src/chienpanze_controllers/src/chienpanze_controller_interface.cpp:\x1b[m\x1b[K In function \xe2\x80\x98\x1b[01m\x1b[Kcontroller_interface::CallbackReturn on_error(const rclcpp_lifecycle::State&)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[23.284915] (chienpanze_controller_interface) StderrLine: {'line': b'\x1b[01m\x1b[K/home/xplore/chienpanze/xre-legged-dog/xre_chienpanze/src/chienpanze_controllers/src/chienpanze_controller_interface.cpp:140:78:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Kprevious_state\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter\x07-Wunused-parameter\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[23.285800] (chienpanze_controller_interface) StderrLine: {'line': b'  140 | controller_interface::CallbackReturn on_error(\x1b[01;35m\x1b[Kconst rclcpp_lifecycle::State &previous_state\x1b[m\x1b[K){\n'}
+[23.286883] (chienpanze_controller_interface) StderrLine: {'line': b'      |                                               \x1b[01;35m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[23.322244] (-) TimerEvent: {}
+[23.381217] (chienpanze_controller_interface) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/class_loader/class_loader/class_loader.hpp:56\x1b[m\x1b[K,\n'}
+[23.383290] (chienpanze_controller_interface) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/pluginlib/pluginlib/class_list_macros.hpp:40\x1b[m\x1b[K,\n'}
+[23.384739] (chienpanze_controller_interface) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/xplore/chienpanze/xre-legged-dog/xre_chienpanze/src/chienpanze_controllers/src/chienpanze_controller_interface.cpp:147\x1b[m\x1b[K:\n'}
+[23.385585] (chienpanze_controller_interface) StderrLine: {'line': b'\x1b[01m\x1b[K/home/xplore/chienpanze/xre-legged-dog/xre_chienpanze/src/chienpanze_controllers/src/chienpanze_controller_interface.cpp:\x1b[m\x1b[K At global scope:\n'}
+[23.386363] (chienpanze_controller_interface) StderrLine: {'line': b'\x1b[01m\x1b[K/home/xplore/chienpanze/xre-legged-dog/xre_chienpanze/src/chienpanze_controllers/src/chienpanze_controller_interface.cpp:148:24:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kchienpanze_controller_interface\x1b[m\x1b[K\xe2\x80\x99 does not name a type\n'}
+[23.387141] (chienpanze_controller_interface) StderrLine: {'line': b'  148 | PLUGINLIB_EXPORT_CLASS(\x1b[01;31m\x1b[Kchienpanze_controller_interface\x1b[m\x1b[K::ChienpanzeController, controller_interface::ControllerInterface)\n'}
+[23.387969] (chienpanze_controller_interface) StderrLine: {'line': b'      |                        \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[23.422520] (-) TimerEvent: {}
+[23.441926] (chienpanze_controller_interface) StderrLine: {'line': b'\x1b[01m\x1b[K/home/xplore/chienpanze/xre-legged-dog/xre_chienpanze/src/chienpanze_controllers/src/chienpanze_controller_interface.cpp:\x1b[m\x1b[K In constructor \xe2\x80\x98\x1b[01m\x1b[K{anonymous}::ProxyExec0::ProxyExec0()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[23.445394] (chienpanze_controller_interface) StderrLine: {'line': b'\x1b[01m\x1b[K/home/xplore/chienpanze/xre-legged-dog/xre_chienpanze/src/chienpanze_controllers/src/chienpanze_controller_interface.cpp:148:1:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[K_derived\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[23.446010] (chienpanze_controller_interface) StderrLine: {'line': b'  148 | \x1b[01;31m\x1b[KPLUGINLIB_EXPORT_CLASS\x1b[m\x1b[K(chienpanze_controller_interface::ChienpanzeController, controller_interface::ControllerInterface)\n'}
+[23.449833] (chienpanze_controller_interface) StderrLine: {'line': b'      | \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[23.450450] (chienpanze_controller_interface) StderrLine: {'line': b'\x1b[01m\x1b[K/home/xplore/chienpanze/xre-legged-dog/xre_chienpanze/src/chienpanze_controllers/src/chienpanze_controller_interface.cpp:148:1:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno matching function for call to \xe2\x80\x98\x1b[01m\x1b[KregisterPlugin<<expression error>, {anonymous}::ProxyExec0::_base>(const char [54], const char [42])\x1b[m\x1b[K\xe2\x80\x99\n'}
+[23.451314] (chienpanze_controller_interface) StderrLine: {'line': b'  148 | \x1b[01;31m\x1b[KPLUGINLIB_EXPORT_CLASS\x1b[m\x1b[K(chienpanze_controller_interface::ChienpanzeController, controller_interface::ControllerInterface)\n'}
+[23.452222] (chienpanze_controller_interface) StderrLine: {'line': b'      | \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[23.453225] (chienpanze_controller_interface) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/class_loader/class_loader/class_loader.hpp:55\x1b[m\x1b[K,\n'}
+[23.453899] (chienpanze_controller_interface) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/pluginlib/pluginlib/class_list_macros.hpp:40\x1b[m\x1b[K,\n'}
+[23.454592] (chienpanze_controller_interface) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/xplore/chienpanze/xre-legged-dog/xre_chienpanze/src/chienpanze_controllers/src/chienpanze_controller_interface.cpp:147\x1b[m\x1b[K:\n'}
+[23.455187] (chienpanze_controller_interface) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/class_loader/class_loader/class_loader_core.hpp:210:6:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class Derived, class Base> void class_loader::impl::registerPlugin(const string&, const string&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[23.455810] (chienpanze_controller_interface) StderrLine: {'line': b'  210 | void \x1b[01;36m\x1b[KregisterPlugin\x1b[m\x1b[K(const std::string & class_name, const std::string & base_class_name)\n'}
+[23.456456] (chienpanze_controller_interface) StderrLine: {'line': b'      |      \x1b[01;36m\x1b[K^~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[23.456977] (chienpanze_controller_interface) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/class_loader/class_loader/class_loader_core.hpp:210:6:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[23.457818] (chienpanze_controller_interface) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/class_loader/class_loader/class_loader.hpp:56\x1b[m\x1b[K,\n'}
+[23.458505] (chienpanze_controller_interface) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/pluginlib/pluginlib/class_list_macros.hpp:40\x1b[m\x1b[K,\n'}
+[23.459075] (chienpanze_controller_interface) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/xplore/chienpanze/xre-legged-dog/xre_chienpanze/src/chienpanze_controllers/src/chienpanze_controller_interface.cpp:147\x1b[m\x1b[K:\n'}
+[23.459688] (chienpanze_controller_interface) StderrLine: {'line': b'\x1b[01m\x1b[K/home/xplore/chienpanze/xre-legged-dog/xre_chienpanze/src/chienpanze_controllers/src/chienpanze_controller_interface.cpp:148:1:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 1 is invalid\n'}
+[23.460322] (chienpanze_controller_interface) StderrLine: {'line': b'  148 | \x1b[01;31m\x1b[KPLUGINLIB_EXPORT_CLASS\x1b[m\x1b[K(chienpanze_controller_interface::ChienpanzeController, controller_interface::ControllerInterface)\n'}
+[23.460891] (chienpanze_controller_interface) StderrLine: {'line': b'      | \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[23.522781] (-) TimerEvent: {}
+[23.625569] (-) TimerEvent: {}
+[23.733883] (-) TimerEvent: {}
+[23.835139] (-) TimerEvent: {}
+[23.936406] (-) TimerEvent: {}
+[24.038220] (-) TimerEvent: {}
+[24.139229] (-) TimerEvent: {}
+[24.240233] (-) TimerEvent: {}
+[24.342166] (-) TimerEvent: {}
+[24.445763] (-) TimerEvent: {}
+[24.547869] (-) TimerEvent: {}
+[24.651830] (-) TimerEvent: {}
+[24.753301] (-) TimerEvent: {}
+[24.854492] (-) TimerEvent: {}
+[24.955772] (-) TimerEvent: {}
+[25.058993] (-) TimerEvent: {}
+[25.160073] (-) TimerEvent: {}
+[25.261335] (-) TimerEvent: {}
+[25.362388] (-) TimerEvent: {}
+[25.463384] (-) TimerEvent: {}
+[25.564932] (-) TimerEvent: {}
+[25.666108] (-) TimerEvent: {}
+[25.767401] (-) TimerEvent: {}
+[25.868386] (-) TimerEvent: {}
+[25.969388] (-) TimerEvent: {}
+[26.071218] (-) TimerEvent: {}
+[26.174183] (-) TimerEvent: {}
+[26.277435] (-) TimerEvent: {}
+[26.378523] (-) TimerEvent: {}
+[26.480134] (-) TimerEvent: {}
+[26.583270] (-) TimerEvent: {}
+[26.684148] (-) TimerEvent: {}
+[26.785215] (-) TimerEvent: {}
+[26.886123] (-) TimerEvent: {}
+[26.986994] (-) TimerEvent: {}
+[27.052037] (chienpanze_controller_interface) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/chienpanze_controller_interface.dir/build.make:76: CMakeFiles/chienpanze_controller_interface.dir/src/chienpanze_controller_interface.cpp.o] Error 1\n'}
+[27.054605] (chienpanze_controller_interface) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/chienpanze_controller_interface.dir/all] Error 2\n'}
+[27.056713] (chienpanze_controller_interface) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Error 2\n'}
+[27.072961] (chienpanze_controller_interface) CommandEnded: {'returncode': 2}
+[27.087295] (-) TimerEvent: {}
+[27.188324] (-) TimerEvent: {}
+[27.270850] (chienpanze_controller_interface) JobEnded: {'identifier': 'chienpanze_controller_interface', 'rc': 2}
+[27.282718] (-) EventReactorShutdown: {}

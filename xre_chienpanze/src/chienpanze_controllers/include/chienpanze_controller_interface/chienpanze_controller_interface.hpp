@@ -3,6 +3,8 @@
 #define CHIENPANZE_CONTROLLER_INTERFACE_HPP_
 
 #include <controller_interface/controller_interface.hpp>
+#include "controller_interface/visibility_control.h"
+#include "hardware_interface/handle.hpp"
 #include <rclcpp_lifecycle/lifecycle_node.hpp>
 #include <rclcpp/rclcpp.hpp>
 #include "rclcpp/time.hpp"

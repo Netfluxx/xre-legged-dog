@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/arno/xre/xre_chienpanze/src/chienpanze_bringup
+CMAKE_SOURCE_DIR = /home/xplore/chienpanze/xre-legged-dog/xre_chienpanze/src/chienpanze_bringup
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/arno/xre/xre_chienpanze/build/chienpanze_bringup
+CMAKE_BINARY_DIR = /home/xplore/chienpanze/xre-legged-dog/xre_chienpanze/build/chienpanze_bringup
 
 # Utility rule file for uninstall.
 
@@ -78,6 +78,6 @@ CMakeFiles/uninstall.dir/clean:
 .PHONY : CMakeFiles/uninstall.dir/clean
 
 CMakeFiles/uninstall.dir/depend:
-	cd /home/arno/xre/xre_chienpanze/build/chienpanze_bringup && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/arno/xre/xre_chienpanze/src/chienpanze_bringup /home/arno/xre/xre_chienpanze/src/chienpanze_bringup /home/arno/xre/xre_chienpanze/build/chienpanze_bringup /home/arno/xre/xre_chienpanze/build/chienpanze_bringup /home/arno/xre/xre_chienpanze/build/chienpanze_bringup/CMakeFiles/uninstall.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/xplore/chienpanze/xre-legged-dog/xre_chienpanze/build/chienpanze_bringup && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/xplore/chienpanze/xre-legged-dog/xre_chienpanze/src/chienpanze_bringup /home/xplore/chienpanze/xre-legged-dog/xre_chienpanze/src/chienpanze_bringup /home/xplore/chienpanze/xre-legged-dog/xre_chienpanze/build/chienpanze_bringup /home/xplore/chienpanze/xre-legged-dog/xre_chienpanze/build/chienpanze_bringup /home/xplore/chienpanze/xre-legged-dog/xre_chienpanze/build/chienpanze_bringup/CMakeFiles/uninstall.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/uninstall.dir/depend
 

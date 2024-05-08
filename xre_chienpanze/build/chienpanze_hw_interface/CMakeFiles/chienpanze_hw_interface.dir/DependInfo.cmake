@@ -8,7 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/home/arno/xre/xre_chienpanze/src/chienpanze_hw_interface/include/pi3hat/pi3hat.cc" "CMakeFiles/chienpanze_hw_interface.dir/include/pi3hat/pi3hat.cc.o" "gcc" "CMakeFiles/chienpanze_hw_interface.dir/include/pi3hat/pi3hat.cc.o.d"
+  "/home/xplore/chienpanze/xre-legged-dog/xre_chienpanze/src/chienpanze_hw_interface/include/pi3hat/pi3hat.cc" "CMakeFiles/chienpanze_hw_interface.dir/include/pi3hat/pi3hat.cc.o" "gcc" "CMakeFiles/chienpanze_hw_interface.dir/include/pi3hat/pi3hat.cc.o.d"
   )
 
 # Targets to which this target links.

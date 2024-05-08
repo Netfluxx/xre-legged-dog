@@ -1,0 +1,6 @@
+[0.454s] Invoking command in '/home/xplore/chienpanze/xre-legged-dog/xre_chienpanze/build/chienpanze_bringup': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/xplore/chienpanze/xre-legged-dog/xre_chienpanze/build/chienpanze_bringup -- -j4 -l4
+[0.609s] [0mCMake Error: The current CMakeCache.txt directory /home/xplore/chienpanze/xre-legged-dog/xre_chienpanze/build/chienpanze_bringup/CMakeCache.txt is different than the directory /home/arno/xre/xre_chienpanze/build/chienpanze_bringup where CMakeCache.txt was created. This may result in binaries being created in the wrong place. If you are not sure, reedit the CMakeCache.txt[0m
+[1.027s] [0mCMake Error: The source directory "/home/arno/xre/xre_chienpanze/src/chienpanze_bringup" does not exist.
+[1.028s] Specify --help for usage, or press the help button on the CMake GUI.[0m
+[1.034s] gmake: *** [Makefile:226: cmake_check_build_system] Error 1
+[1.047s] Invoked command in '/home/xplore/chienpanze/xre-legged-dog/xre_chienpanze/build/chienpanze_bringup' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/xplore/chienpanze/xre-legged-dog/xre_chienpanze/build/chienpanze_bringup -- -j4 -l4

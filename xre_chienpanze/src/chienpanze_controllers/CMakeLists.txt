@@ -18,11 +18,8 @@ find_package(controller_interface REQUIRED)
 find_package(hardware_interface REQUIRED)
 find_package(pluginlib REQUIRED)
 
-# Uncomment the following section to add dependencies to other ROS 2 packages
-# find_package(other_ros2_package REQUIRED)
-
 include_directories(
-  include
+  include  # Ensure this directory exists and contains your headers
 )
 
 set(dependencies
@@ -34,8 +31,8 @@ set(dependencies
 )
 
 # Add library
-add_library(${PROJECT_NAME}
-  src/chienpanze_controller_interface.cpp # Adjust this if your file name is different
+add_library(${PROJECT_NAME} SHARED
+  src/chienpanze_controller_interface.cpp  # Make sure this path is correct
 )
 
 ament_target_dependencies(${PROJECT_NAME} ${dependencies})
@@ -59,13 +56,7 @@ install(DIRECTORY
   DESTINATION share/${PROJECT_NAME}
 )
 
-# If using pluginlib, export the plugin
-pluginlib_export_plugin_description_file(chienpanze_controller_interface chienpanze_controller_plugin.xml)
-
-# Uncomment if you have executable nodes
-# add_executable(node_name src/node_file.cpp)
-# target_link_libraries(node_name ${PROJECT_NAME})
-# ament_target_dependencies(node_name ${dependencies})
-# install(TARGETS node_name DESTINATION lib/${PROJECT_NAME})
+# Plugin description file export
+pluginlib_export_plugin_description_file(controller_interface chienpanze_controller_plugin.xml)  # Adjust this if your plugin description file has a different name or path
 
 ament_package()

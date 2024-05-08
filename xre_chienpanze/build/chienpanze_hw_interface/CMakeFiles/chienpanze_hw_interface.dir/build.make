@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/arno/xre/xre_chienpanze/src/chienpanze_hw_interface
+CMAKE_SOURCE_DIR = /home/xplore/chienpanze/xre-legged-dog/xre_chienpanze/src/chienpanze_hw_interface
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/arno/xre/xre_chienpanze/build/chienpanze_hw_interface
+CMAKE_BINARY_DIR = /home/xplore/chienpanze/xre-legged-dog/xre_chienpanze/build/chienpanze_hw_interface
 
 # Include any dependencies generated for this target.
 include CMakeFiles/chienpanze_hw_interface.dir/depend.make
@@ -70,18 +70,18 @@ include CMakeFiles/chienpanze_hw_interface.dir/progress.make
 include CMakeFiles/chienpanze_hw_interface.dir/flags.make
 
 CMakeFiles/chienpanze_hw_interface.dir/include/pi3hat/pi3hat.cc.o: CMakeFiles/chienpanze_hw_interface.dir/flags.make
-CMakeFiles/chienpanze_hw_interface.dir/include/pi3hat/pi3hat.cc.o: /home/arno/xre/xre_chienpanze/src/chienpanze_hw_interface/include/pi3hat/pi3hat.cc
+CMakeFiles/chienpanze_hw_interface.dir/include/pi3hat/pi3hat.cc.o: /home/xplore/chienpanze/xre-legged-dog/xre_chienpanze/src/chienpanze_hw_interface/include/pi3hat/pi3hat.cc
 CMakeFiles/chienpanze_hw_interface.dir/include/pi3hat/pi3hat.cc.o: CMakeFiles/chienpanze_hw_interface.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/arno/xre/xre_chienpanze/build/chienpanze_hw_interface/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/chienpanze_hw_interface.dir/include/pi3hat/pi3hat.cc.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/chienpanze_hw_interface.dir/include/pi3hat/pi3hat.cc.o -MF CMakeFiles/chienpanze_hw_interface.dir/include/pi3hat/pi3hat.cc.o.d -o CMakeFiles/chienpanze_hw_interface.dir/include/pi3hat/pi3hat.cc.o -c /home/arno/xre/xre_chienpanze/src/chienpanze_hw_interface/include/pi3hat/pi3hat.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/xplore/chienpanze/xre-legged-dog/xre_chienpanze/build/chienpanze_hw_interface/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/chienpanze_hw_interface.dir/include/pi3hat/pi3hat.cc.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/chienpanze_hw_interface.dir/include/pi3hat/pi3hat.cc.o -MF CMakeFiles/chienpanze_hw_interface.dir/include/pi3hat/pi3hat.cc.o.d -o CMakeFiles/chienpanze_hw_interface.dir/include/pi3hat/pi3hat.cc.o -c /home/xplore/chienpanze/xre-legged-dog/xre_chienpanze/src/chienpanze_hw_interface/include/pi3hat/pi3hat.cc
 
 CMakeFiles/chienpanze_hw_interface.dir/include/pi3hat/pi3hat.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/chienpanze_hw_interface.dir/include/pi3hat/pi3hat.cc.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/arno/xre/xre_chienpanze/src/chienpanze_hw_interface/include/pi3hat/pi3hat.cc > CMakeFiles/chienpanze_hw_interface.dir/include/pi3hat/pi3hat.cc.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/xplore/chienpanze/xre-legged-dog/xre_chienpanze/src/chienpanze_hw_interface/include/pi3hat/pi3hat.cc > CMakeFiles/chienpanze_hw_interface.dir/include/pi3hat/pi3hat.cc.i
 
 CMakeFiles/chienpanze_hw_interface.dir/include/pi3hat/pi3hat.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/chienpanze_hw_interface.dir/include/pi3hat/pi3hat.cc.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/arno/xre/xre_chienpanze/src/chienpanze_hw_interface/include/pi3hat/pi3hat.cc -o CMakeFiles/chienpanze_hw_interface.dir/include/pi3hat/pi3hat.cc.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/xplore/chienpanze/xre-legged-dog/xre_chienpanze/src/chienpanze_hw_interface/include/pi3hat/pi3hat.cc -o CMakeFiles/chienpanze_hw_interface.dir/include/pi3hat/pi3hat.cc.s
 
 # Object files for target chienpanze_hw_interface
 chienpanze_hw_interface_OBJECTS = \
@@ -175,10 +175,10 @@ libchienpanze_hw_interface.so: /opt/ros/humble/lib/librosidl_typesupport_c.so
 libchienpanze_hw_interface.so: /opt/ros/humble/lib/librosidl_typesupport_cpp.so
 libchienpanze_hw_interface.so: /opt/ros/humble/lib/librosidl_typesupport_introspection_c.so
 libchienpanze_hw_interface.so: /opt/ros/humble/lib/librosidl_typesupport_introspection_cpp.so
-libchienpanze_hw_interface.so: /usr/lib/x86_64-linux-gnu/libconsole_bridge.so.1.0
+libchienpanze_hw_interface.so: /usr/lib/aarch64-linux-gnu/libconsole_bridge.so.1.0
 libchienpanze_hw_interface.so: /opt/ros/humble/lib/libclass_loader.so
 libchienpanze_hw_interface.so: /opt/ros/humble/lib/libclass_loader.so
-libchienpanze_hw_interface.so: /usr/lib/x86_64-linux-gnu/libtinyxml2.so
+libchienpanze_hw_interface.so: /usr/lib/aarch64-linux-gnu/libtinyxml2.so
 libchienpanze_hw_interface.so: /opt/ros/humble/lib/librcl.so
 libchienpanze_hw_interface.so: /opt/ros/humble/lib/librosidl_runtime_c.so
 libchienpanze_hw_interface.so: /opt/ros/humble/lib/libtracetools.so
@@ -191,7 +191,7 @@ libchienpanze_hw_interface.so: /opt/ros/humble/lib/liblifecycle_msgs__rosidl_typ
 libchienpanze_hw_interface.so: /opt/ros/humble/lib/liblifecycle_msgs__rosidl_typesupport_introspection_cpp.so
 libchienpanze_hw_interface.so: /opt/ros/humble/lib/liblifecycle_msgs__rosidl_typesupport_cpp.so
 libchienpanze_hw_interface.so: /opt/ros/humble/lib/liblifecycle_msgs__rosidl_generator_py.so
-libchienpanze_hw_interface.so: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+libchienpanze_hw_interface.so: /usr/lib/aarch64-linux-gnu/libpython3.10.so
 libchienpanze_hw_interface.so: /opt/ros/humble/lib/librclcpp_lifecycle.so
 libchienpanze_hw_interface.so: /opt/ros/humble/lib/librclcpp.so
 libchienpanze_hw_interface.so: /opt/ros/humble/lib/librcl_lifecycle.so
@@ -220,7 +220,7 @@ libchienpanze_hw_interface.so: /opt/ros/humble/lib/libstatistics_msgs__rosidl_ty
 libchienpanze_hw_interface.so: /opt/ros/humble/lib/libstatistics_msgs__rosidl_generator_py.so
 libchienpanze_hw_interface.so: /opt/ros/humble/lib/libstatistics_msgs__rosidl_typesupport_c.so
 libchienpanze_hw_interface.so: /opt/ros/humble/lib/libstatistics_msgs__rosidl_generator_c.so
-libchienpanze_hw_interface.so: /usr/lib/x86_64-linux-gnu/libconsole_bridge.so.1.0
+libchienpanze_hw_interface.so: /usr/lib/aarch64-linux-gnu/libconsole_bridge.so.1.0
 libchienpanze_hw_interface.so: /opt/ros/humble/lib/libgeometry_msgs__rosidl_typesupport_fastrtps_c.so
 libchienpanze_hw_interface.so: /opt/ros/humble/lib/libstd_msgs__rosidl_typesupport_fastrtps_c.so
 libchienpanze_hw_interface.so: /opt/ros/humble/lib/libgeometry_msgs__rosidl_typesupport_fastrtps_cpp.so
@@ -277,7 +277,7 @@ libchienpanze_hw_interface.so: /opt/ros/humble/lib/librmw.so
 libchienpanze_hw_interface.so: /opt/ros/humble/lib/librosidl_typesupport_introspection_cpp.so
 libchienpanze_hw_interface.so: /opt/ros/humble/lib/librosidl_typesupport_introspection_c.so
 libchienpanze_hw_interface.so: /opt/ros/humble/lib/librosidl_typesupport_cpp.so
-libchienpanze_hw_interface.so: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+libchienpanze_hw_interface.so: /usr/lib/aarch64-linux-gnu/libpython3.10.so
 libchienpanze_hw_interface.so: /opt/ros/humble/lib/liblifecycle_msgs__rosidl_typesupport_c.so
 libchienpanze_hw_interface.so: /opt/ros/humble/lib/librosidl_typesupport_c.so
 libchienpanze_hw_interface.so: /opt/ros/humble/lib/librcpputils.so
@@ -285,7 +285,7 @@ libchienpanze_hw_interface.so: /opt/ros/humble/lib/liblifecycle_msgs__rosidl_gen
 libchienpanze_hw_interface.so: /opt/ros/humble/lib/librosidl_runtime_c.so
 libchienpanze_hw_interface.so: /opt/ros/humble/lib/librcutils.so
 libchienpanze_hw_interface.so: CMakeFiles/chienpanze_hw_interface.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/arno/xre/xre_chienpanze/build/chienpanze_hw_interface/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX shared library libchienpanze_hw_interface.so"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/xplore/chienpanze/xre-legged-dog/xre_chienpanze/build/chienpanze_hw_interface/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX shared library libchienpanze_hw_interface.so"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/chienpanze_hw_interface.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -297,6 +297,6 @@ CMakeFiles/chienpanze_hw_interface.dir/clean:
 .PHONY : CMakeFiles/chienpanze_hw_interface.dir/clean
 
 CMakeFiles/chienpanze_hw_interface.dir/depend:
-	cd /home/arno/xre/xre_chienpanze/build/chienpanze_hw_interface && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/arno/xre/xre_chienpanze/src/chienpanze_hw_interface /home/arno/xre/xre_chienpanze/src/chienpanze_hw_interface /home/arno/xre/xre_chienpanze/build/chienpanze_hw_interface /home/arno/xre/xre_chienpanze/build/chienpanze_hw_interface /home/arno/xre/xre_chienpanze/build/chienpanze_hw_interface/CMakeFiles/chienpanze_hw_interface.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/xplore/chienpanze/xre-legged-dog/xre_chienpanze/build/chienpanze_hw_interface && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/xplore/chienpanze/xre-legged-dog/xre_chienpanze/src/chienpanze_hw_interface /home/xplore/chienpanze/xre-legged-dog/xre_chienpanze/src/chienpanze_hw_interface /home/xplore/chienpanze/xre-legged-dog/xre_chienpanze/build/chienpanze_hw_interface /home/xplore/chienpanze/xre-legged-dog/xre_chienpanze/build/chienpanze_hw_interface /home/xplore/chienpanze/xre-legged-dog/xre_chienpanze/build/chienpanze_hw_interface/CMakeFiles/chienpanze_hw_interface.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/chienpanze_hw_interface.dir/depend
 

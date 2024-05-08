@@ -1,0 +1,65 @@
+[0.242s] Invoking command in '/home/xplore/chienpanze/xre-legged-dog/xre_chienpanze/build/chienpanze_controller_interface': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/xplore/chienpanze/xre-legged-dog/xre_chienpanze/build/chienpanze_controller_interface -- -j4 -l4
+[1.169s] [ 50%] [32mBuilding CXX object CMakeFiles/chienpanze_controller_interface.dir/src/chienpanze_controller_interface.cpp.o[0m
+[17.516s] [01m[K/home/xplore/chienpanze/xre-legged-dog/xre_chienpanze/src/chienpanze_controllers/src/chienpanze_controller_interface.cpp:[m[K In function ‘[01m[Kcontroller_interface::CallbackReturn on_configure(const rclcpp_lifecycle::State&)[m[K’:
+[17.517s] [01m[K/home/xplore/chienpanze/xre-legged-dog/xre_chienpanze/src/chienpanze_controllers/src/chienpanze_controller_interface.cpp:35:82:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kprevious_state[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[17.518s]    35 | controller_interface::CallbackReturn on_configure([01;35m[Kconst rclcpp_lifecycle::State &previous_state[m[K){
+[17.519s]       |                                                   [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~[m[K
+[17.533s] [01m[K/home/xplore/chienpanze/xre-legged-dog/xre_chienpanze/src/chienpanze_controllers/src/chienpanze_controller_interface.cpp:[m[K In member function ‘[01m[Kvirtual controller_interface::CallbackReturn ChienpanzeController::on_activate(const rclcpp_lifecycle::State&)[m[K’:
+[17.534s] [01m[K/home/xplore/chienpanze/xre-legged-dog/xre_chienpanze/src/chienpanze_controllers/src/chienpanze_controller_interface.cpp:89:103:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kprevious_state[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[17.534s]    89 | controller_interface::CallbackReturn ChienpanzeController::on_activate([01;35m[Kconst rclcpp_lifecycle::State &previous_state[m[K){
+[17.536s]       |                                                                        [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~[m[K
+[17.536s] [01m[K/home/xplore/chienpanze/xre-legged-dog/xre_chienpanze/src/chienpanze_controllers/src/chienpanze_controller_interface.cpp:[m[K In member function ‘[01m[Kvirtual controller_interface::return_type ChienpanzeController::update(const rclcpp::Time&, const rclcpp::Duration&)[m[K’:
+[17.538s] [01m[K/home/xplore/chienpanze/xre-legged-dog/xre_chienpanze/src/chienpanze_controllers/src/chienpanze_controller_interface.cpp:113:84:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Ktime[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[17.538s]   113 | controller_interface::return_type ChienpanzeController::update([01;35m[Kconst rclcpp::Time &time[m[K, const rclcpp::Duration &period){
+[17.539s]       |                                                                [01;35m[K~~~~~~~~~~~~~~~~~~~~^~~~[m[K
+[17.539s] [01m[K/home/xplore/chienpanze/xre-legged-dog/xre_chienpanze/src/chienpanze_controllers/src/chienpanze_controller_interface.cpp:113:114:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kperiod[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[17.540s]   113 | ller_interface::return_type ChienpanzeController::update(const rclcpp::Time &time, [01;35m[Kconst rclcpp::Duration &period[m[K){
+[17.540s]       |                                                                                    [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~[m[K
+[17.541s] 
+[17.547s] [01m[K/home/xplore/chienpanze/xre-legged-dog/xre_chienpanze/src/chienpanze_controllers/src/chienpanze_controller_interface.cpp:[m[K In member function ‘[01m[Kvirtual controller_interface::CallbackReturn ChienpanzeController::on_deactivate(const rclcpp_lifecycle::State&)[m[K’:
+[17.548s] [01m[K/home/xplore/chienpanze/xre-legged-dog/xre_chienpanze/src/chienpanze_controllers/src/chienpanze_controller_interface.cpp:125:105:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kprevious_state[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[17.548s]   125 | controller_interface::CallbackReturn ChienpanzeController::on_deactivate([01;35m[Kconst rclcpp_lifecycle::State &previous_state[m[K){
+[17.549s]       |                                                                          [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~[m[K
+[17.549s] [01m[K/home/xplore/chienpanze/xre-legged-dog/xre_chienpanze/src/chienpanze_controllers/src/chienpanze_controller_interface.cpp:[m[K In member function ‘[01m[Kvirtual controller_interface::CallbackReturn ChienpanzeController::on_cleanup(const rclcpp_lifecycle::State&)[m[K’:
+[17.550s] [01m[K/home/xplore/chienpanze/xre-legged-dog/xre_chienpanze/src/chienpanze_controllers/src/chienpanze_controller_interface.cpp:140:102:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kprevious_state[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[17.550s]   140 | controller_interface::CallbackReturn ChienpanzeController::on_cleanup([01;35m[Kconst rclcpp_lifecycle::State &previous_state[m[K){
+[17.551s]       |                                                                       [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~[m[K
+[17.552s] [01m[K/home/xplore/chienpanze/xre-legged-dog/xre_chienpanze/src/chienpanze_controllers/src/chienpanze_controller_interface.cpp:[m[K In member function ‘[01m[Kvirtual controller_interface::CallbackReturn ChienpanzeController::on_shutdown(const rclcpp_lifecycle::State&)[m[K’:
+[17.552s] [01m[K/home/xplore/chienpanze/xre-legged-dog/xre_chienpanze/src/chienpanze_controllers/src/chienpanze_controller_interface.cpp:147:103:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kprevious_state[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[17.553s]   147 | controller_interface::CallbackReturn ChienpanzeController::on_shutdown([01;35m[Kconst rclcpp_lifecycle::State &previous_state[m[K){
+[17.553s]       |                                                                        [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~[m[K
+[17.562s] [01m[K/home/xplore/chienpanze/xre-legged-dog/xre_chienpanze/src/chienpanze_controllers/src/chienpanze_controller_interface.cpp:[m[K In member function ‘[01m[Kvirtual controller_interface::CallbackReturn ChienpanzeController::on_error(const rclcpp_lifecycle::State&)[m[K’:
+[17.564s] [01m[K/home/xplore/chienpanze/xre-legged-dog/xre_chienpanze/src/chienpanze_controllers/src/chienpanze_controller_interface.cpp:153:100:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kprevious_state[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[17.564s]   153 | controller_interface::CallbackReturn ChienpanzeController::on_error([01;35m[Kconst rclcpp_lifecycle::State &previous_state[m[K){
+[17.565s]       |                                                                     [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~[m[K
+[17.619s] In file included from [01m[K/opt/ros/humble/include/class_loader/class_loader/class_loader.hpp:56[m[K,
+[17.620s]                  from [01m[K/opt/ros/humble/include/pluginlib/pluginlib/class_list_macros.hpp:40[m[K,
+[17.621s]                  from [01m[K/home/xplore/chienpanze/xre-legged-dog/xre_chienpanze/src/chienpanze_controllers/src/chienpanze_controller_interface.cpp:160[m[K:
+[17.626s] [01m[K/home/xplore/chienpanze/xre-legged-dog/xre_chienpanze/src/chienpanze_controllers/src/chienpanze_controller_interface.cpp:[m[K At global scope:
+[17.627s] [01m[K/home/xplore/chienpanze/xre-legged-dog/xre_chienpanze/src/chienpanze_controllers/src/chienpanze_controller_interface.cpp:161:24:[m[K [01;31m[Kerror: [m[K‘[01m[Kchienpanze_controller_interface[m[K’ does not name a type; did you mean ‘[01m[Kchienpanze_controller_interface_EXPORTS[m[K’?
+[17.627s]   161 | PLUGINLIB_EXPORT_CLASS([01;31m[Kchienpanze_controller_interface[m[K::ChienpanzeController, controller_interface::ControllerInterface)
+[17.628s]       |                        [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[17.660s] [01m[K/home/xplore/chienpanze/xre-legged-dog/xre_chienpanze/src/chienpanze_controllers/src/chienpanze_controller_interface.cpp:[m[K In constructor ‘[01m[K{anonymous}::ProxyExec0::ProxyExec0()[m[K’:
+[17.660s] [01m[K/home/xplore/chienpanze/xre-legged-dog/xre_chienpanze/src/chienpanze_controllers/src/chienpanze_controller_interface.cpp:161:1:[m[K [01;31m[Kerror: [m[K‘[01m[K_derived[m[K’ was not declared in this scope
+[17.662s]   161 | [01;31m[KPLUGINLIB_EXPORT_CLASS[m[K(chienpanze_controller_interface::ChienpanzeController, controller_interface::ControllerInterface)
+[17.663s]       | [01;31m[K^~~~~~~~~~~~~~~~~~~~~~[m[K
+[17.666s] [01m[K/home/xplore/chienpanze/xre-legged-dog/xre_chienpanze/src/chienpanze_controllers/src/chienpanze_controller_interface.cpp:161:1:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[KregisterPlugin<<expression error>, {anonymous}::ProxyExec0::_base>(const char [54], const char [42])[m[K’
+[17.668s]   161 | [01;31m[KPLUGINLIB_EXPORT_CLASS[m[K(chienpanze_controller_interface::ChienpanzeController, controller_interface::ControllerInterface)
+[17.669s]       | [01;31m[K^~~~~~~~~~~~~~~~~~~~~~[m[K
+[17.669s] In file included from [01m[K/opt/ros/humble/include/class_loader/class_loader/class_loader.hpp:55[m[K,
+[17.670s]                  from [01m[K/opt/ros/humble/include/pluginlib/pluginlib/class_list_macros.hpp:40[m[K,
+[17.670s]                  from [01m[K/home/xplore/chienpanze/xre-legged-dog/xre_chienpanze/src/chienpanze_controllers/src/chienpanze_controller_interface.cpp:160[m[K:
+[17.671s] [01m[K/opt/ros/humble/include/class_loader/class_loader/class_loader_core.hpp:210:6:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class Derived, class Base> void class_loader::impl::registerPlugin(const string&, const string&)[m[K’
+[17.671s]   210 | void [01;36m[KregisterPlugin[m[K(const std::string & class_name, const std::string & base_class_name)
+[17.672s]       |      [01;36m[K^~~~~~~~~~~~~~[m[K
+[17.672s] [01m[K/opt/ros/humble/include/class_loader/class_loader/class_loader_core.hpp:210:6:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[17.672s] In file included from [01m[K/opt/ros/humble/include/class_loader/class_loader/class_loader.hpp:56[m[K,
+[17.673s]                  from [01m[K/opt/ros/humble/include/pluginlib/pluginlib/class_list_macros.hpp:40[m[K,
+[17.673s]                  from [01m[K/home/xplore/chienpanze/xre-legged-dog/xre_chienpanze/src/chienpanze_controllers/src/chienpanze_controller_interface.cpp:160[m[K:
+[17.675s] [01m[K/home/xplore/chienpanze/xre-legged-dog/xre_chienpanze/src/chienpanze_controllers/src/chienpanze_controller_interface.cpp:161:1:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[17.677s]   161 | [01;31m[KPLUGINLIB_EXPORT_CLASS[m[K(chienpanze_controller_interface::ChienpanzeController, controller_interface::ControllerInterface)
+[17.680s]       | [01;31m[K^~~~~~~~~~~~~~~~~~~~~~[m[K
+[20.502s] gmake[2]: *** [CMakeFiles/chienpanze_controller_interface.dir/build.make:76: CMakeFiles/chienpanze_controller_interface.dir/src/chienpanze_controller_interface.cpp.o] Error 1
+[20.503s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/chienpanze_controller_interface.dir/all] Error 2
+[20.505s] gmake: *** [Makefile:146: all] Error 2
+[20.517s] Invoked command in '/home/xplore/chienpanze/xre-legged-dog/xre_chienpanze/build/chienpanze_controller_interface' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/xplore/chienpanze/xre-legged-dog/xre_chienpanze/build/chienpanze_controller_interface -- -j4 -l4

@@ -1,0 +1,7 @@
+<library path="lib/libchienpanze_hw_interface">
+  <class name="chienpanze_hw_interface/ChienpanzeHardwareInterface" 
+  type="chienpanze_hw_interface::ChienpanzeHardwareInterface" 
+  base_class_type="hardware_interface::SystemInterface">
+  <description>This plugin is used to integrate the Chienpanze's hardware with ROS2's hardware_interface.</description>
+  </class>
+</library>
