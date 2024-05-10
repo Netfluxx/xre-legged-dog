@@ -1,0 +1,4 @@
+Invoking command in '/home/xplore/chienpanze/xre-legged-dog/build/chienpanze_description': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/xplore/chienpanze/xre-legged-dog/build/chienpanze_description -- -j4 -l4
+Invoked command in '/home/xplore/chienpanze/xre-legged-dog/build/chienpanze_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/xplore/chienpanze/xre-legged-dog/build/chienpanze_description -- -j4 -l4
+Invoking command in '/home/xplore/chienpanze/xre-legged-dog/build/chienpanze_description': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/xplore/chienpanze/xre-legged-dog/build/chienpanze_description
+Invoked command in '/home/xplore/chienpanze/xre-legged-dog/build/chienpanze_description' returned '1': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/xplore/chienpanze/xre-legged-dog/build/chienpanze_description

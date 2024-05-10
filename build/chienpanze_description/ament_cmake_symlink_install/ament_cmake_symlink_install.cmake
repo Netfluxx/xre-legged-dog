@@ -310,8 +310,8 @@ message(STATUS "Execute custom install script")
 
 # begin of custom install code
 
-# install(DIRECTORY "launch" "DESTINATION" "share/chienpanze_description")
-ament_cmake_symlink_install_directory("/home/xplore/chienpanze/xre-legged-dog/xre_chienpanze/src/chienpanze_description" DIRECTORY "launch" "DESTINATION" "share/chienpanze_description")
+# install(DIRECTORY "config" "launch/" "rviz" "urdf" "DESTINATION" "share/chienpanze_description")
+ament_cmake_symlink_install_directory("/home/xplore/chienpanze/xre-legged-dog/xre_chienpanze/src/chienpanze_description" DIRECTORY "config" "launch/" "rviz" "urdf" "DESTINATION" "share/chienpanze_description")
 
 # install(DIRECTORY "urdf/" "DESTINATION" "share/chienpanze_description/urdf")
 ament_cmake_symlink_install_directory("/home/xplore/chienpanze/xre-legged-dog/xre_chienpanze/src/chienpanze_description" DIRECTORY "urdf/" "DESTINATION" "share/chienpanze_description/urdf")

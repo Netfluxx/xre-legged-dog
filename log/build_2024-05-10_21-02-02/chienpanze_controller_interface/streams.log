@@ -1,0 +1,25 @@
+[0.192s] Invoking command in '/home/xplore/chienpanze/xre-legged-dog/build/chienpanze_controller_interface': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/xplore/chienpanze/xre-legged-dog/build/chienpanze_controller_interface -- -j4 -l4
+[0.394s] -- Found ament_cmake: 1.3.8 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.599s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[1.706s] -- Found rclcpp: 16.0.8 (/opt/ros/humble/share/rclcpp/cmake)
+[2.169s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[2.187s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[2.227s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[2.336s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.496s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.922s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[2.930s] -- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[4.478s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[5.500s] -- Found rclcpp_lifecycle: 16.0.8 (/opt/ros/humble/share/rclcpp_lifecycle/cmake)
+[5.746s] -- Found controller_interface: 2.40.0 (/opt/ros/humble/share/controller_interface/cmake)
+[10.984s] [31mCMake Error at /opt/ros/humble/share/pluginlib/cmake/pluginlib_export_plugin_description_file.cmake:84 (message):
+[10.985s]   Given plugin description file
+[10.988s]   '/home/xplore/chienpanze/xre-legged-dog/xre_chienpanze/src/chienpanze_controllers/chienpanze_controller_plugin.xml'
+[10.996s]   does not exist
+[10.997s] Call Stack (most recent call first):
+[10.998s]   CMakeLists.txt:59 (pluginlib_export_plugin_description_file)
+[10.999s] 
+[10.999s] [0m
+[11.000s] -- Configuring incomplete, errors occurred!
+[11.003s] See also "/home/xplore/chienpanze/xre-legged-dog/build/chienpanze_controller_interface/CMakeFiles/CMakeOutput.log".
+[11.034s] gmake: *** [Makefile:267: cmake_check_build_system] Error 1

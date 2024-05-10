@@ -1,0 +1,4 @@
+[35m[1mConsolidate compiler generated dependencies of target chienpanze_hw_interface[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/chienpanze_hw_interface.dir/include/pi3hat/pi3hat.cc.o[0m
+[100%] [32m[1mLinking CXX shared library libchienpanze_hw_interface.so[0m
+[100%] Built target chienpanze_hw_interface

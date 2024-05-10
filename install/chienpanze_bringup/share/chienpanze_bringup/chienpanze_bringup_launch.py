@@ -1,0 +1,1 @@
+/home/xplore/chienpanze/xre-legged-dog/xre_chienpanze/src/chienpanze_bringup/launch/chienpanze_bringup_launch.py

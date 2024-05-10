@@ -1,3 +1,9 @@
+/home/xplore/chienpanze/xre-legged-dog/install/chienpanze_bringup/share/chienpanze_bringup/config/chienpanze_controllers.yaml
+/home/xplore/chienpanze/xre-legged-dog/install/chienpanze_bringup/share/chienpanze_bringup/config/test_goal_publishers_config.yaml
+/home/xplore/chienpanze/xre-legged-dog/install/chienpanze_bringup/share/chienpanze_bringup/chienpanze.launch.py
+/home/xplore/chienpanze/xre-legged-dog/install/chienpanze_bringup/share/chienpanze_bringup/chienpanze_bringup_launch.py
+/home/xplore/chienpanze/xre-legged-dog/install/chienpanze_bringup/share/chienpanze_bringup/test_forward_position_controller.launch.py
+/home/xplore/chienpanze/xre-legged-dog/install/chienpanze_bringup/share/chienpanze_bringup/test_joint_trajectory_controller.launch.py
 /home/xplore/chienpanze/xre-legged-dog/install/chienpanze_bringup/share/ament_index/resource_index/package_run_dependencies/chienpanze_bringup
 /home/xplore/chienpanze/xre-legged-dog/install/chienpanze_bringup/share/ament_index/resource_index/parent_prefix_path/chienpanze_bringup
 /home/xplore/chienpanze/xre-legged-dog/install/chienpanze_bringup/share/chienpanze_bringup/environment/ament_prefix_path.sh

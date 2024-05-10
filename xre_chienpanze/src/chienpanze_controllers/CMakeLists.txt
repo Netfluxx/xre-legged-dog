@@ -56,6 +56,6 @@ install(DIRECTORY
 )
 
 # Plugin description file export
-pluginlib_export_plugin_description_file(controller_interface chienpanze_controller_plugin.xml)  # Adjust this if your plugin description file has a different name or path
+pluginlib_export_plugin_description_file(controller_interface chienpanze_controllers.xml)  # Adjust this if your plugin description file has a different name or path
 
 ament_package()

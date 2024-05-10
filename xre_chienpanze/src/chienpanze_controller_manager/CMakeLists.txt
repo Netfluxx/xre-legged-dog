@@ -11,10 +11,10 @@ find_package(ament_cmake REQUIRED)
 # further dependencies manually.
 # find_package(<dependency> REQUIRED)
 
-add_executable(chienpanze_controller_manager src/chienpanze_controller_manager.cpp)
-ament_target_dependencies(controller_manager rclcpp)
-target_link_libraries(controller_manager ${PROJECT_NAME})
-install(TARGETS controller_manager DESTINATION lib/${PROJECT_NAME})
+# add_executable(chienpanze_controller_manager src/chienpanze_controller_manager.cpp)
+# ament_target_dependencies(controller_manager rclcpp)
+# target_link_libraries(controller_manager ${PROJECT_NAME})
+# install(TARGETS controller_manager DESTINATION lib/${PROJECT_NAME})
 
 if(BUILD_TESTING)
   find_package(ament_lint_auto REQUIRED)

@@ -1,0 +1,4 @@
+source;share/chienpanze_controller_manager/local_setup.bash
+source;share/chienpanze_controller_manager/local_setup.dsv
+source;share/chienpanze_controller_manager/local_setup.sh
+source;share/chienpanze_controller_manager/local_setup.zsh

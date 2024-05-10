@@ -316,11 +316,11 @@ include("/home/xplore/chienpanze/xre-legged-dog/build/chienpanze_controller_inte
 # install(DIRECTORY "include/" "DESTINATION" "include")
 ament_cmake_symlink_install_directory("/home/xplore/chienpanze/xre-legged-dog/xre_chienpanze/src/chienpanze_controllers" DIRECTORY "include/" "DESTINATION" "include")
 
-# install(DIRECTORY "launch" "config" "DESTINATION" "share/chienpanze_controller_interface")
-ament_cmake_symlink_install_directory("/home/xplore/chienpanze/xre-legged-dog/xre_chienpanze/src/chienpanze_controllers" DIRECTORY "launch" "config" "DESTINATION" "share/chienpanze_controller_interface")
+# install(DIRECTORY "DESTINATION" "share/chienpanze_controller_interface")
+ament_cmake_symlink_install_directory("/home/xplore/chienpanze/xre-legged-dog/xre_chienpanze/src/chienpanze_controllers" DIRECTORY "DESTINATION" "share/chienpanze_controller_interface")
 
-# install(FILES "chienpanze_controller_plugin.xml" "DESTINATION" "share/chienpanze_controller_interface/")
-ament_cmake_symlink_install_files("/home/xplore/chienpanze/xre-legged-dog/xre_chienpanze/src/chienpanze_controllers" FILES "chienpanze_controller_plugin.xml" "DESTINATION" "share/chienpanze_controller_interface/")
+# install(FILES "chienpanze_controllers.xml" "DESTINATION" "share/chienpanze_controller_interface/")
+ament_cmake_symlink_install_files("/home/xplore/chienpanze/xre-legged-dog/xre_chienpanze/src/chienpanze_controllers" FILES "chienpanze_controllers.xml" "DESTINATION" "share/chienpanze_controller_interface/")
 
 # install(FILES "/home/xplore/chienpanze/xre-legged-dog/build/chienpanze_controller_interface/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/chienpanze_controller_interface" "DESTINATION" "share/ament_index/resource_index/package_run_dependencies")
 ament_cmake_symlink_install_files("/home/xplore/chienpanze/xre-legged-dog/xre_chienpanze/src/chienpanze_controllers" FILES "/home/xplore/chienpanze/xre-legged-dog/build/chienpanze_controller_interface/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/chienpanze_controller_interface" "DESTINATION" "share/ament_index/resource_index/package_run_dependencies")
@@ -358,8 +358,8 @@ ament_cmake_symlink_install_files("/home/xplore/chienpanze/xre-legged-dog/xre_ch
 # install(FILES "/home/xplore/chienpanze/xre-legged-dog/build/chienpanze_controller_interface/ament_cmake_index/share/ament_index/resource_index/packages/chienpanze_controller_interface" "DESTINATION" "share/ament_index/resource_index/packages")
 ament_cmake_symlink_install_files("/home/xplore/chienpanze/xre-legged-dog/xre_chienpanze/src/chienpanze_controllers" FILES "/home/xplore/chienpanze/xre-legged-dog/build/chienpanze_controller_interface/ament_cmake_index/share/ament_index/resource_index/packages/chienpanze_controller_interface" "DESTINATION" "share/ament_index/resource_index/packages")
 
-# install(FILES "/home/xplore/chienpanze/xre-legged-dog/build/chienpanze_controller_interface/ament_cmake_index/share/ament_index/resource_index/chienpanze_controller_interface__pluginlib__plugin/chienpanze_controller_interface" "DESTINATION" "share/ament_index/resource_index/chienpanze_controller_interface__pluginlib__plugin")
-ament_cmake_symlink_install_files("/home/xplore/chienpanze/xre-legged-dog/xre_chienpanze/src/chienpanze_controllers" FILES "/home/xplore/chienpanze/xre-legged-dog/build/chienpanze_controller_interface/ament_cmake_index/share/ament_index/resource_index/chienpanze_controller_interface__pluginlib__plugin/chienpanze_controller_interface" "DESTINATION" "share/ament_index/resource_index/chienpanze_controller_interface__pluginlib__plugin")
+# install(FILES "/home/xplore/chienpanze/xre-legged-dog/build/chienpanze_controller_interface/ament_cmake_index/share/ament_index/resource_index/controller_interface__pluginlib__plugin/chienpanze_controller_interface" "DESTINATION" "share/ament_index/resource_index/controller_interface__pluginlib__plugin")
+ament_cmake_symlink_install_files("/home/xplore/chienpanze/xre-legged-dog/xre_chienpanze/src/chienpanze_controllers" FILES "/home/xplore/chienpanze/xre-legged-dog/build/chienpanze_controller_interface/ament_cmake_index/share/ament_index/resource_index/controller_interface__pluginlib__plugin/chienpanze_controller_interface" "DESTINATION" "share/ament_index/resource_index/controller_interface__pluginlib__plugin")
 
 # install(FILES "/home/xplore/chienpanze/xre-legged-dog/build/chienpanze_controller_interface/ament_cmake_core/chienpanze_controller_interfaceConfig.cmake" "/home/xplore/chienpanze/xre-legged-dog/build/chienpanze_controller_interface/ament_cmake_core/chienpanze_controller_interfaceConfig-version.cmake" "DESTINATION" "share/chienpanze_controller_interface/cmake")
 ament_cmake_symlink_install_files("/home/xplore/chienpanze/xre-legged-dog/xre_chienpanze/src/chienpanze_controllers" FILES "/home/xplore/chienpanze/xre-legged-dog/build/chienpanze_controller_interface/ament_cmake_core/chienpanze_controller_interfaceConfig.cmake" "/home/xplore/chienpanze/xre-legged-dog/build/chienpanze_controller_interface/ament_cmake_core/chienpanze_controller_interfaceConfig-version.cmake" "DESTINATION" "share/chienpanze_controller_interface/cmake")

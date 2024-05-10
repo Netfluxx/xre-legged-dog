@@ -1,0 +1,1 @@
+/home/xplore/chienpanze/xre-legged-dog/xre_chienpanze/src/chienpanze_bringup/launch/test_joint_trajectory_controller.launch.py

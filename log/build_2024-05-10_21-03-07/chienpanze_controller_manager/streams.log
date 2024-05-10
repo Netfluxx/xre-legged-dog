@@ -1,0 +1,32 @@
+[0.161s] Invoking command in '/home/xplore/chienpanze/xre-legged-dog/build/chienpanze_controller_manager': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/xplore/chienpanze/xre-legged-dog/build/chienpanze_controller_manager -- -j4 -l4
+[0.458s] -- Found ament_cmake: 1.3.8 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.693s] -- Found ament_lint_auto: 0.12.10 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[2.351s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[2.352s] -- Configured cppcheck include dirs: 
+[2.352s] -- Configured cppcheck exclude dirs and/or files: 
+[2.353s] -- Added test 'lint_cmake' to check CMake code style
+[2.368s] -- Added test 'uncrustify' to check C / C++ code style
+[2.372s] -- Configured uncrustify additional arguments: 
+[2.373s] -- Added test 'xmllint' to check XML markup files
+[2.384s] -- Configuring done
+[2.452s] -- Generating done
+[2.470s] -- Build files have been written to: /home/xplore/chienpanze/xre-legged-dog/build/chienpanze_controller_manager
+[2.657s] Invoked command in '/home/xplore/chienpanze/xre-legged-dog/build/chienpanze_controller_manager' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/xplore/chienpanze/xre-legged-dog/build/chienpanze_controller_manager -- -j4 -l4
+[2.911s] Invoking command in '/home/xplore/chienpanze/xre-legged-dog/build/chienpanze_controller_manager': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/xplore/chienpanze/xre-legged-dog/build/chienpanze_controller_manager
+[2.970s] -- Install configuration: ""
+[2.971s] -- Installing: /home/xplore/chienpanze/xre-legged-dog/install/chienpanze_controller_manager/share/ament_index/resource_index/package_run_dependencies/chienpanze_controller_manager
+[2.975s] -- Installing: /home/xplore/chienpanze/xre-legged-dog/install/chienpanze_controller_manager/share/ament_index/resource_index/parent_prefix_path/chienpanze_controller_manager
+[2.977s] -- Installing: /home/xplore/chienpanze/xre-legged-dog/install/chienpanze_controller_manager/share/chienpanze_controller_manager/environment/ament_prefix_path.sh
+[2.981s] -- Installing: /home/xplore/chienpanze/xre-legged-dog/install/chienpanze_controller_manager/share/chienpanze_controller_manager/environment/ament_prefix_path.dsv
+[2.985s] -- Installing: /home/xplore/chienpanze/xre-legged-dog/install/chienpanze_controller_manager/share/chienpanze_controller_manager/environment/path.sh
+[2.986s] -- Installing: /home/xplore/chienpanze/xre-legged-dog/install/chienpanze_controller_manager/share/chienpanze_controller_manager/environment/path.dsv
+[2.988s] -- Installing: /home/xplore/chienpanze/xre-legged-dog/install/chienpanze_controller_manager/share/chienpanze_controller_manager/local_setup.bash
+[2.990s] -- Installing: /home/xplore/chienpanze/xre-legged-dog/install/chienpanze_controller_manager/share/chienpanze_controller_manager/local_setup.sh
+[2.991s] -- Installing: /home/xplore/chienpanze/xre-legged-dog/install/chienpanze_controller_manager/share/chienpanze_controller_manager/local_setup.zsh
+[2.994s] -- Installing: /home/xplore/chienpanze/xre-legged-dog/install/chienpanze_controller_manager/share/chienpanze_controller_manager/local_setup.dsv
+[2.995s] -- Installing: /home/xplore/chienpanze/xre-legged-dog/install/chienpanze_controller_manager/share/chienpanze_controller_manager/package.dsv
+[2.997s] -- Installing: /home/xplore/chienpanze/xre-legged-dog/install/chienpanze_controller_manager/share/ament_index/resource_index/packages/chienpanze_controller_manager
+[3.000s] -- Installing: /home/xplore/chienpanze/xre-legged-dog/install/chienpanze_controller_manager/share/chienpanze_controller_manager/cmake/chienpanze_controller_managerConfig.cmake
+[3.002s] -- Installing: /home/xplore/chienpanze/xre-legged-dog/install/chienpanze_controller_manager/share/chienpanze_controller_manager/cmake/chienpanze_controller_managerConfig-version.cmake
+[3.005s] -- Installing: /home/xplore/chienpanze/xre-legged-dog/install/chienpanze_controller_manager/share/chienpanze_controller_manager/package.xml
+[3.026s] Invoked command in '/home/xplore/chienpanze/xre-legged-dog/build/chienpanze_controller_manager' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/xplore/chienpanze/xre-legged-dog/build/chienpanze_controller_manager

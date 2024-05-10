@@ -651,7 +651,12 @@ CMakeFiles/chienpanze_controller_interface.dir/src/chienpanze_controller_interfa
  /opt/ros/humble/include/rclcpp_lifecycle/rclcpp_lifecycle/transition.hpp \
  /opt/ros/humble/include/rclcpp_lifecycle/rclcpp_lifecycle/lifecycle_node_impl.hpp \
  /opt/ros/humble/include/rclcpp_lifecycle/rclcpp_lifecycle/lifecycle_publisher.hpp \
+ /opt/ros/humble/include/hardware_interface/types/lifecycle_state_names.hpp \
  /home/xplore/chienpanze/xre-legged-dog/xre_chienpanze/src/chienpanze_controllers/include/chienpanze_controller_interface/chienpanze_controller_interface.hpp \
+ /opt/ros/humble/include/lifecycle_msgs/lifecycle_msgs/msg/state.hpp \
+ /opt/ros/humble/include/lifecycle_msgs/lifecycle_msgs/msg/detail/state__struct.hpp \
+ /opt/ros/humble/include/lifecycle_msgs/lifecycle_msgs/msg/detail/state__builder.hpp \
+ /opt/ros/humble/include/lifecycle_msgs/lifecycle_msgs/msg/detail/state__traits.hpp \
  /opt/ros/humble/include/pluginlib/pluginlib/class_list_macros.hpp \
  /opt/ros/humble/include/class_loader/class_loader/class_loader.hpp \
  /usr/include/c++/11/cstddef /usr/include/console_bridge/console.h \

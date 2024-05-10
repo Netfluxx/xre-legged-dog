@@ -15,6 +15,7 @@ from launch.substitutions import (
 )
 from launch_ros.actions import Node
 from launch_ros.substitutions import FindPackageShare
+import launch_ros.descriptions
 
 
 def generate_launch_description():
@@ -78,7 +79,7 @@ def generate_launch_description():
         DeclareLaunchArgument(
             "robot_controller",
             default_value="displacement_controller",
-            choices=["forward_position_controller", "joint_trajectory_controller", "displacement_controller"],
+            choices=["forward_position_controller", "joint_trajectory_controller"],
             description="Robot controller to start.",
         )
     )
@@ -88,9 +89,9 @@ def generate_launch_description():
     controllers_file = LaunchConfiguration("controllers_file")
     description_package = LaunchConfiguration("description_package")
     description_file = LaunchConfiguration("description_file")
-    prefix = LaunchConfiguration("prefix")
-    use_mock_hardware = LaunchConfiguration("use_mock_hardware")
-    mock_sensor_commands = LaunchConfiguration("mock_sensor_commands")
+    #prefix = LaunchConfiguration("prefix")
+    #use_mock_hardware = LaunchConfiguration("use_mock_hardware")
+    #mock_sensor_commands = LaunchConfiguration("mock_sensor_commands")
     robot_controller = LaunchConfiguration("robot_controller")
 
     # Get URDF via xacro
@@ -100,17 +101,7 @@ def generate_launch_description():
             " ",
             PathJoinSubstitution(
                 [FindPackageShare(description_package), "urdf", description_file]
-            ),
-            " ",
-            "prefix:=",
-            prefix,
-            " ",
-            "use_mock_hardware:=",
-            use_mock_hardware,
-            " ",
-            "mock_sensor_commands:=",
-            mock_sensor_commands,
-            " ",
+            )
         ]
     )
 
