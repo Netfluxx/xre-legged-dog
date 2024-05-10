@@ -5,14 +5,14 @@ controller_manager:
     joint_state_broadcaster:
       type: joint_state_broadcaster/JointStateBroadcaster
 
+    
     forward_position_controller:
       type: forward_command_controller/ForwardCommandController
 
-    joint_trajectory_position_controller:
+    joint_trajectory_controller:
       type: joint_trajectory_controller/JointTrajectoryController
-    motor_position_controller:
-      type: position_controllers/JointPositionController
-
+    # motor_position_controller:
+    #   type: position_controllers/JointPositionController
 
 forward_position_controller:
   ros__parameters:
@@ -20,8 +20,7 @@ forward_position_controller:
       - upper_leg_joint
     interface_name: position
 
-
-joint_trajectory_position_controller:
+joint_trajectory_controller:
   ros__parameters:
     joints:
       - upper_leg_joint
@@ -31,15 +30,13 @@ joint_trajectory_position_controller:
 
     state_interfaces:
       - position
-  
+    
+    action_monitor_rate: 50.0 #those are default values but how should i change them?
+    state_publish_rate: 20.0 #default value
 
-position_controllers:
-  ros__parameters:
-    joints:
-      - upper_leg_joint
+    allow_partial_joints_goal: true
+    open_loop_control: true
 
-    command_interfaces:
-      - position
-
-    state_interfaces:
-      - position
+    constraints:
+      stoppped_velocity_tolerance: 0.01
+      goal_time: 0.0
