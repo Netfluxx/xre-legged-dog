@@ -1,1 +1,0 @@
-/home/xplore/chienpanze/xre-legged-dog/xre_chienpanze/src/chienpanze_hw_interface/include/chienpanze_hw_interface/chienpanze_hw_interface.hpp

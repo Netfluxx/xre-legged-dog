@@ -74,7 +74,7 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/chienpanze_controller_interface" TYPE FILE FILES "/home/xplore/chienpanze/xre-legged-dog/xre_chienpanze/src/chienpanze_controllers/chienpanze_controller_plugin.xml")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/chienpanze_controller_interface" TYPE FILE FILES "/home/xplore/chienpanze/xre-legged-dog/xre_chienpanze/src/chienpanze_controllers/chienpanze_controllers.xml")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)

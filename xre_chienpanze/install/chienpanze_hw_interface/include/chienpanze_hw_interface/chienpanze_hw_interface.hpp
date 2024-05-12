@@ -67,8 +67,8 @@ namespace chienpanze_hw_interface{
             std::vector<double> hw_actuator_effort_scales_;
             std::vector<double> hw_actuator_kp_scales_;
             std::vector<double> hw_actuator_kd_scales_;
-            std::vector<int> hw_actuator_axis_directions_;
-            std::vector<double> hw_actuator_position_offsets_;
+            //std::vector<int> hw_actuator_axis_directions_;
+            //std::vector<double> hw_actuator_position_offsets_;
 
             // Actuator limits
             std::vector<double> hw_actuator_position_mins_; 
@@ -81,12 +81,12 @@ namespace chienpanze_hw_interface{
             // Actuator states
             std::vector<double> hw_state_positions_;
             std::vector<double> hw_state_velocities_;
-            std::vector<double> hw_state_efforts_;
+            //std::vector<double> hw_state_efforts_;
 
             // Actuator commands
             std::vector<double> hw_command_positions_;
             std::vector<double> hw_command_velocities_;
-            std::vector<double> hw_command_efforts_;
+            //std::vector<double> hw_command_efforts_;
             std::vector<double> hw_command_kps_;
             std::vector<double> hw_command_kds_;
     

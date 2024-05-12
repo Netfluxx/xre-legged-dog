@@ -109,11 +109,11 @@
 
 
     <!-- ROS2-CONTROL -->
+
+
     <ros2_control name="chienpanze" type="system">
       <hardware>
-        <plugin> 
-          <!-- {Name_Space}/{Class_Name}   WHAT DO I WRITE HERE??-->
-        </plugin>
+        <plugin>mock_components/GenericSystem</plugin>
       </hardware>
     
       <joint name="upper_leg_joint">

@@ -1,1 +1,0 @@
-Invoking command in '/home/xplore/chienpanze/xre-legged-dog/build/chienpanze_hw_interface': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/xplore/chienpanze/xre-legged-dog/xre_chienpanze/src/chienpanze_hw_interface -DCMAKE_INSTALL_PREFIX=/home/xplore/chienpanze/xre-legged-dog/install/chienpanze_hw_interface

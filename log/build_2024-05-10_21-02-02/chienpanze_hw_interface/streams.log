@@ -1,5 +1,0 @@
-[0.214s] Invoking command in '/home/xplore/chienpanze/xre-legged-dog/build/chienpanze_hw_interface': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/xplore/chienpanze/xre-legged-dog/build/chienpanze_hw_interface -- -j4 -l4
-[0.793s] [35m[1mConsolidate compiler generated dependencies of target chienpanze_hw_interface[0m
-[1.006s] [ 50%] [32mBuilding CXX object CMakeFiles/chienpanze_hw_interface.dir/include/pi3hat/pi3hat.cc.o[0m
-[7.867s] [100%] [32m[1mLinking CXX shared library libchienpanze_hw_interface.so[0m
-[10.112s] [100%] Built target chienpanze_hw_interface

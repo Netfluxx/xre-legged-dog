@@ -1,1 +1,0 @@
-/home/xplore/chienpanze/xre-legged-dog/build/chienpanze_description/ament_cmake_core/chienpanze_descriptionConfig.cmake

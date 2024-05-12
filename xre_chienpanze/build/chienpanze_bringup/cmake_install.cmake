@@ -43,6 +43,13 @@ if(NOT DEFINED CMAKE_OBJDUMP)
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/chienpanze_bringup" TYPE DIRECTORY FILES
+    "/home/xplore/chienpanze/xre-legged-dog/xre_chienpanze/src/chienpanze_bringup/config"
+    "/home/xplore/chienpanze/xre-legged-dog/xre_chienpanze/src/chienpanze_bringup/launch/"
+    )
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ament_index/resource_index/package_run_dependencies" TYPE FILE FILES "/home/xplore/chienpanze/xre-legged-dog/xre_chienpanze/build/chienpanze_bringup/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/chienpanze_bringup")
 endif()
 

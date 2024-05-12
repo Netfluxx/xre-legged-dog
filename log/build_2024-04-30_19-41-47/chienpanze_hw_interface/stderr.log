@@ -1,9 +1,0 @@
-[31mCMake Error at CMakeLists.txt:28 (add_library):
-  add_library cannot create target "chienpanze_hw_interface" because another
-  target with the same name already exists.  The existing target is a shared
-  library created in source directory
-  "/home/xplore/chienpanze/xre-legged-dog/xre_chienpanze/src/chienpanze_hw_interface".
-  See documentation for policy CMP0002 for more details.
-
-[0m
-gmake: *** [Makefile:294: cmake_check_build_system] Error 1
