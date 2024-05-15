@@ -1,0 +1,20 @@
+[0.203s] Invoking command in '/home/xplore/chienpanze/xre-legged-dog/xre_chienpanze/build/chienpanze_controller_manager': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/xplore/chienpanze/xre-legged-dog/xre_chienpanze/build/chienpanze_controller_manager -- -j4 -l4
+[0.741s] Invoked command in '/home/xplore/chienpanze/xre-legged-dog/xre_chienpanze/build/chienpanze_controller_manager' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/xplore/chienpanze/xre-legged-dog/xre_chienpanze/build/chienpanze_controller_manager -- -j4 -l4
+[1.091s] Invoking command in '/home/xplore/chienpanze/xre-legged-dog/xre_chienpanze/build/chienpanze_controller_manager': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/xplore/chienpanze/xre-legged-dog/xre_chienpanze/build/chienpanze_controller_manager
+[1.166s] -- Install configuration: ""
+[1.169s] -- Up-to-date: /home/xplore/chienpanze/xre-legged-dog/xre_chienpanze/install/chienpanze_controller_manager/share/ament_index/resource_index/package_run_dependencies/chienpanze_controller_manager
+[1.169s] -- Up-to-date: /home/xplore/chienpanze/xre-legged-dog/xre_chienpanze/install/chienpanze_controller_manager/share/ament_index/resource_index/parent_prefix_path/chienpanze_controller_manager
+[1.170s] -- Up-to-date: /home/xplore/chienpanze/xre-legged-dog/xre_chienpanze/install/chienpanze_controller_manager/share/chienpanze_controller_manager/environment/ament_prefix_path.sh
+[1.171s] -- Up-to-date: /home/xplore/chienpanze/xre-legged-dog/xre_chienpanze/install/chienpanze_controller_manager/share/chienpanze_controller_manager/environment/ament_prefix_path.dsv
+[1.175s] -- Up-to-date: /home/xplore/chienpanze/xre-legged-dog/xre_chienpanze/install/chienpanze_controller_manager/share/chienpanze_controller_manager/environment/path.sh
+[1.176s] -- Up-to-date: /home/xplore/chienpanze/xre-legged-dog/xre_chienpanze/install/chienpanze_controller_manager/share/chienpanze_controller_manager/environment/path.dsv
+[1.177s] -- Up-to-date: /home/xplore/chienpanze/xre-legged-dog/xre_chienpanze/install/chienpanze_controller_manager/share/chienpanze_controller_manager/local_setup.bash
+[1.177s] -- Up-to-date: /home/xplore/chienpanze/xre-legged-dog/xre_chienpanze/install/chienpanze_controller_manager/share/chienpanze_controller_manager/local_setup.sh
+[1.178s] -- Up-to-date: /home/xplore/chienpanze/xre-legged-dog/xre_chienpanze/install/chienpanze_controller_manager/share/chienpanze_controller_manager/local_setup.zsh
+[1.179s] -- Up-to-date: /home/xplore/chienpanze/xre-legged-dog/xre_chienpanze/install/chienpanze_controller_manager/share/chienpanze_controller_manager/local_setup.dsv
+[1.180s] -- Installing: /home/xplore/chienpanze/xre-legged-dog/xre_chienpanze/install/chienpanze_controller_manager/share/chienpanze_controller_manager/package.dsv
+[1.199s] -- Up-to-date: /home/xplore/chienpanze/xre-legged-dog/xre_chienpanze/install/chienpanze_controller_manager/share/ament_index/resource_index/packages/chienpanze_controller_manager
+[1.205s] -- Up-to-date: /home/xplore/chienpanze/xre-legged-dog/xre_chienpanze/install/chienpanze_controller_manager/share/chienpanze_controller_manager/cmake/chienpanze_controller_managerConfig.cmake
+[1.207s] -- Up-to-date: /home/xplore/chienpanze/xre-legged-dog/xre_chienpanze/install/chienpanze_controller_manager/share/chienpanze_controller_manager/cmake/chienpanze_controller_managerConfig-version.cmake
+[1.210s] -- Up-to-date: /home/xplore/chienpanze/xre-legged-dog/xre_chienpanze/install/chienpanze_controller_manager/share/chienpanze_controller_manager/package.xml
+[1.229s] Invoked command in '/home/xplore/chienpanze/xre-legged-dog/xre_chienpanze/build/chienpanze_controller_manager' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/xplore/chienpanze/xre-legged-dog/xre_chienpanze/build/chienpanze_controller_manager

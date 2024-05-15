@@ -110,7 +110,7 @@
 
     <!-- ROS2-CONTROL -->
 
-
+ 
     <ros2_control name="chienpanze" type="system">
       <hardware>
         <plugin>mock_components/GenericSystem</plugin>

@@ -1,0 +1,78 @@
+[0.101s] Invoking command in '/home/xplore/chienpanze/xre-legged-dog/xre_chienpanze/build/chienpanze_bringup': CMAKE_PREFIX_PATH=/home/xplore/chienpanze/xre-legged-dog/xre_chienpanze/install/chienpanze_description:/home/xplore/chienpanze/xre-legged-dog/xre_chienpanze/install/chienpanze_hw_interface:/home/xplore/chienpanze/xre-legged-dog/xre_chienpanze/install/chienpanze_bringup:/home/xplore/chienpanze/xre-legged-dog/xre_chienpanze/install/chienpanze_controller_manager:/home/xplore/chienpanze/xre-legged-dog/xre_chienpanze/install/chienpanze_controller_interface:/opt/ros/humble /usr/bin/cmake /home/xplore/chienpanze/xre-legged-dog/xre_chienpanze/src/chienpanze_bringup -DCMAKE_INSTALL_PREFIX=/home/xplore/chienpanze/xre-legged-dog/xre_chienpanze/install/chienpanze_bringup
+[0.614s] -- The C compiler identification is GNU 11.4.0
+[1.048s] -- The CXX compiler identification is GNU 11.4.0
+[1.131s] -- Detecting C compiler ABI info
+[1.663s] -- Detecting C compiler ABI info - done
+[1.725s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.728s] -- Detecting C compile features
+[1.733s] -- Detecting C compile features - done
+[1.750s] -- Detecting CXX compiler ABI info
+[2.477s] -- Detecting CXX compiler ABI info - done
+[2.556s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[2.559s] -- Detecting CXX compile features
+[2.559s] -- Detecting CXX compile features - done
+[2.601s] -- Found ament_cmake: 1.3.8 (/opt/ros/humble/share/ament_cmake/cmake)
+[3.997s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[4.940s] -- Found rclcpp: 16.0.8 (/opt/ros/humble/share/rclcpp/cmake)
+[5.538s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[5.605s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[5.700s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[5.823s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[6.021s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[6.800s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[6.839s] -- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[8.107s] -- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[8.620s] -- Found FastRTPS: /opt/ros/humble/include  
+[9.253s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[9.374s] -- Looking for pthread.h
+[10.034s] -- Looking for pthread.h - found
+[10.042s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[10.776s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[10.790s] -- Found Threads: TRUE  
+[12.456s] -- Found ament_lint_auto: 0.12.10 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[13.149s] -- Added test 'copyright' to check source files copyright and LICENSE
+[13.175s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[13.175s] -- Configured cppcheck include dirs: 
+[13.176s] -- Configured cppcheck exclude dirs and/or files: 
+[13.180s] -- Added test 'flake8' to check Python code syntax and style conventions
+[13.188s] -- Added test 'lint_cmake' to check CMake code style
+[13.192s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[13.208s] -- Added test 'uncrustify' to check C / C++ code style
+[13.209s] -- Configured uncrustify additional arguments: 
+[13.214s] -- Added test 'xmllint' to check XML markup files
+[13.226s] -- Configuring done
+[13.310s] -- Generating done
+[13.322s] -- Build files have been written to: /home/xplore/chienpanze/xre-legged-dog/xre_chienpanze/build/chienpanze_bringup
+[13.402s] Invoked command in '/home/xplore/chienpanze/xre-legged-dog/xre_chienpanze/build/chienpanze_bringup' returned '0': CMAKE_PREFIX_PATH=/home/xplore/chienpanze/xre-legged-dog/xre_chienpanze/install/chienpanze_description:/home/xplore/chienpanze/xre-legged-dog/xre_chienpanze/install/chienpanze_hw_interface:/home/xplore/chienpanze/xre-legged-dog/xre_chienpanze/install/chienpanze_bringup:/home/xplore/chienpanze/xre-legged-dog/xre_chienpanze/install/chienpanze_controller_manager:/home/xplore/chienpanze/xre-legged-dog/xre_chienpanze/install/chienpanze_controller_interface:/opt/ros/humble /usr/bin/cmake /home/xplore/chienpanze/xre-legged-dog/xre_chienpanze/src/chienpanze_bringup -DCMAKE_INSTALL_PREFIX=/home/xplore/chienpanze/xre-legged-dog/xre_chienpanze/install/chienpanze_bringup
+[13.407s] Invoking command in '/home/xplore/chienpanze/xre-legged-dog/xre_chienpanze/build/chienpanze_bringup': CMAKE_PREFIX_PATH=/home/xplore/chienpanze/xre-legged-dog/xre_chienpanze/install/chienpanze_description:/home/xplore/chienpanze/xre-legged-dog/xre_chienpanze/install/chienpanze_hw_interface:/home/xplore/chienpanze/xre-legged-dog/xre_chienpanze/install/chienpanze_bringup:/home/xplore/chienpanze/xre-legged-dog/xre_chienpanze/install/chienpanze_controller_manager:/home/xplore/chienpanze/xre-legged-dog/xre_chienpanze/install/chienpanze_controller_interface:/opt/ros/humble /usr/bin/cmake --build /home/xplore/chienpanze/xre-legged-dog/xre_chienpanze/build/chienpanze_bringup -- -j4 -l4
+[13.747s] [ 50%] [32mBuilding CXX object CMakeFiles/position_publisher.dir/src/chienpanze_pos_cmd_pub.cpp.o[0m
+[43.080s] [100%] [32m[1mLinking CXX executable position_publisher[0m
+[44.258s] [100%] Built target position_publisher
+[44.318s] Invoked command in '/home/xplore/chienpanze/xre-legged-dog/xre_chienpanze/build/chienpanze_bringup' returned '0': CMAKE_PREFIX_PATH=/home/xplore/chienpanze/xre-legged-dog/xre_chienpanze/install/chienpanze_description:/home/xplore/chienpanze/xre-legged-dog/xre_chienpanze/install/chienpanze_hw_interface:/home/xplore/chienpanze/xre-legged-dog/xre_chienpanze/install/chienpanze_bringup:/home/xplore/chienpanze/xre-legged-dog/xre_chienpanze/install/chienpanze_controller_manager:/home/xplore/chienpanze/xre-legged-dog/xre_chienpanze/install/chienpanze_controller_interface:/opt/ros/humble /usr/bin/cmake --build /home/xplore/chienpanze/xre-legged-dog/xre_chienpanze/build/chienpanze_bringup -- -j4 -l4
+[44.507s] Invoking command in '/home/xplore/chienpanze/xre-legged-dog/xre_chienpanze/build/chienpanze_bringup': CMAKE_PREFIX_PATH=/home/xplore/chienpanze/xre-legged-dog/xre_chienpanze/install/chienpanze_description:/home/xplore/chienpanze/xre-legged-dog/xre_chienpanze/install/chienpanze_hw_interface:/home/xplore/chienpanze/xre-legged-dog/xre_chienpanze/install/chienpanze_bringup:/home/xplore/chienpanze/xre-legged-dog/xre_chienpanze/install/chienpanze_controller_manager:/home/xplore/chienpanze/xre-legged-dog/xre_chienpanze/install/chienpanze_controller_interface:/opt/ros/humble /usr/bin/cmake --install /home/xplore/chienpanze/xre-legged-dog/xre_chienpanze/build/chienpanze_bringup
+[44.540s] -- Install configuration: ""
+[44.542s] -- Installing: /home/xplore/chienpanze/xre-legged-dog/xre_chienpanze/install/chienpanze_bringup/lib/chienpanze_bringup/position_publisher
+[44.559s] -- Set runtime path of "/home/xplore/chienpanze/xre-legged-dog/xre_chienpanze/install/chienpanze_bringup/lib/chienpanze_bringup/position_publisher" to ""
+[44.566s] -- Installing: /home/xplore/chienpanze/xre-legged-dog/xre_chienpanze/install/chienpanze_bringup/share/chienpanze_bringup/config
+[44.567s] -- Installing: /home/xplore/chienpanze/xre-legged-dog/xre_chienpanze/install/chienpanze_bringup/share/chienpanze_bringup/config/test_goal_publishers_config.yaml
+[44.567s] -- Installing: /home/xplore/chienpanze/xre-legged-dog/xre_chienpanze/install/chienpanze_bringup/share/chienpanze_bringup/config/chienpanze_controllers.yaml
+[44.568s] -- Installing: /home/xplore/chienpanze/xre-legged-dog/xre_chienpanze/install/chienpanze_bringup/share/chienpanze_bringup/launch
+[44.569s] -- Installing: /home/xplore/chienpanze/xre-legged-dog/xre_chienpanze/install/chienpanze_bringup/share/chienpanze_bringup/launch/test_joint_trajectory_controller.launch.py
+[44.570s] -- Installing: /home/xplore/chienpanze/xre-legged-dog/xre_chienpanze/install/chienpanze_bringup/share/chienpanze_bringup/launch/chienpanze.launch.py
+[44.571s] -- Installing: /home/xplore/chienpanze/xre-legged-dog/xre_chienpanze/install/chienpanze_bringup/share/chienpanze_bringup/launch/test_forward_position_controller.launch.py
+[44.573s] -- Installing: /home/xplore/chienpanze/xre-legged-dog/xre_chienpanze/install/chienpanze_bringup/share/ament_index/resource_index/package_run_dependencies/chienpanze_bringup
+[44.576s] -- Installing: /home/xplore/chienpanze/xre-legged-dog/xre_chienpanze/install/chienpanze_bringup/share/ament_index/resource_index/parent_prefix_path/chienpanze_bringup
+[44.579s] -- Installing: /home/xplore/chienpanze/xre-legged-dog/xre_chienpanze/install/chienpanze_bringup/share/chienpanze_bringup/environment/ament_prefix_path.sh
+[44.581s] -- Installing: /home/xplore/chienpanze/xre-legged-dog/xre_chienpanze/install/chienpanze_bringup/share/chienpanze_bringup/environment/ament_prefix_path.dsv
+[44.583s] -- Installing: /home/xplore/chienpanze/xre-legged-dog/xre_chienpanze/install/chienpanze_bringup/share/chienpanze_bringup/environment/path.sh
+[44.585s] -- Installing: /home/xplore/chienpanze/xre-legged-dog/xre_chienpanze/install/chienpanze_bringup/share/chienpanze_bringup/environment/path.dsv
+[44.589s] -- Installing: /home/xplore/chienpanze/xre-legged-dog/xre_chienpanze/install/chienpanze_bringup/share/chienpanze_bringup/local_setup.bash
+[44.590s] -- Installing: /home/xplore/chienpanze/xre-legged-dog/xre_chienpanze/install/chienpanze_bringup/share/chienpanze_bringup/local_setup.sh
+[44.592s] -- Installing: /home/xplore/chienpanze/xre-legged-dog/xre_chienpanze/install/chienpanze_bringup/share/chienpanze_bringup/local_setup.zsh
+[44.594s] -- Installing: /home/xplore/chienpanze/xre-legged-dog/xre_chienpanze/install/chienpanze_bringup/share/chienpanze_bringup/local_setup.dsv
+[44.595s] -- Installing: /home/xplore/chienpanze/xre-legged-dog/xre_chienpanze/install/chienpanze_bringup/share/chienpanze_bringup/package.dsv
+[44.598s] -- Installing: /home/xplore/chienpanze/xre-legged-dog/xre_chienpanze/install/chienpanze_bringup/share/ament_index/resource_index/packages/chienpanze_bringup
+[44.600s] -- Installing: /home/xplore/chienpanze/xre-legged-dog/xre_chienpanze/install/chienpanze_bringup/share/chienpanze_bringup/cmake/chienpanze_bringupConfig.cmake
+[44.601s] -- Installing: /home/xplore/chienpanze/xre-legged-dog/xre_chienpanze/install/chienpanze_bringup/share/chienpanze_bringup/cmake/chienpanze_bringupConfig-version.cmake
+[44.603s] -- Installing: /home/xplore/chienpanze/xre-legged-dog/xre_chienpanze/install/chienpanze_bringup/share/chienpanze_bringup/package.xml
+[44.613s] Invoked command in '/home/xplore/chienpanze/xre-legged-dog/xre_chienpanze/build/chienpanze_bringup' returned '0': CMAKE_PREFIX_PATH=/home/xplore/chienpanze/xre-legged-dog/xre_chienpanze/install/chienpanze_description:/home/xplore/chienpanze/xre-legged-dog/xre_chienpanze/install/chienpanze_hw_interface:/home/xplore/chienpanze/xre-legged-dog/xre_chienpanze/install/chienpanze_bringup:/home/xplore/chienpanze/xre-legged-dog/xre_chienpanze/install/chienpanze_controller_manager:/home/xplore/chienpanze/xre-legged-dog/xre_chienpanze/install/chienpanze_controller_interface:/opt/ros/humble /usr/bin/cmake --install /home/xplore/chienpanze/xre-legged-dog/xre_chienpanze/build/chienpanze_bringup

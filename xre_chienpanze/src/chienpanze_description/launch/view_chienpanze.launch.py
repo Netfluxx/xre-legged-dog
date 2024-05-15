@@ -13,17 +13,12 @@ def generate_launch_description():
             "description_package",
             default_value="chienpanze_description",
             description="Description package with robot URDF/xacro files.",
-        ),
-        DeclareLaunchArgument(
-            "prefix",
-            default_value='""',
-            description="Prefix for joint names, useful for multi-robot setups.",
         )
     ]
 
     # Get configurations
     description_package = LaunchConfiguration("description_package")
-    prefix = LaunchConfiguration("prefix")
+
 
     # Get URDF from xacro
     robot_description_content = Command(
@@ -32,19 +27,17 @@ def generate_launch_description():
             " ",
             PathJoinSubstitution(
                 [FindPackageShare(description_package), "urdf", "chienpanze.urdf.xacro"]
-            ),
-            " ",
-            "prefix:=", prefix
+            )
         ]
     )
 
     robot_description = {'robot_description': ParameterValue(robot_description_content, value_type=str)}
 
     # Nodes
-    joint_state_publisher_node = Node(
-        package="joint_state_publisher_gui",
-        executable="joint_state_publisher_gui",
-    )
+    # joint_state_publisher_node = Node(
+    #     package="joint_state_publisher_gui",
+    #     executable="joint_state_publisher_gui",
+    # )
     robot_state_publisher_node = Node(
         package="robot_state_publisher",
         executable="robot_state_publisher",
@@ -62,23 +55,11 @@ def generate_launch_description():
     )
 
     # Event handlers for delays
-    delay_rviz_after_joint_state_publisher_node = RegisterEventHandler(
-        event_handler=OnProcessStart(
-            target_action=joint_state_publisher_node,
-            on_start=[
-                TimerAction(
-                    period=2.0,
-                    actions=[rviz_node],
-                ),
-            ],
-        )
-    )
 
     return LaunchDescription(
         declared_arguments
         + [
-            joint_state_publisher_node,
             robot_state_publisher_node,
-            delay_rviz_after_joint_state_publisher_node,
+            rviz_node,
         ]
     )

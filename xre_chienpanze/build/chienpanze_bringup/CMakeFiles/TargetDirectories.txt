@@ -1,5 +1,6 @@
 /home/xplore/chienpanze/xre-legged-dog/xre_chienpanze/build/chienpanze_bringup/CMakeFiles/uninstall.dir
 /home/xplore/chienpanze/xre-legged-dog/xre_chienpanze/build/chienpanze_bringup/CMakeFiles/chienpanze_bringup_uninstall.dir
+/home/xplore/chienpanze/xre-legged-dog/xre_chienpanze/build/chienpanze_bringup/CMakeFiles/position_publisher.dir
 /home/xplore/chienpanze/xre-legged-dog/xre_chienpanze/build/chienpanze_bringup/CMakeFiles/test.dir
 /home/xplore/chienpanze/xre-legged-dog/xre_chienpanze/build/chienpanze_bringup/CMakeFiles/edit_cache.dir
 /home/xplore/chienpanze/xre-legged-dog/xre_chienpanze/build/chienpanze_bringup/CMakeFiles/rebuild_cache.dir

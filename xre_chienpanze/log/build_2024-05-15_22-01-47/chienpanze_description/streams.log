@@ -1,0 +1,29 @@
+[0.242s] Invoking command in '/home/xplore/chienpanze/xre-legged-dog/xre_chienpanze/build/chienpanze_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/xplore/chienpanze/xre-legged-dog/xre_chienpanze/build/chienpanze_description -- -j4 -l4
+[0.654s] Invoked command in '/home/xplore/chienpanze/xre-legged-dog/xre_chienpanze/build/chienpanze_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/xplore/chienpanze/xre-legged-dog/xre_chienpanze/build/chienpanze_description -- -j4 -l4
+[1.015s] Invoking command in '/home/xplore/chienpanze/xre-legged-dog/xre_chienpanze/build/chienpanze_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/xplore/chienpanze/xre-legged-dog/xre_chienpanze/build/chienpanze_description
+[1.109s] -- Install configuration: ""
+[1.120s] -- Up-to-date: /home/xplore/chienpanze/xre-legged-dog/xre_chienpanze/install/chienpanze_description/share/chienpanze_description/config
+[1.125s] -- Up-to-date: /home/xplore/chienpanze/xre-legged-dog/xre_chienpanze/install/chienpanze_description/share/chienpanze_description
+[1.126s] -- Up-to-date: /home/xplore/chienpanze/xre-legged-dog/xre_chienpanze/install/chienpanze_description/share/chienpanze_description/view_chienpanze.launch.py
+[1.127s] -- Up-to-date: /home/xplore/chienpanze/xre-legged-dog/xre_chienpanze/install/chienpanze_description/share/chienpanze_description/rviz
+[1.128s] -- Up-to-date: /home/xplore/chienpanze/xre-legged-dog/xre_chienpanze/install/chienpanze_description/share/chienpanze_description/rviz/chienpanze.rviz
+[1.139s] -- Up-to-date: /home/xplore/chienpanze/xre-legged-dog/xre_chienpanze/install/chienpanze_description/share/chienpanze_description/urdf
+[1.149s] -- Up-to-date: /home/xplore/chienpanze/xre-legged-dog/xre_chienpanze/install/chienpanze_description/share/chienpanze_description/urdf/chienpanze.urdf.xacro
+[1.151s] -- Up-to-date: /home/xplore/chienpanze/xre-legged-dog/xre_chienpanze/install/chienpanze_description/share/chienpanze_description/urdf
+[1.156s] -- Up-to-date: /home/xplore/chienpanze/xre-legged-dog/xre_chienpanze/install/chienpanze_description/share/chienpanze_description/urdf/chienpanze.urdf.xacro
+[1.157s] -- Up-to-date: /home/xplore/chienpanze/xre-legged-dog/xre_chienpanze/install/chienpanze_description/share/ament_index/resource_index/package_run_dependencies/chienpanze_description
+[1.160s] -- Up-to-date: /home/xplore/chienpanze/xre-legged-dog/xre_chienpanze/install/chienpanze_description/share/ament_index/resource_index/parent_prefix_path/chienpanze_description
+[1.161s] -- Up-to-date: /home/xplore/chienpanze/xre-legged-dog/xre_chienpanze/install/chienpanze_description/share/chienpanze_description/environment/ament_prefix_path.sh
+[1.161s] -- Up-to-date: /home/xplore/chienpanze/xre-legged-dog/xre_chienpanze/install/chienpanze_description/share/chienpanze_description/environment/ament_prefix_path.dsv
+[1.162s] -- Up-to-date: /home/xplore/chienpanze/xre-legged-dog/xre_chienpanze/install/chienpanze_description/share/chienpanze_description/environment/path.sh
+[1.164s] -- Up-to-date: /home/xplore/chienpanze/xre-legged-dog/xre_chienpanze/install/chienpanze_description/share/chienpanze_description/environment/path.dsv
+[1.165s] -- Up-to-date: /home/xplore/chienpanze/xre-legged-dog/xre_chienpanze/install/chienpanze_description/share/chienpanze_description/local_setup.bash
+[1.166s] -- Up-to-date: /home/xplore/chienpanze/xre-legged-dog/xre_chienpanze/install/chienpanze_description/share/chienpanze_description/local_setup.sh
+[1.170s] -- Up-to-date: /home/xplore/chienpanze/xre-legged-dog/xre_chienpanze/install/chienpanze_description/share/chienpanze_description/local_setup.zsh
+[1.200s] -- Up-to-date: /home/xplore/chienpanze/xre-legged-dog/xre_chienpanze/install/chienpanze_description/share/chienpanze_description/local_setup.dsv
+[1.202s] -- Installing: /home/xplore/chienpanze/xre-legged-dog/xre_chienpanze/install/chienpanze_description/share/chienpanze_description/package.dsv
+[1.214s] -- Up-to-date: /home/xplore/chienpanze/xre-legged-dog/xre_chienpanze/install/chienpanze_description/share/ament_index/resource_index/packages/chienpanze_description
+[1.225s] -- Up-to-date: /home/xplore/chienpanze/xre-legged-dog/xre_chienpanze/install/chienpanze_description/share/chienpanze_description/cmake/chienpanze_descriptionConfig.cmake
+[1.229s] -- Up-to-date: /home/xplore/chienpanze/xre-legged-dog/xre_chienpanze/install/chienpanze_description/share/chienpanze_description/cmake/chienpanze_descriptionConfig-version.cmake
+[1.232s] -- Up-to-date: /home/xplore/chienpanze/xre-legged-dog/xre_chienpanze/install/chienpanze_description/share/chienpanze_description/package.xml
+[1.239s] Invoked command in '/home/xplore/chienpanze/xre-legged-dog/xre_chienpanze/build/chienpanze_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/xplore/chienpanze/xre-legged-dog/xre_chienpanze/build/chienpanze_description

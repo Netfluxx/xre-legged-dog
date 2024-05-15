@@ -1,0 +1,19 @@
+[0.291s] Invoking command in '/home/xplore/chienpanze/xre-legged-dog/xre_chienpanze/build/chienpanze_hw_interface': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/xplore/chienpanze/xre-legged-dog/xre_chienpanze/build/chienpanze_hw_interface -- -j4 -l4
+[0.966s] [100%] Built target chienpanze_hw_interface
+[1.195s] Invoked command in '/home/xplore/chienpanze/xre-legged-dog/xre_chienpanze/build/chienpanze_hw_interface' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/xplore/chienpanze/xre-legged-dog/xre_chienpanze/build/chienpanze_hw_interface -- -j4 -l4
+[138.770s] Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/colcon_core/executor/__init__.py", line 91, in __call__
+    rc = await self.task(*args, **kwargs)
+  File "/usr/lib/python3/dist-packages/colcon_core/task/__init__.py", line 93, in __call__
+    return await task_method(*args, **kwargs)
+  File "/usr/lib/python3/dist-packages/colcon_ros/task/ament_cmake/build.py", line 59, in build
+    rc = await extension.build(
+  File "/usr/lib/python3/dist-packages/colcon_cmake/task/cmake/build.py", line 110, in build
+    if await has_target(args.build_base, 'install'):
+  File "/usr/lib/python3/dist-packages/colcon_cmake/task/cmake/__init__.py", line 57, in has_target
+    return target in await get_makefile_targets(path)
+  File "/usr/lib/python3/dist-packages/colcon_cmake/task/cmake/__init__.py", line 77, in get_makefile_targets
+    output = await check_output([
+  File "/usr/lib/python3/dist-packages/colcon_core/subprocess.py", line 129, in check_output
+    assert not rc, f'Expected {args} to pass: {stderr_data}'
+AssertionError: Expected ['/usr/bin/cmake', '--build', '/home/xplore/chienpanze/xre-legged-dog/xre_chienpanze/build/chienpanze_hw_interface', '--target', 'help'] to pass: 

@@ -43,9 +43,29 @@ if(NOT DEFINED CMAKE_OBJDUMP)
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/chienpanze_bringup/position_publisher" AND
+     NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/chienpanze_bringup/position_publisher")
+    file(RPATH_CHECK
+         FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/chienpanze_bringup/position_publisher"
+         RPATH "")
+  endif()
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/chienpanze_bringup" TYPE EXECUTABLE FILES "/home/xplore/chienpanze/xre-legged-dog/xre_chienpanze/build/chienpanze_bringup/position_publisher")
+  if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/chienpanze_bringup/position_publisher" AND
+     NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/chienpanze_bringup/position_publisher")
+    file(RPATH_CHANGE
+         FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/chienpanze_bringup/position_publisher"
+         OLD_RPATH "/opt/ros/humble/lib:"
+         NEW_RPATH "")
+    if(CMAKE_INSTALL_DO_STRIP)
+      execute_process(COMMAND "/usr/bin/strip" "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/chienpanze_bringup/position_publisher")
+    endif()
+  endif()
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/chienpanze_bringup" TYPE DIRECTORY FILES
     "/home/xplore/chienpanze/xre-legged-dog/xre_chienpanze/src/chienpanze_bringup/config"
-    "/home/xplore/chienpanze/xre-legged-dog/xre_chienpanze/src/chienpanze_bringup/launch/"
+    "/home/xplore/chienpanze/xre-legged-dog/xre_chienpanze/src/chienpanze_bringup/launch"
     )
 endif()
 

@@ -1,0 +1,20 @@
+[0.298s] Invoking command in '/home/xplore/chienpanze/xre-legged-dog/xre_chienpanze/build/chienpanze_bringup': CMAKE_PREFIX_PATH=/home/xplore/chienpanze/xre-legged-dog/xre_chienpanze/install/chienpanze_description:/home/xplore/chienpanze/xre-legged-dog/xre_chienpanze/install/chienpanze_hw_interface:/home/xplore/chienpanze/xre-legged-dog/xre_chienpanze/install/chienpanze_bringup:/home/xplore/chienpanze/xre-legged-dog/xre_chienpanze/install/chienpanze_controller_manager:/home/xplore/chienpanze/xre-legged-dog/xre_chienpanze/install/chienpanze_controller_interface:/opt/ros/humble /usr/bin/cmake --build /home/xplore/chienpanze/xre-legged-dog/xre_chienpanze/build/chienpanze_bringup -- -j4 -l4
+[0.467s] -- Found ament_cmake: 1.3.8 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.483s] [31mCMake Error at CMakeLists.txt:10 (find_package):
+[1.484s]   find_package called with invalid argument "rclcpp"
+[1.484s] 
+[1.485s] [0m
+[1.486s] -- Found ament_lint_auto: 0.12.10 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[1.927s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[1.928s] -- Configured cppcheck include dirs: 
+[1.928s] -- Configured cppcheck exclude dirs and/or files: 
+[1.931s] -- Added test 'flake8' to check Python code syntax and style conventions
+[1.934s] -- Added test 'lint_cmake' to check CMake code style
+[1.938s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[1.948s] -- Added test 'uncrustify' to check C / C++ code style
+[1.949s] -- Configured uncrustify additional arguments: 
+[1.951s] -- Added test 'xmllint' to check XML markup files
+[1.956s] -- Configuring incomplete, errors occurred!
+[1.956s] See also "/home/xplore/chienpanze/xre-legged-dog/xre_chienpanze/build/chienpanze_bringup/CMakeFiles/CMakeOutput.log".
+[1.968s] gmake: *** [Makefile:226: cmake_check_build_system] Error 1
+[1.989s] Invoked command in '/home/xplore/chienpanze/xre-legged-dog/xre_chienpanze/build/chienpanze_bringup' returned '2': CMAKE_PREFIX_PATH=/home/xplore/chienpanze/xre-legged-dog/xre_chienpanze/install/chienpanze_description:/home/xplore/chienpanze/xre-legged-dog/xre_chienpanze/install/chienpanze_hw_interface:/home/xplore/chienpanze/xre-legged-dog/xre_chienpanze/install/chienpanze_bringup:/home/xplore/chienpanze/xre-legged-dog/xre_chienpanze/install/chienpanze_controller_manager:/home/xplore/chienpanze/xre-legged-dog/xre_chienpanze/install/chienpanze_controller_interface:/opt/ros/humble /usr/bin/cmake --build /home/xplore/chienpanze/xre-legged-dog/xre_chienpanze/build/chienpanze_bringup -- -j4 -l4

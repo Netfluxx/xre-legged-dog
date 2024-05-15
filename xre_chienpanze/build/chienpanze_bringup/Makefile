@@ -197,6 +197,43 @@ chienpanze_bringup_uninstall/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/chienpanze_bringup_uninstall.dir/build.make CMakeFiles/chienpanze_bringup_uninstall.dir/build
 .PHONY : chienpanze_bringup_uninstall/fast
 
+#=============================================================================
+# Target rules for targets named position_publisher
+
+# Build rule for target.
+position_publisher: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 position_publisher
+.PHONY : position_publisher
+
+# fast build rule for target.
+position_publisher/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/position_publisher.dir/build.make CMakeFiles/position_publisher.dir/build
+.PHONY : position_publisher/fast
+
+src/chienpanze_pos_cmd_pub.o: src/chienpanze_pos_cmd_pub.cpp.o
+.PHONY : src/chienpanze_pos_cmd_pub.o
+
+# target to build an object file
+src/chienpanze_pos_cmd_pub.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/position_publisher.dir/build.make CMakeFiles/position_publisher.dir/src/chienpanze_pos_cmd_pub.cpp.o
+.PHONY : src/chienpanze_pos_cmd_pub.cpp.o
+
+src/chienpanze_pos_cmd_pub.i: src/chienpanze_pos_cmd_pub.cpp.i
+.PHONY : src/chienpanze_pos_cmd_pub.i
+
+# target to preprocess a source file
+src/chienpanze_pos_cmd_pub.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/position_publisher.dir/build.make CMakeFiles/position_publisher.dir/src/chienpanze_pos_cmd_pub.cpp.i
+.PHONY : src/chienpanze_pos_cmd_pub.cpp.i
+
+src/chienpanze_pos_cmd_pub.s: src/chienpanze_pos_cmd_pub.cpp.s
+.PHONY : src/chienpanze_pos_cmd_pub.s
+
+# target to generate assembly for a file
+src/chienpanze_pos_cmd_pub.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/position_publisher.dir/build.make CMakeFiles/position_publisher.dir/src/chienpanze_pos_cmd_pub.cpp.s
+.PHONY : src/chienpanze_pos_cmd_pub.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -212,6 +249,10 @@ help:
 	@echo "... test"
 	@echo "... chienpanze_bringup_uninstall"
 	@echo "... uninstall"
+	@echo "... position_publisher"
+	@echo "... src/chienpanze_pos_cmd_pub.o"
+	@echo "... src/chienpanze_pos_cmd_pub.i"
+	@echo "... src/chienpanze_pos_cmd_pub.s"
 .PHONY : help
 
 
